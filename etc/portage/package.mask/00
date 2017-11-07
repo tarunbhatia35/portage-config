@@ -1,0 +1,4 @@
+>=media-sound/ncmpcpp-0.8.1 ### breaks, I don't even want to try to figure it out
+>www-misc/profile-sync-daemon-5.45.1 ### only works with systemd
+dev-libs/openssl
+#dev-qt/*:5/5.9:: ### still waiting for the proper LibreSSL support

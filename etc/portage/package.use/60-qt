@@ -1,0 +1,13 @@
+dev-qt/* X
+dev-qt/* alsa
+dev-qt/* gif jpeg png
+dev-qt/* gtk
+dev-qt/* qml
+dev-qt/* qt5
+dev-qt/* widgets
+dev-qt/* xcb
+dev-qt/* dbus
+dev-qt/qtcore icu
+dev-qt/qtnetwork bindist
+dev-qt/qtsql sqlite
+dev-qt/qtwebengine bindist

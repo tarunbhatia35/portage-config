@@ -1,0 +1,15 @@
+dev-lang/python:2.7 ncurses sqlite xml
+dev-lang/python:3.5/3.5m xml
+dev-lang/python:3.6/3.6m ncurses sqlite xml
+dev-python/PyQt5 declarative gui multimedia network opengl printsupport sql webchannel webengine widgets
+dev-python/pillow zlib
+dev-python/twisted crypt
+
+app-text/asciidoc python_single_target_python2_7
+dev-python/certifi python_targets_python3_5
+dev-python/olefile python_targets_python3_5
+dev-python/pillow python_targets_python3_5
+dev-python/ply python_targets_python3_5
+dev-python/setuptools python_targets_python3_5
+games-util/nml python_targets_python3_5
+net-irc/weechat python_single_target_python2_7 -python_single_target_python3_6 ### workaround for user scripts

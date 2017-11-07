@@ -1,0 +1,22 @@
+*/*::haskell -profile -test
+*/*::haskell doc hoogle hscolour
+*/*::haskell network network-uri use-network-uri
+dev-haskell/bifunctors semigroups
+dev-haskell/cmdargs quotation
+dev-haskell/comonad containers contravariant distributive
+dev-haskell/contravariant safe semigroups statevar tagged
+dev-haskell/cryptonite integer-gmp support_blake2_sse support_sse
+dev-haskell/direct-sqlite fulltextsearch systemlib urifilenames
+dev-haskell/gnuplot executepipe executeshell
+dev-haskell/hashtables bounds-checking
+dev-haskell/hlint gpl
+dev-haskell/json generic mapdict parsec pretty
+dev-haskell/lens inlining safe trustworthy
+dev-haskell/nats binary hashable template-haskell
+dev-haskell/quickcheck template_haskell
+dev-haskell/semigroupoids comonad containers contravariant distributive -tagged ## breaks
+dev-haskell/semigroups binary transformers
+dev-haskell/vector boundschecks
+dev-haskell/yaml no-examples no-exe no-unicode
+dev-lang/ghc ghcbootstrap
+dev-vcs/darcs curl

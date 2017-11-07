@@ -1,0 +1,6 @@
+>=app-i18n/mozc-2.20.2673.102
+>=app-text/poppler-0.58.0
+>=dev-haskell/extra-1.6
+>=dev-python/idna-2.6
+>dev-libs/libressl-2.5.4
+>media-libs/freetype-2.8

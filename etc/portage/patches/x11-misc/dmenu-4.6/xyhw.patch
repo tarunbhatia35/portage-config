@@ -1,0 +1,118 @@
+--- /var/tmp/portage/x11-misc/dmenu-4.6/work/dmenu-4.6/config.def.h	2015-11-09 01:42:21.000000000 +0300
++++ /tmp/dmenu-4.6/config.def.h	2017-06-12 12:09:13.640157896 +0300
+@@ -15,3 +15,5 @@
+ static const char *outfgcolor  = "#000000";
+ /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
+ static unsigned int lines      = 0;
++static unsigned int lineheight = 0;         /* -h option; minimum height of a menu line     */
++
+--- /var/tmp/portage/x11-misc/dmenu-4.6/work/dmenu-4.6/drw.c	2015-11-09 01:42:21.000000000 +0300
++++ /tmp/dmenu-4.6/drw.c	2017-06-12 12:07:53.009155979 +0300
+@@ -291,7 +291,7 @@
+ 				if (render) {
+ 					th = curfont->ascent + curfont->descent;
+ 					ty = y + (h / 2) - (th / 2) + curfont->ascent;
+-					tx = x + (h / 2);
++					tx = x + (drw->fonts[0]->h / 2);
+ 					XftDrawStringUtf8(d, invert ? &drw->scheme->bg->rgb : &drw->scheme->fg->rgb, curfont->xfont, tx, ty, (XftChar8 *)buf, len);
+ 				}
+ 				x += tex.w;
+--- /var/tmp/portage/x11-misc/dmenu-4.6/work/dmenu-4.6/dmenu.c	2015-11-09 01:42:21.000000000 +0300
++++ /tmp/dmenu-4.6/dmenu.c	2017-06-12 12:07:15.057155077 +0300
+@@ -37,6 +37,9 @@
+ static char text[BUFSIZ] = "";
+ static int bh, mw, mh;
+ static int sw, sh; /* X display screen geometry width, height */
++static int dmx = 0; /* put dmenu at this x offset */
++static int dmy = 0; /* put dmenu at this y offset (measured from the bottom if topbar is 0) */
++static unsigned int dmw = 0; /* make dmenu this wide */
+ static int inputw, promptw;
+ static size_t cursor;
+ static struct item *items = NULL;
+@@ -119,7 +122,7 @@
+ {
+ 	int curpos;
+ 	struct item *item;
+-	int x = 0, y = 0, h = bh, w;
++	int x = 0, y = 0, fh = drw->fonts[0]->h, w;
+ 
+ 	drw_setscheme(drw, &scheme[SchemeNorm]);
+ 	drw_rect(drw, 0, 0, mw, mh, 1, 1, 1);
+@@ -134,16 +137,16 @@
+ 	drw_setscheme(drw, &scheme[SchemeNorm]);
+ 	drw_text(drw, x, 0, w, bh, text, 0);
+ 
+-	if ((curpos = TEXTNW(text, cursor) + bh / 2 - 2) < w) {
++	if ((curpos = TEXTNW(text, cursor) + fh / 2 - 2) < w) {
+ 		drw_setscheme(drw, &scheme[SchemeNorm]);
+-		drw_rect(drw, x + curpos + 2, 2, 1, bh - 4, 1, 1, 0);
++		drw_rect(drw, x + curpos + 2, 2 + (bh-fh)/2, 1, fh - 4, 1, 1, 0);
+ 	}
+ 
+ 	if (lines > 0) {
+ 		/* draw vertical list */
+ 		w = mw - x;
+ 		for (item = curr; item != next; item = item->right) {
+-			y += h;
++			y += bh;
+ 			if (item == sel)
+ 				drw_setscheme(drw, &scheme[SchemeSel]);
+ 			else if (item->out)
+@@ -544,6 +547,7 @@
+ 
+ 	/* calculate menu geometry */
+ 	bh = drw->fonts[0]->h + 2;
++	bh = MAX(bh,lineheight);	/* make a menu line AT LEAST 'lineheight' tall */
+ 	lines = MAX(lines, 0);
+ 	mh = (lines + 1) * bh;
+ #ifdef XINERAMA
+@@ -571,16 +575,18 @@
+ 				if (INTERSECT(x, y, 1, 1, info[i]))
+ 					break;
+ 
+-		x = info[i].x_org;
+-		y = info[i].y_org + (topbar ? 0 : info[i].height - mh);
+-		mw = info[i].width;
++		x = info[i].x_org + dmx;
++		y = info[i].y_org + (topbar ? dmy : info[i].height - mh - dmy);
++		mw = (dmw>0 ? dmw : info[i].width);
++
+ 		XFree(info);
+ 	} else
+ #endif
+ 	{
+-		x = 0;
+-		y = topbar ? 0 : sh - mh;
+-		mw = sw;
++		x = dmx;
++		y = topbar ? dmy : sh - mh - dmy;
++		mw = (dmw>0 ? dmw : sw);
++
+ 	}
+ 	promptw = (prompt && *prompt) ? TEXTW(prompt) : 0;
+ 	inputw = MIN(inputw, mw/3);
+@@ -609,6 +615,7 @@
+ usage(void)
+ {
+ 	fputs("usage: dmenu [-b] [-f] [-i] [-l lines] [-p prompt] [-fn font] [-m monitor]\n"
++	      "             [-x xoffset] [-y yoffset] [-h height] [-w width]\n"
+ 	      "             [-nb color] [-nf color] [-sb color] [-sf color] [-v]\n", stderr);
+ 	exit(1);
+ }
+@@ -635,6 +642,16 @@
+ 		/* these options take one argument */
+ 		else if (!strcmp(argv[i], "-l"))   /* number of lines in vertical list */
+ 			lines = atoi(argv[++i]);
++		else if (!strcmp(argv[i], "-x"))   /* window x offset */
++			dmx = atoi(argv[++i]);
++		else if (!strcmp(argv[i], "-y"))   /* window y offset (from bottom up if -b) */
++			dmy = atoi(argv[++i]);
++		else if(!strcmp(argv[i], "-h")) {  /* minimum height of one menu line */
++			lineheight = atoi(argv[++i]);
++			lineheight = MAX(lineheight,8);
++		}
++		else if (!strcmp(argv[i], "-w"))   /* make dmenu this wide */
++			dmw = atoi(argv[++i]);
+ 		else if (!strcmp(argv[i], "-m"))
+ 			mon = atoi(argv[++i]);
+ 		else if (!strcmp(argv[i], "-p"))   /* adds prompt to left of input field */

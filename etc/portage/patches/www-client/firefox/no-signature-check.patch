@@ -1,0 +1,7 @@
+--- a/build/mozconfig.common.override 2017-02-06 14:26:05.891721140 +0900
++++ b/build/mozconfig.common.override 2017-02-06 14:25:41.115763755 +0900
+@@ -9,3 +9,4 @@
+ # to override anything done previously.
+ #
+ # The common expected usage is for try builds with nondefault options.
++MOZ_REQUIRE_SIGNING=1
