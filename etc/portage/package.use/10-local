@@ -27,12 +27,14 @@ app-text/xmlto text
 app-text/zathura magic sqlite synctex
 app-text/zathura-meta djvu pdf
 dev-db/sqlite secure-delete
+dev-games/ode double-precision
 dev-lang/go gccgo
 dev-lang/mono minimal abi_x86_32
-dev-libs/boost icu nls ## otherwise breaks ncmpcpp
+dev-libs/boost icu nls ## otherwise breaks media-sound/ncmpcpp
 dev-libs/elfutils utils
 dev-libs/glib dbus mime utils
 dev-libs/gmp asm pgo
+dev-libs/leveldb snappy
 dev-libs/libgcrypt static-libs
 dev-libs/libgpg-error static-libs
 dev-libs/libpcre pcre16 pcre32 recursion-limit unicode
@@ -41,13 +43,15 @@ dev-libs/libressl asm
 dev-libs/libsodium asm minimal
 dev-libs/libverto libev
 dev-libs/libxml2 python
-dev-scheme/chicken emacs
 dev-scheme/racket places
 dev-texlive/texlive-basic luajittex
 dev-util/ltrace unwind
 dev-util/pkgconfig internal-glib
 dev-util/strace unwind
-dev-vcs/git blksha1 curl gpg highlight webdav ## minimal configuration for a working CLI toolset
+dev-vcs/git blksha1 curl gpg highlight webdav ## minimal configuration
+games-fps/openarena curl openal vorbis
+games-fps/urbanterror client curl openal
+games-fps/xonotic alsa ode sdl
 games-roguelike/nethack experimental
 games-roguelike/stone-soup -luajit ncurses ## gives SOs if luajit
 games-simulation/openttd openmedia png truetype
@@ -64,13 +68,16 @@ media-libs/imlib2 X gif jpeg png ## w3mimgdisplay requires format support
 media-libs/libass harfbuzz fontconfig ## this can fuck up media-video/mpv
 media-libs/libepoxy X
 media-libs/libpng apng
-media-libs/libsdl X sound video opengl joystick
+media-libs/libsdl X alsa joystick sound video opengl
+media-libs/libsdl2 X alsa joystick sound video opengl
 media-libs/libsndfile alsa minimal
 media-libs/libvpx highbitdepth postproc svc
 media-libs/libwebp experimental swap-16bit-csp
 media-libs/mesa classic d3d9 dri3 egl gallium gbm gles1 gles2 llvm nptl osmesa xa xvmc vaapi
 media-libs/openal alsa
-media-libs/sdl-image png
+media-libs/opusfile float
+media-libs/sdl-image jpeg png tiff
+media-libs/sdl2-image jpeg png tiff
 media-libs/x264 interlaced
 media-sound/alsa-utils libsamplerate ncurses
 media-sound/milkytracker alsa
@@ -79,6 +86,7 @@ media-sound/sox alsa
 media-video/ffmpeg X alsa encode gnutls gpl hardcoded-tables -libressl mp3 network opengl opus vorbis vpx x264 xcb xvid ### LibreSSL still does not work 
 media-video/mpv X alsa cli jpeg libass lua luajit opengl vaapi ## all we need
 net-analyzer/nmap ncat ndiff nping
+net-analyzer/wireshark dumpcap editcap mergecap netlink pcap randpkt randpktdump reordercap sharkd text2pcap tshark udpdump
 net-firewall/firehol ipset
 net-im/bitlbee plugins purple
 net-irc/weechat alias buflist exec irc logger perl python scripts spell trigger
@@ -89,13 +97,13 @@ net-misc/iputils arping tracepath traceroute
 net-misc/networkmanager dhclient ncurses nss resolvconf wifi
 net-p2p/go-ipfs-bin fuse
 net-p2p/mktorrent -ssl ## breaks global dev-libs/libressl, not tested with HTTPS trackers yet
-net-vpn/openvpn lzo plugins ## lzo -- for compressed .ovpn files
+net-vpn/openvpn lzo plugins ## for compressed .ovpn files
 net-wireless/aircrack-ng airdrop-ng airgraph-ng netlink
 net-wireless/lorcon python
 net-wireless/wpa_supplicant dbus
 sci-visualization/gnuplot X gd
-sys-apps/busybox -syslog ### not needed
-sys-apps/dbus X ## otherwise will render x11-misc/dunst and other libnotify-based daemons unusable
+sys-apps/busybox -syslog
+sys-apps/dbus X ## x11-misc/dunst does not work otherwise
 sys-apps/firejail bind chroot file-transfer network
 sys-apps/hwids net pci udev usb ## we need all dbs
 sys-apps/iproute2 iptables
@@ -139,7 +147,7 @@ sys-process/tini static
 virtual/ffmpeg X encode mp3 x264
 www-client/firefox hwaccel
 www-client/firefox-bin ffmpeg
-www-client/palemoon alsa devtools gtk2 official-branding optimize shared-js
+www-client/palemoon alsa devtools gtk3 official-branding optimize shared-js
 www-client/w3m X imlib ## app-misc/ranger image previews
 x11-apps/mesa-progs egl gles2
 x11-apps/xinit minimal

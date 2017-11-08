@@ -3,22 +3,24 @@ app-editors/emacs -Xaw3d -athena
 app-editors/emacs gtk gtk3
 app-editors/emacs xft
 app-editors/emacs -alsa -sound
-app-editors/emacs gif jpeg png -svg -tiff xpm
+app-editors/emacs -gif jpeg png -svg -tiff xpm
 app-editors/emacs X
 app-editors/emacs dynamic-loading
 app-editors/emacs libxml2
 
+app-emacs/company-mode ropemacs
+app-emacs/emacs-common-gentoo X
+app-emacs/org-mode contrib
+
 app-admin/eselect emacs
 app-admin/pass emacs
 app-crypt/pinentry emacs
-app-emacs/company-mode ropemacs
-app-emacs/emacs-common-gentoo X
 app-emacs/ghc-mod emacs
-app-emacs/org-mode contrib
 app-i18n/mozc -emacs
 dev-haskell/hlint emacs
 dev-libs/protobuf -emacs
 dev-python/cython emacs
+dev-scheme/chicken emacs
 dev-util/cmake emacs
 dev-util/desktop-file-utils -emacs
 dev-util/ninja emacs
