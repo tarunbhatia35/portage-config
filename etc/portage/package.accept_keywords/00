@@ -1,5 +1,6 @@
 */*::azalay **
 */*::toolchain **
-app-crypt/keybase ** ### should always be pulled from aupstream, otherwise misses crucial functionality
+app-crypt/keybase ** ### should always be pulled from upstream
 app-editors/vim -~amd64
+app-editors/vim-core -~amd64
 dev-tex/latexdiff -~amd64 ### absolute garbage

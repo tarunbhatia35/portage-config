@@ -11,6 +11,8 @@ app-emulation/qemu sdl
 app-i18n/fcitx X cairo dbus gtk2 gtk3 pango
 app-i18n/mozc fcitx
 app-laptop/laptop-mode-tools acpi
+app-misc/anki sound
+app-misc/ca-certificates cacert
 app-portage/eix sqlite ## use sqlite database REQUIRES FURTHER CONFIGURATION
 app-portage/layman g-sorcery git sqlite sync-plugin-portage
 app-shells/bash mem-scramble
@@ -21,10 +23,8 @@ app-text/hunspell l10n_ru
 app-text/lcdf-typetools kpathsea
 app-text/mupdf X
 app-text/pandoc https
-app-text/texlive extra graphics linguas_ru l10n_ru png science truetype
-app-text/texlive-core luajittex
 app-text/xmlto text
-app-text/zathura magic sqlite synctex
+app-text/zathura magic sqlite
 app-text/zathura-meta djvu pdf
 dev-db/sqlite secure-delete
 dev-games/ode double-precision
@@ -33,7 +33,7 @@ dev-lang/mono minimal abi_x86_32
 dev-libs/boost icu nls ## otherwise breaks media-sound/ncmpcpp
 dev-libs/elfutils utils
 dev-libs/glib dbus mime utils
-dev-libs/gmp asm pgo
+dev-libs/gmp asm
 dev-libs/leveldb snappy
 dev-libs/libgcrypt static-libs
 dev-libs/libgpg-error static-libs
@@ -43,8 +43,8 @@ dev-libs/libressl asm
 dev-libs/libsodium asm minimal
 dev-libs/libverto libev
 dev-libs/libxml2 python
+dev-libs/nss cacert
 dev-scheme/racket places
-dev-texlive/texlive-basic luajittex
 dev-util/ltrace unwind
 dev-util/pkgconfig internal-glib
 dev-util/strace unwind
@@ -63,10 +63,12 @@ media-gfx/graphviz pdf
 media-gfx/sxiv exif gif savedconfig
 media-libs/freetype bzip2 cleartype_hinting
 media-libs/gd fontconfig jpeg png truetype zlib
+media-libs/gegl cairo
 media-libs/harfbuzz fontconfig glib graphite icu truetype
 media-libs/imlib2 X gif jpeg png ## w3mimgdisplay requires format support
 media-libs/libass harfbuzz fontconfig ## this can fuck up media-video/mpv
 media-libs/libepoxy X
+media-libs/libmypaint gegl
 media-libs/libpng apng
 media-libs/libsdl X alsa joystick sound video opengl
 media-libs/libsdl2 X alsa joystick sound video opengl
@@ -82,28 +84,38 @@ media-libs/x264 interlaced
 media-sound/alsa-utils libsamplerate ncurses
 media-sound/milkytracker alsa
 media-sound/mpd alsa libsamplerate sqlite ## minimal as it can get without loosing important features
+media-sound/mumble alsa
 media-sound/sox alsa
 media-video/ffmpeg X alsa encode gnutls gpl hardcoded-tables -libressl mp3 network opengl opus vorbis vpx x264 xcb xvid ### LibreSSL still does not work 
+media-video/libav X alsa encode gpl hardcoded-tables mp3 network opus vorbis vpx x264 xvid
 media-video/mpv X alsa cli jpeg libass lua luajit opengl vaapi ## all we need
 net-analyzer/nmap ncat ndiff nping
+net-analyzer/tcpdump drop-root
 net-analyzer/wireshark dumpcap editcap mergecap netlink pcap randpkt randpktdump reordercap sharkd text2pcap tshark udpdump
+net-dns/dnscrypt-proxy plugins
 net-firewall/firehol ipset
 net-im/bitlbee plugins purple
 net-irc/weechat alias buflist exec irc logger perl python scripts spell trigger
 net-mail/mailutils sasl
+net-misc/aria2 bittorrent libxml2 ssh
 net-misc/curl http2
 net-misc/dhcp client
 net-misc/iputils arping tracepath traceroute
 net-misc/networkmanager dhclient ncurses nss resolvconf wifi
+net-misc/wicd ncurses
 net-p2p/go-ipfs-bin fuse
 net-p2p/mktorrent -ssl ## breaks global dev-libs/libressl, not tested with HTTPS trackers yet
 net-vpn/openvpn lzo plugins ## for compressed .ovpn files
 net-wireless/aircrack-ng airdrop-ng airgraph-ng netlink
 net-wireless/lorcon python
 net-wireless/wpa_supplicant dbus
+sci-libs/atlas fortran
+sci-libs/hdf5 hl -threads
+sci-libs/umfpack cholmod
 sci-visualization/gnuplot X gd
 sys-apps/busybox -syslog
 sys-apps/dbus X ## x11-misc/dunst does not work otherwise
+sys-apps/dstat wifi
 sys-apps/firejail bind chroot file-transfer network
 sys-apps/hwids net pci udev usb ## we need all dbs
 sys-apps/iproute2 iptables
@@ -119,7 +131,7 @@ sys-auth/pambase minimal sha512
 sys-boot/grub device-mapper ## LVM support
 sys-devel/clang default-compiler-rt default-libcxx static-analyzer
 sys-devel/clang-runtime compiler-rt libcxx sanitize
-sys-devel/gcc cxx go pgo
+sys-devel/gcc cxx fortran go
 sys-devel/gdb client
 sys-devel/llvm libffi ncurses
 sys-firmware/intel-microcode split-ucode ## to load alongside initramfs
@@ -145,13 +157,13 @@ sys-process/htop unicode
 sys-process/procps kill modern-top ncurses unicode
 sys-process/tini static
 virtual/ffmpeg X encode mp3 x264
-www-client/firefox hwaccel
-www-client/firefox-bin ffmpeg
+www-client/firefox eme-free hwaccel nsplugin
 www-client/palemoon alsa devtools gtk3 official-branding optimize shared-js
+www-client/seamonkey ipc
 www-client/w3m X imlib ## app-misc/ranger image previews
 x11-apps/mesa-progs egl gles2
 x11-apps/xinit minimal
-x11-base/xorg-server udev glamor xorg
+x11-base/xorg-server udev glamor xorg xvfb
 x11-drivers/xf86-video-intel dri sna xvmc
 x11-libs/cairo X glib svg xcb
 x11-libs/gdk-pixbuf X jpeg
@@ -167,3 +179,9 @@ x11-libs/pango X
 x11-misc/compton opengl
 x11-misc/xmobar alsa mpd timezone xft
 x11-terms/rxvt-unicode 256-color font-styles perl unicode3 xft ## minimal config with powerline support
+x11-terms/st savedconfig
+x11-terms/xterm truetype unicode
+x11-wm/dwm savedconfig
+x11-wm/openbox session
+x11-wm/ratpoison history xft
+x11-wm/stumpwm clisp contrib

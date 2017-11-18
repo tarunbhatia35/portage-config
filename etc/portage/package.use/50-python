@@ -1,9 +1,11 @@
 dev-lang/python:2.7 ncurses sqlite xml
 dev-lang/python:3.5/3.5m xml
 dev-lang/python:3.6/3.6m ncurses sqlite xml
+
 dev-python/PyQt5 declarative gui multimedia network opengl printsupport sql webchannel webengine widgets
 dev-python/pillow zlib
-dev-python/twisted crypt
+dev-python/pycairo xcb
+dev-python/twisted crypt http2
 
 app-text/asciidoc python_single_target_python2_7
 dev-python/certifi python_targets_python3_5

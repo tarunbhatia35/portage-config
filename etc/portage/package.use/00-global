@@ -4,10 +4,13 @@
 */* custom-cflags custom-optimization
 */* ecdsa
 */* gmp ## support for GNU MP
+*/* int64
 */* jemalloc
 */* jit
+*/* lapack
 */* openmp ## support parallel computing
 */* pam ### enforce PAM-based auth
+*/* pgo
 */* readline
 */* ssl libressl ## support SSL / use LibreSSL instead of OpenSSL
 */* syslog
@@ -47,7 +50,6 @@
 */* urandom ## prefer /dev/urandom to /dev/random
 */* vaapi ## add VA API support
 */* vim-syntax
-*/* xetex
 */* zsh-completion
 games-util/*::steam-overlay steamruntime ## build with the default Steam runtime
 media-fonts/* X
