@@ -14,7 +14,7 @@ dev-haskell/json generic mapdict parsec pretty
 dev-haskell/lens inlining safe trustworthy
 dev-haskell/nats binary hashable template-haskell
 dev-haskell/quickcheck template_haskell
-dev-haskell/semigroupoids comonad containers contravariant distributive -tagged ## breaks
+dev-haskell/semigroupoids comonad containers contravariant distributive -tagged unordered-containers ## breaks
 dev-haskell/semigroups binary transformers
 dev-haskell/vector boundschecks
 dev-haskell/yaml no-examples no-exe no-unicode

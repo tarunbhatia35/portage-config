@@ -47,6 +47,7 @@ dev-libs/nss cacert
 dev-scheme/racket places
 dev-util/ltrace unwind
 dev-util/pkgconfig internal-glib
+dev-util/plan9port X truetype
 dev-util/strace unwind
 dev-vcs/git blksha1 curl gpg highlight webdav ## minimal configuration
 games-fps/openarena curl openal vorbis
