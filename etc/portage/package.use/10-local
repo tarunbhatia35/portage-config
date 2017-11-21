@@ -49,6 +49,7 @@ dev-util/ltrace unwind
 dev-util/pkgconfig internal-glib
 dev-util/plan9port X truetype
 dev-util/strace unwind
+dev-vcs/darcs curl
 dev-vcs/git blksha1 curl gpg highlight webdav ## minimal configuration
 games-fps/openarena curl openal vorbis
 games-fps/urbanterror client curl openal
@@ -89,7 +90,7 @@ media-sound/mumble alsa
 media-sound/sox alsa
 media-video/ffmpeg X alsa encode gnutls gpl hardcoded-tables -libressl mp3 network opengl opus vorbis vpx x264 xcb xvid ### LibreSSL still does not work 
 media-video/libav X alsa encode gpl hardcoded-tables mp3 network opus vorbis vpx x264 xvid
-media-video/mpv X alsa cli jpeg libass lua luajit opengl vaapi ## all we need
+media-video/mpv X alsa cli jpeg libass lua luajit opengl vaapi zlib ## all we need
 net-analyzer/nmap ncat ndiff nping
 net-analyzer/tcpdump drop-root
 net-analyzer/wireshark dumpcap editcap mergecap netlink pcap randpkt randpktdump reordercap sharkd text2pcap tshark udpdump

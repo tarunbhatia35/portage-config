@@ -1,4 +1,5 @@
-*/*::haskell -profile -test
+*/*::haskell -executable
+*/*::haskell -profile
 */*::haskell doc hoogle hscolour
 */*::haskell network network-uri use-network-uri
 dev-haskell/bifunctors semigroups
@@ -10,13 +11,14 @@ dev-haskell/direct-sqlite fulltextsearch systemlib urifilenames
 dev-haskell/gnuplot executepipe executeshell
 dev-haskell/hashtables bounds-checking
 dev-haskell/hlint gpl
+dev-haskell/hslua -apicheck -luajit -system-lua
 dev-haskell/json generic mapdict parsec pretty
+dev-haskell/juicypixels mmap
 dev-haskell/lens inlining safe trustworthy
 dev-haskell/nats binary hashable template-haskell
 dev-haskell/quickcheck template_haskell
-dev-haskell/semigroupoids comonad containers contravariant distributive -tagged unordered-containers ## breaks
+dev-haskell/semigroupoids comonad containers contravariant distributive -tagged unordered-containers
 dev-haskell/semigroups binary transformers
 dev-haskell/vector boundschecks
 dev-haskell/yaml no-examples no-exe no-unicode
 dev-lang/ghc ghcbootstrap
-dev-vcs/darcs curl

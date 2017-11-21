@@ -9,6 +9,7 @@ app-editors/emacs gsettings
 app-editors/emacs dynamic-loading
 app-editors/emacs libxml2
 
+app-emacs/auctex preview-latex
 app-emacs/company-mode ropemacs
 app-emacs/emacs-common-gentoo X
 app-emacs/org-mode contrib

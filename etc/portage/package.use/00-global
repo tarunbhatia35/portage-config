@@ -34,6 +34,7 @@
 */* system-libwebp
 */* system-libyaml
 */* system-llvm
+*/* system-lua
 */* system-mitkrb5
 */* system-mupdf
 */* system-qemu
