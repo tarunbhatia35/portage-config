@@ -13,12 +13,14 @@ app-crypt/gentoo-keys
 app-crypt/keybase
 app-editors/emacs
 app-editors/vim
+app-emacs/ag
 app-emacs/aggressive-indent
 app-emacs/auctex
 app-emacs/auto-compile
 app-emacs/cmake-mode
 app-emacs/color-identifiers-mode
 app-emacs/company-auctex
+app-emacs/company-c-headers
 app-emacs/company-cabal
 app-emacs/company-flx
 app-emacs/company-ghc
@@ -26,12 +28,14 @@ app-emacs/company-go
 app-emacs/company-mode
 app-emacs/config-general-mode
 app-emacs/csv-mode
+app-emacs/dashboard
 app-emacs/diff-hl
 app-emacs/diminish
 app-emacs/dockerfile-mode
 app-emacs/dumb-jump
 app-emacs/elisp-slime-nav
 app-emacs/emacs-daemon
+app-emacs/eshell-z
 app-emacs/etags-select
 app-emacs/evil
 app-emacs/evil-anzu
@@ -56,6 +60,7 @@ app-emacs/flycheck-package
 app-emacs/flycheck-pos-tip
 app-emacs/flycheck-rust
 app-emacs/framemove
+app-emacs/ggtags
 app-emacs/ghc-mod
 app-emacs/gitattributes-mode
 app-emacs/gitconfig-mode
@@ -86,6 +91,7 @@ app-emacs/mips-mode
 app-emacs/muttrc-mode
 app-emacs/org
 app-emacs/org-bullets
+app-emacs/org-dashboard
 app-emacs/origami
 app-emacs/page-break-lines
 app-emacs/pip-requirements
@@ -160,6 +166,7 @@ dev-haskell/dependent-map
 dev-haskell/hasktags
 dev-haskell/hoogle
 dev-haskell/htaglib
+dev-haskell/intero
 dev-haskell/lens
 dev-haskell/math-functions
 dev-haskell/monad-loops
@@ -187,6 +194,7 @@ dev-scheme/chicken
 dev-scheme/racket
 dev-util/cargo
 dev-util/ccache
+dev-util/golint
 dev-util/ltrace
 dev-util/plan9port
 dev-util/scanmem
@@ -195,6 +203,7 @@ dev-util/strace
 dev-util/valgrind
 dev-vcs/git
 dev-vcs/rcs
+games-misc/fortune-mod
 games-roguelike/nethack
 games-roguelike/stone-soup
 games-simulation/openttd
