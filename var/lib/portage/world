@@ -309,6 +309,7 @@ x11-misc/unclutter-xfixes
 x11-misc/urxvt-perls
 x11-misc/xclip
 x11-misc/xmobar
+x11-misc/zenbu
 x11-terms/rxvt-unicode
 x11-wm/xmonad
 x11-wm/xmonad-contrib
