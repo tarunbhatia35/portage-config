@@ -8,6 +8,4 @@ dev-qt/* qt5
 dev-qt/* widgets
 dev-qt/* xcb
 dev-qt/qtcore icu
-dev-qt/qtnetwork bindist
 dev-qt/qtsql sqlite
-dev-qt/qtwebengine bindist

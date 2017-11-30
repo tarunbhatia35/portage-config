@@ -1,4 +1,4 @@
-app-emulation/wine X alsa d3d9 fontconfig jpeg nls opengl osmesa s3tc png ssl staging truetype vaapi abi_x86_32 ## fuck this. don't touch or try to tweak this shit further
+app-emulation/wine-any X alsa d3d9 fontconfig jpeg nls opengl osmesa s3tc png staging truetype abi_x86_32
 app-emulation/winetricks rar
 
 app-arch/bzip2 abi_x86_32

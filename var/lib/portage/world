@@ -124,8 +124,7 @@ app-emacs/yasnippet
 app-emulation/docker
 app-emulation/qemu
 app-emulation/spim
-app-emulation/wine
-app-emulation/winetricks
+app-emulation/wine-any
 app-i18n/fcitx
 app-i18n/mozc
 app-laptop/laptop-mode-tools
@@ -311,5 +310,6 @@ x11-misc/xclip
 x11-misc/xmobar
 x11-misc/zenbu
 x11-terms/rxvt-unicode
+x11-wm/evilwm
 x11-wm/xmonad
 x11-wm/xmonad-contrib

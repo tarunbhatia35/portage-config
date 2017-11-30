@@ -52,6 +52,7 @@
 */* vaapi ## add VA API support
 */* vim-syntax
 */* zsh-completion
+app-arch/* unicode
 games-util/*::steam-overlay steamruntime ## build with the default Steam runtime
 media-fonts/* X
 media-fonts/* cjk

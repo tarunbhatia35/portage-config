@@ -2,11 +2,11 @@ app-admin/logrotate bzip2
 app-admin/pass X dmenu
 app-arch/libarchive bzip2
 app-arch/tar minimal ## provide only /usr/bin/tar
-app-arch/unzip unicode
 app-crypt/pinentry ncurses
 app-editors/nano minimal
 app-editors/vim lua luajit python
 app-emulation/docker container-init
+app-emulation/docker-runc seccomp
 app-emulation/qemu sdl
 app-i18n/fcitx X cairo dbus gtk2 gtk3 pango
 app-i18n/mozc fcitx
