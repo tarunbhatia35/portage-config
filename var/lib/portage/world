@@ -1,3 +1,4 @@
+app-admin/eclean-kernel
 app-admin/emacs-updater
 app-admin/haskell-updater
 app-admin/logrotate
@@ -176,9 +177,7 @@ dev-haskell/semigroupoids
 dev-haskell/split
 dev-haskell/stylish-haskell
 dev-lang/ghc
-dev-lang/rust
 dev-lisp/clisp
-dev-python/bleach
 dev-python/h5py
 dev-python/matplotlib
 dev-python/notify2
@@ -191,7 +190,6 @@ dev-python/werkzeug
 dev-python/wheel
 dev-scheme/chicken
 dev-scheme/racket
-dev-util/cargo
 dev-util/ccache
 dev-util/golint
 dev-util/ltrace
@@ -218,7 +216,6 @@ media-gfx/sxiv
 media-libs/libsdl
 media-libs/sdl-image
 media-libs/sdl-ttf
-media-plugins/alsaequal
 media-sound/beets
 media-sound/marrie
 media-sound/mpc
@@ -252,9 +249,11 @@ net-news/newsbeuter
 net-p2p/go-ipfs-bin
 net-p2p/mktorrent
 net-p2p/torrentinfo
+net-proxy/torsocks
 net-vpn/openvpn
 net-vpn/tor
 net-wireless/iw
+sci-calculators/units
 sci-mathematics/gap
 sci-visualization/gnuplot
 sys-apps/iucode_tool
@@ -273,6 +272,7 @@ sys-fs/cryptsetup
 sys-fs/dosfstools
 sys-fs/ncdu
 sys-fs/ntfs3g
+sys-kernel/ck-sources
 sys-kernel/genkernel
 sys-kernel/linux-firmware
 sys-kernel/pf-sources
@@ -282,7 +282,7 @@ sys-process/fcron
 sys-process/htop
 sys-process/iotop
 sys-process/lsof
-www-client/firefox
+virtual/rust
 www-client/qutebrowser
 www-misc/profile-sync-daemon
 x11-apps/mesa-progs
@@ -308,7 +308,6 @@ x11-misc/unclutter-xfixes
 x11-misc/urxvt-perls
 x11-misc/xclip
 x11-misc/xmobar
-x11-misc/zenbu
 x11-terms/rxvt-unicode
 x11-wm/evilwm
 x11-wm/xmonad

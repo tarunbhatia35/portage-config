@@ -1,5 +1,4 @@
 app-emacs/evil no-network-sandbox.conf
-app-emacs/evil no-network-sandbox.conf
 app-emulation/wine no-tmpfs.conf
 dev-lang/ghc no-tmpfs.conf
 dev-lang/rust no-tmpfs.conf no-network-sandbox.conf

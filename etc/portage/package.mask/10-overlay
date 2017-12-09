@@ -1,0 +1,22 @@
+#*/*::azalay
+#*/*::docker
+#*/*::emacs
+#*/*::gnu-elpa
+#*/*::go-overlay
+#*/*::haskell
+#*/*::libressl
+#*/*::lisp
+#*/*::melpa
+#*/*::mozilla
+#*/*::palemoon
+#*/*::python
+#*/*::qutebrowser
+#*/*::rust
+#*/*::science
+#*/*::steam-overlay
+#*/*::toolchain
+#*/*::torbrowser
+#*/*::wine
+
+app-emacs/hindent::melpa ### prefer haskell overlay
+www-client/firefox::mozilla ### ignore pre-release versions

@@ -7,7 +7,6 @@
 */* int64
 */* jemalloc
 */* jit
-*/* lapack
 */* openmp ## support parallel computing
 */* pam ### enforce PAM-based auth
 */* pgo

@@ -9,7 +9,7 @@ app-emulation/docker container-init
 app-emulation/docker-runc seccomp
 app-emulation/qemu sdl
 app-i18n/fcitx X cairo dbus gtk2 gtk3 pango
-app-i18n/mozc fcitx
+app-i18n/mozc fcitx fcitx4
 app-laptop/laptop-mode-tools acpi
 app-misc/anki sound
 app-misc/ca-certificates cacert
@@ -96,6 +96,7 @@ net-analyzer/tcpdump drop-root
 net-analyzer/wireshark dumpcap editcap mergecap netlink pcap randpkt randpktdump reordercap sharkd text2pcap tshark udpdump
 net-dns/dnscrypt-proxy plugins
 net-firewall/firehol ipset
+net-fs/samba -syslog
 net-im/bitlbee plugins purple
 net-irc/weechat alias buflist exec irc logger perl python scripts spell trigger
 net-mail/mailutils sasl
@@ -140,6 +141,7 @@ sys-firmware/intel-microcode split-ucode ## to load alongside initramfs
 sys-firmware/seabios seavgabios
 sys-fs/cryptsetup gcrypt
 sys-fs/eudev hwdb
+sys-kernel/ck-sources experimental
 sys-kernel/genkernel cryptsetup firmware
 sys-kernel/gentoo-sources experimental
 sys-kernel/linux-firmware savedconfig

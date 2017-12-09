@@ -1,5 +1,3 @@
->=media-sound/ncmpcpp-0.8.1 ### breaks, I don't even want to try to figure it out
+#>=media-sound/ncmpcpp-0.8.1 ### breaks, I don't even want to try to figure it out
 >www-misc/profile-sync-daemon-5.45.1 ### only works with systemd
-app-emacs/hindent::melpa
-dev-libs/openssl
-www-client/firefox::mozilla
+dev-libs/openssl ### mask for the sake of dev-libs/libressl
