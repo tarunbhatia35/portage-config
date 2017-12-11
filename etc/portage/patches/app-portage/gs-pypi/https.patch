@@ -1,0 +1,22 @@
+diff --git a/gs_pypi/ebuild.py b/gs_pypi/ebuild.py
+index 82024c3..6f13186 100644
+--- a/gs_pypi/ebuild.py
++++ b/gs_pypi/ebuild.py
+@@ -28,7 +28,7 @@ class PypiEbuildWithoutDigestGenerator(DefaultEbuildGenerator):
+ 
+         vars_before_inherit = \
+           ["realname", "realversion",
+-           {"name" : "repo_uri", "value" : 'http://pypi.python.org/packages/source/${REALNAME:0:1}/${REALNAME}/'},
++           {"name" : "repo_uri", "value" : 'https://pypi.python.org/packages/source/${REALNAME:0:1}/${REALNAME}/'},
+            {"name" : "sourcefile", "value" : '${REALNAME}-${REALVERSION}.tar.gz'}, {"name" : "python_compat", "raw" : True}]
+ 
+         inherit = ["gs-pypi"]
+@@ -57,7 +57,7 @@ class PypiEbuildWithDigestGenerator(DefaultEbuildGenerator):
+         
+         vars_after_description = \
+           ["homepage", "license",
+-           {"name" : "src_uri", "value" : 'http://pypi.python.org/packages/source/${REALNAME:0:1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz'}]
++           {"name" : "src_uri", "value" : 'https://pypi.python.org/packages/source/${REALNAME:0:1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz'}]
+ 
+         vars_after_keywords = \
+           []

@@ -68,7 +68,7 @@ app-emacs/gitconfig-mode
 app-emacs/gitignore-mode
 app-emacs/gnuplot-mode
 app-emacs/go-mode
-app-emacs/haskell-mode
+app-emacs/haskell-mode::haskell
 app-emacs/helm
 app-emacs/helm-ag
 app-emacs/helm-descbinds
@@ -137,13 +137,20 @@ app-portage/cargo-ebuild
 app-portage/diffmask
 app-portage/eclass-manpages
 app-portage/eix
+app-portage/elogviewer
+app-portage/esearch
 app-portage/euses
 app-portage/fetchcommandwrapper
+app-portage/fquery
+app-portage/gemato
 app-portage/genlop
 app-portage/gentoolkit
 app-portage/gs-elpa
+app-portage/gs-pypi
 app-portage/hackport
 app-portage/layman
+app-portage/metagen
+app-portage/overlint
 app-portage/repoman
 app-portage/smart-live-rebuild
 app-shells/fzf
@@ -177,7 +184,9 @@ dev-haskell/semigroupoids
 dev-haskell/split
 dev-haskell/stylish-haskell
 dev-lang/ghc
+dev-lang/rust
 dev-lisp/clisp
+dev-python/enum
 dev-python/h5py
 dev-python/matplotlib
 dev-python/notify2
@@ -240,6 +249,7 @@ net-fs/samba
 net-ftp/lftp
 net-im/bitlbee
 net-irc/weechat
+net-libs/libnsl
 net-misc/networkmanager
 net-misc/ntp
 net-misc/socat
@@ -282,7 +292,6 @@ sys-process/fcron
 sys-process/htop
 sys-process/iotop
 sys-process/lsof
-virtual/rust
 www-client/qutebrowser
 www-misc/profile-sync-daemon
 x11-apps/mesa-progs

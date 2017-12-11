@@ -1,9 +1,8 @@
 app-emacs/evil no-network-sandbox.conf
 app-emulation/wine no-tmpfs.conf
 dev-lang/ghc no-tmpfs.conf
-dev-lang/rust no-tmpfs.conf no-network-sandbox.conf
+dev-lang/rust no-tmpfs.conf no-network-sandbox.conf safe-makeopts.conf
 dev-qt/qtwebengine no-delete-null-pointer-checks.conf
-dev-util/cargo no-tmpfs.conf no-network-sandbox.conf
 sys-devel/clang no-tmpfs.conf
 sys-devel/gcc no-tmpfs.conf
 sys-devel/llvm no-tmpfs.conf

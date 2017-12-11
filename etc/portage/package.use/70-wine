@@ -1,74 +1,75 @@
-app-emulation/wine-any X alsa d3d9 fontconfig jpeg nls opengl osmesa s3tc png staging truetype abi_x86_32
+app-emulation/wine-any X alsa d3d9 fontconfig jpeg nls opengl osmesa s3tc png staging truetype ABI_X86: 32
 app-emulation/winetricks rar
 
-app-arch/bzip2 abi_x86_32
-dev-libs/expat abi_x86_32
-dev-libs/glib abi_x86_32
-dev-libs/gmp abi_x86_32
-dev-libs/libffi abi_x86_32
-dev-libs/libpcre abi_x86_32
-dev-libs/libpthread abi_x86_32
-dev-libs/libpthread-stubs abi_x86_32
-dev-libs/libtasn1 abi_x86_32
-dev-libs/libunistring abi_x86_32
-dev-libs/nettle abi_x86_32
-dev-util/pkgconfig abi_x86_32
-media-libs/alsa-lib abi_x86_32
-media-libs/fontconfig abi_x86_32
-media-libs/freetype abi_x86_32
-media-libs/glu abi_x86_32
-media-libs/libjpeg-turbo abi_x86_32
-media-libs/libpng abi_x86_32
-media-libs/libtxc_dxtn abi_x86_32
-media-libs/mesa abi_x86_32
-net-libs/gnutls abi_x86_32
-sys-apps/attr abi_x86_32
-sys-apps/util-linux abi_x86_32
-sys-devel/gettext abi_x86_32
-sys-devel/llvm abi_x86_32
-sys-libs/libselinux abi_x86_32
-sys-libs/libsepol abi_x86_32
-sys-libs/ncurses abi_x86_32
-sys-libs/zlib abi_x86_32
-virtual/glu abi_x86_32
-virtual/jpeg abi_x86_32
-virtual/libffi abi_x86_32
-virtual/libiconv abi_x86_32
-virtual/libintl abi_x86_32
-virtual/opengl abi_x86_32
-virtual/pkgconfig abi_x86_32
-x11-libs/libX11 abi_x86_32
-x11-libs/libXau abi_x86_32
-x11-libs/libXcursor abi_x86_32
-x11-libs/libXdamage abi_x86_32
-x11-libs/libXdmcp abi_x86_32
-x11-libs/libXext abi_x86_32
-x11-libs/libXfixes abi_x86_32
-x11-libs/libXi abi_x86_32
-x11-libs/libXrandr abi_x86_32
-x11-libs/libXrender abi_x86_32
-x11-libs/libXv abi_x86_32
-x11-libs/libXvMC abi_x86_32
-x11-libs/libXxf86vm abi_x86_32
-x11-libs/libdrm abi_x86_32
-x11-libs/libpciaccess abi_x86_32
-x11-libs/libva abi_x86_32
-x11-libs/libva-intel-driver abi_x86_32
-x11-libs/libxcb abi_x86_32
-x11-libs/libxshmfence abi_x86_32
-x11-proto/damageproto abi_x86_32
-x11-proto/dri2proto abi_x86_32
-x11-proto/fixesproto abi_x86_32
-x11-proto/glproto abi_x86_32
-x11-proto/inputproto abi_x86_32
-x11-proto/kbproto abi_x86_32
-x11-proto/presentproto abi_x86_32
-x11-proto/randrproto abi_x86_32
-x11-proto/renderproto abi_x86_32
-x11-proto/videoproto abi_x86_32
-x11-proto/xcb-proto abi_x86_32
-x11-proto/xextproto abi_x86_32
-x11-proto/xf86bigfontproto abi_x86_32
-x11-proto/xf86driproto abi_x86_32
-x11-proto/xf86vidmodeproto abi_x86_32
-x11-proto/xproto abi_x86_32
+app-arch/bzip2 ABI_X86: 32
+dev-libs/expat ABI_X86: 32
+dev-libs/glib ABI_X86: 32
+dev-libs/gmp ABI_X86: 32
+dev-libs/libffi ABI_X86: 32
+dev-libs/libpcre ABI_X86: 32
+dev-libs/libpthread ABI_X86: 32
+dev-libs/libpthread-stubs ABI_X86: 32
+dev-libs/libtasn1 ABI_X86: 32
+dev-libs/libunistring ABI_X86: 32
+dev-libs/nettle ABI_X86: 32
+dev-util/pkgconfig ABI_X86: 32
+media-libs/alsa-lib ABI_X86: 32
+media-libs/fontconfig ABI_X86: 32
+media-libs/freetype ABI_X86: 32
+media-libs/glu ABI_X86: 32
+media-libs/libjpeg-turbo ABI_X86: 32
+media-libs/libpng ABI_X86: 32
+media-libs/libtxc_dxtn ABI_X86: 32
+media-libs/mesa ABI_X86: 32
+net-libs/gnutls ABI_X86: 32
+sys-apps/attr ABI_X86: 32
+sys-apps/util-linux ABI_X86: 32
+sys-devel/gettext ABI_X86: 32
+sys-devel/llvm ABI_X86: 32
+sys-libs/libselinux ABI_X86: 32
+sys-libs/libsepol ABI_X86: 32
+sys-libs/ncurses ABI_X86: 32
+sys-libs/zlib ABI_X86: 32
+virtual/glu ABI_X86: 32
+virtual/jpeg ABI_X86: 32
+virtual/libffi ABI_X86: 32
+virtual/libiconv ABI_X86: 32
+virtual/libintl ABI_X86: 32
+virtual/opengl ABI_X86: 32
+virtual/pkgconfig ABI_X86: 32
+x11-libs/libX11 ABI_X86: 32
+x11-libs/libXau ABI_X86: 32
+x11-libs/libXcursor ABI_X86: 32
+x11-libs/libXdamage ABI_X86: 32
+x11-libs/libXdmcp ABI_X86: 32
+x11-libs/libXext ABI_X86: 32
+x11-libs/libXfixes ABI_X86: 32
+x11-libs/libXi ABI_X86: 32
+x11-libs/libXrandr ABI_X86: 32
+x11-libs/libXrender ABI_X86: 32
+x11-libs/libXv ABI_X86: 32
+x11-libs/libXvMC ABI_X86: 32
+x11-libs/libXxf86vm ABI_X86: 32
+x11-libs/libdrm ABI_X86: 32
+x11-libs/libpciaccess ABI_X86: 32
+x11-libs/libva ABI_X86: 32
+x11-libs/libva-intel-driver ABI_X86: 32
+x11-libs/libxcb ABI_X86: 32
+x11-libs/libxshmfence ABI_X86: 32
+x11-proto/damageproto ABI_X86: 32
+x11-proto/dri2proto ABI_X86: 32
+x11-proto/dri3proto ABI_X86: 32
+x11-proto/fixesproto ABI_X86: 32
+x11-proto/glproto ABI_X86: 32
+x11-proto/inputproto ABI_X86: 32
+x11-proto/kbproto ABI_X86: 32
+x11-proto/presentproto ABI_X86: 32
+x11-proto/randrproto ABI_X86: 32
+x11-proto/renderproto ABI_X86: 32
+x11-proto/videoproto ABI_X86: 32
+x11-proto/xcb-proto ABI_X86: 32
+x11-proto/xextproto ABI_X86: 32
+x11-proto/xf86bigfontproto ABI_X86: 32
+x11-proto/xf86driproto ABI_X86: 32
+x11-proto/xf86vidmodeproto ABI_X86: 32
+x11-proto/xproto ABI_X86: 32

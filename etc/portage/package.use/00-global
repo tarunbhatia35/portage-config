@@ -1,17 +1,17 @@
-*/* aio ## enable support for Linux Async IO
-*/* branding ## Gentoo goodies
-*/* cron ## cron jobs
+*/* aio ### enable support for Linux Async IO
+*/* branding ### Gentoo goodies
+*/* cron ### cron jobs
 */* custom-cflags custom-optimization
 */* ecdsa
-*/* gmp ## support for GNU MP
+*/* gmp ### support for GNU MP
 */* int64
 */* jemalloc
 */* jit
-*/* openmp ## support parallel computing
+*/* openmp ### support parallel computing
 */* pam ### enforce PAM-based auth
 */* pgo
 */* readline
-*/* ssl libressl ## support SSL / use LibreSSL instead of OpenSSL
+*/* ssl libressl ### support SSL / use LibreSSL instead of OpenSSL
 */* syslog
 */* system-binutils
 */* system-boost
@@ -46,13 +46,13 @@
 */* system-uulib
 */* system-wine
 */* system-zlib
-*/* threads nptl ## build threads (POSIX)
-*/* urandom ## prefer /dev/urandom to /dev/random
-*/* vaapi ## add VA API support
+*/* threads nptl ### build threads (POSIX)
+*/* urandom ### prefer /dev/urandom to /dev/random
+*/* vaapi ### add VA API support
 */* vim-syntax
 */* zsh-completion
 app-arch/* unicode
-games-util/*::steam-overlay steamruntime ## build with the default Steam runtime
+games-util/*::steam-overlay steamruntime ### build with the default Steam runtime
 media-fonts/* X
 media-fonts/* cjk
 media-sound/* flac
