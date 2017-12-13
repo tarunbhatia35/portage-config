@@ -133,11 +133,12 @@ sys-apps/smartmontools daemon
 sys-apps/util-linux ncurses static-libs suid unicode
 sys-auth/pambase minimal sha512
 sys-boot/grub device-mapper ### LVM support
+sys-devel/binutils cxx
 sys-devel/clang default-compiler-rt default-libcxx static-analyzer
 sys-devel/clang-runtime compiler-rt libcxx sanitize
 sys-devel/gcc cxx fortran go
 sys-devel/gdb client
-sys-devel/llvm libffi ncurses
+sys-devel/llvm gold libffi ncurses
 sys-firmware/intel-microcode split-ucode ### to load alongside initramfs
 sys-firmware/seabios seavgabios
 sys-fs/cryptsetup gcrypt

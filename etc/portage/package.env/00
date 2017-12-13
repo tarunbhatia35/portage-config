@@ -8,3 +8,4 @@ sys-devel/gcc no-tmpfs.conf
 sys-devel/llvm no-tmpfs.conf
 www-client/firefox no-tmpfs.conf
 www-client/palemoon no-tmpfs.conf
+x11-misc/slop no-multilib-strict.conf

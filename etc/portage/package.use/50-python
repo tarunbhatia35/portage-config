@@ -49,7 +49,7 @@ dev-python/numpy PYTHON_TARGETS: python2_7 python3_6
 dev-python/olefile PYTHON_TARGETS: python3_5
 dev-python/pillow PYTHON_TARGETS: python3_5
 dev-python/pip PYTHON_TARGETS: python3_6
-dev-python/ply PYTHON_TARGETS: python2_7 python3_5
+dev-python/ply PYTHON_TARGETS: python2_7 python3_5 python3_6
 dev-python/pycparser PYTHON_TARGETS: python2_7 python3_5 python3_6
 dev-python/pygtk PYTHON_TARGETS: python2_7
 dev-python/pylint PYTHON_TARGETS: python3_6
