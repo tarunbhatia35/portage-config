@@ -1,4 +1,5 @@
 app-admin/logrotate bzip2
+sys-apps/openrc unicode
 app-admin/pass X dmenu
 app-arch/libarchive bzip2
 app-arch/tar minimal ### provide only /usr/bin/tar
@@ -25,6 +26,7 @@ app-text/hunspell L10N: ru
 app-text/lcdf-typetools kpathsea
 app-text/mupdf X
 app-text/pandoc https
+app-text/poppler cairo
 app-text/xmlto text
 app-text/zathura magic sqlite
 app-text/zathura-meta djvu pdf
@@ -114,7 +116,7 @@ net-wireless/aircrack-ng airdrop-ng airgraph-ng netlink
 net-wireless/lorcon python
 net-wireless/wpa_supplicant dbus
 sci-libs/atlas fortran
-sci-libs/hdf5 -threads
+sci-libs/hdf5 hl -threads
 sci-libs/umfpack cholmod
 sci-visualization/gnuplot X gd
 sys-apps/busybox -syslog ### not needed
@@ -162,7 +164,6 @@ sys-process/audit python
 sys-process/htop unicode
 sys-process/procps kill modern-top ncurses unicode
 sys-process/tini static
-virtual/ffmpeg X encode mp3 x264
 www-client/firefox eme-free hwaccel nsplugin
 www-client/palemoon alsa devtools gtk3 official-branding optimize
 www-client/seamonkey ipc

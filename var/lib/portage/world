@@ -186,7 +186,6 @@ dev-haskell/stylish-haskell
 dev-lang/ghc
 dev-lang/rust
 dev-lisp/clisp
-dev-python/enum
 dev-python/h5py
 dev-python/matplotlib
 dev-python/notify2
@@ -250,6 +249,7 @@ net-ftp/lftp
 net-im/bitlbee
 net-irc/weechat
 net-libs/libnsl
+net-misc/adjtimex
 net-misc/networkmanager
 net-misc/ntp
 net-misc/socat
@@ -285,13 +285,13 @@ sys-fs/ntfs3g
 sys-kernel/ck-sources
 sys-kernel/genkernel
 sys-kernel/linux-firmware
-sys-kernel/pf-sources
 sys-power/powertop
 sys-power/suspend
 sys-process/fcron
 sys-process/htop
 sys-process/iotop
 sys-process/lsof
+www-client/firefox
 www-client/qutebrowser
 www-misc/profile-sync-daemon
 x11-apps/mesa-progs
@@ -318,6 +318,5 @@ x11-misc/urxvt-perls
 x11-misc/xclip
 x11-misc/xmobar
 x11-terms/rxvt-unicode
-x11-wm/evilwm
 x11-wm/xmonad
 x11-wm/xmonad-contrib

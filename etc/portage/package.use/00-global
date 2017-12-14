@@ -1,3 +1,4 @@
+*/* pie
 */* aio ### enable support for Linux Async IO
 */* branding ### Gentoo goodies
 */* cron ### cron jobs
@@ -58,3 +59,4 @@ media-fonts/* cjk
 media-sound/* flac
 media-sound/* id3tag
 media-sound/* mad
+virtual/* -* ### try to avoid confusion

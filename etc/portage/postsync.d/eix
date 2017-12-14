@@ -1,9 +1,0 @@
-#!/bin/sh
-
-[[ -e /var/cache/eix/portage.eix ]] && \
-	cp -a /var/cache/eix/portage.eix /var/cache/eix/previous.eix
-
-eix-update
-
-[[ -e /var/cache/eix/previous.eix ]] && \
-	eix-diff
