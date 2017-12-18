@@ -13,7 +13,7 @@ app-emacs/pymacs PYTHON_TARGETS: python3_6
 app-emulation/qemu PYTHON_TARGETS: python2_7
 app-misc/ranger PYTHON_TARGETS: python3_6
 app-portage/diffmask PYTHON_TARGETS: python3_6
-app-portage/elogviewer PYTHON_TARGETS: python2_7
+app-portage/elogv PYTHON_TARGETS: python2_7
 app-portage/esearch PYTHON_TARGETS: python3_6
 app-portage/fetchcommandwrapper PYTHON_TARGETS: python3_6
 app-portage/g-sorcery PYTHON_TARGETS: python2_7
@@ -32,7 +32,7 @@ dev-libs/glib PYTHON_TARGETS: python2_7
 dev-libs/libxml2 PYTHON_TARGETS: python2_7 python3_6
 dev-libs/newt PYTHON_TARGETS: python3_6
 dev-python/Babel PYTHON_TARGETS: python3_6
-dev-python/PyQt5 PYTHON_TARGETS: python2_7
+dev-python/PyQt5 PYTHON_TARGETS: python2_7 python3_6
 dev-python/PySocks PYTHON_TARGETS: python2_7 python3_6
 dev-python/alabaster PYTHON_TARGETS: python3_6
 dev-python/asn1crypto PYTHON_TARGETS: python2_7 python3_6
@@ -100,7 +100,7 @@ dev-python/pyparsing PYTHON_TARGETS: python2_7 python3_6
 dev-python/python-dateutil PYTHON_TARGETS: python3_6
 dev-python/python-musicbrainz-ngs PYTHON_TARGETS: python2_7
 dev-python/pytz PYTHON_TARGETS: python3_6
-dev-python/pyyaml PYTHON_TARGETS: python2_7
+dev-python/pyyaml PYTHON_TARGETS: python2_7 python3_6
 dev-python/regex PYTHON_TARGETS: python3_6
 dev-python/requests PYTHON_TARGETS: python2_7 python3_6
 dev-python/requests-oauthlib PYTHON_TARGETS: python2_7

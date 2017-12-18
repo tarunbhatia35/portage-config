@@ -1,5 +1,6 @@
 app-emulation/wine-any X alsa d3d9 fontconfig jpeg nls opengl osmesa s3tc png staging truetype ABI_X86: 32
 app-emulation/winetricks rar
+virtual/wine d3d9 staging ABI_X86: 32
 
 app-arch/bzip2 ABI_X86: 32
 dev-libs/expat ABI_X86: 32

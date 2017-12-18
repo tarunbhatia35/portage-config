@@ -1,4 +1,3 @@
-*/* pie
 */* aio ### enable support for Linux Async IO
 */* branding ### Gentoo goodies
 */* cron ### cron jobs
@@ -11,6 +10,7 @@
 */* openmp ### support parallel computing
 */* pam ### enforce PAM-based auth
 */* pgo
+*/* pie
 */* readline
 */* ssl libressl ### support SSL / use LibreSSL instead of OpenSSL
 */* syslog
@@ -59,4 +59,4 @@ media-fonts/* cjk
 media-sound/* flac
 media-sound/* id3tag
 media-sound/* mad
-virtual/* -* ### try to avoid confusion
+virtual/* -* ABI_X86: 64 ### try to avoid confusion
