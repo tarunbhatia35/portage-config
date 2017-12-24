@@ -2,13 +2,18 @@
 */*::haskell doc hoogle hscolour
 */*::haskell network network-uri use-network-uri
 dev-haskell/bifunctors semigroups
+dev-haskell/cairo -pdf -postscript -svg
 dev-haskell/certificate -executable
 dev-haskell/cmdargs quotation
 dev-haskell/comonad containers contravariant distributive
 dev-haskell/contravariant safe semigroups statevar tagged
 dev-haskell/cryptonite integer-gmp support_sse
 dev-haskell/direct-sqlite fulltextsearch systemlib urifilenames
+dev-haskell/glib closure_signals
 dev-haskell/gnuplot executepipe executeshell
+dev-haskell/gtk -deprecated fmode-binary gio
+dev-haskell/gtk2hs-buildtools closuresignals
+dev-haskell/hakyll checkexternal previewserver watchserver
 dev-haskell/hashtables bounds-checking
 dev-haskell/hlint gpl
 dev-haskell/hslua -apicheck -luajit -system-lua ### build fails with any of these

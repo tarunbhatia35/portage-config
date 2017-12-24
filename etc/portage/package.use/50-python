@@ -151,6 +151,8 @@ net-misc/youtube-dl PYTHON_TARGETS: python3_6
 net-p2p/torrentinfo PYTHON_TARGETS: python3_6
 sys-apps/portage PYTHON_TARGETS: python2_7 python3_6
 sys-devel/clang PYTHON_TARGETS: python2_7
+sys-libs/talloc PYTHON_TARGETS: python2_7
+sys-process/glances PYTHON_TARGETS: python2_7
 sys-process/iotop PYTHON_TARGETS: python3_6
 virtual/python-enum34 PYTHON_TARGETS: python3_6
 virtual/python-ipaddress PYTHON_TARGETS: python2_7 python3_6

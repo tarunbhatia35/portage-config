@@ -10,6 +10,7 @@
 */* openmp ### support parallel computing
 */* pam ### enforce PAM-based auth
 */* pgo
+*/* pic
 */* pie
 */* readline
 */* ssl libressl ### support SSL / use LibreSSL instead of OpenSSL
@@ -56,6 +57,7 @@ app-arch/* unicode
 games-util/*::steam-overlay steamruntime ### build with the default Steam runtime
 media-fonts/* X
 media-fonts/* cjk
+media-fonts/* nls
 media-sound/* flac
 media-sound/* id3tag
 media-sound/* mad

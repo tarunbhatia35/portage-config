@@ -19,6 +19,7 @@ app-portage/gemato blake2 bzip2 gpg lzma portage-postsync sha3
 app-portage/layman g-sorcery git sqlite sync-plugin-portage
 app-shells/bash mem-scramble
 app-shells/zsh unicode
+app-text/apvlv djvu
 app-text/asciidoc highlight
 app-text/aspell LINGUAS: ru
 app-text/hunspell L10N: ru
@@ -35,6 +36,7 @@ dev-lang/go gccgo
 dev-libs/boost icu nls ### needed for media-sound/ncmpcpp
 dev-libs/elfutils utils
 dev-libs/glib dbus mime utils
+dev-libs/gmime smime
 dev-libs/gmp asm
 dev-libs/leveldb snappy
 dev-libs/libgcrypt static-libs
@@ -47,6 +49,7 @@ dev-libs/libverto libev
 dev-libs/libxml2 python
 dev-libs/nss cacert
 dev-scheme/racket places
+dev-util/dialog minimal
 dev-util/ltrace unwind
 dev-util/pkgconfig internal-glib
 dev-util/plan9port X truetype
@@ -103,6 +106,7 @@ net-fs/samba -syslog
 net-im/bitlbee plugins purple
 net-irc/weechat alias buflist exec irc logger perl python scripts spell trigger
 net-mail/mailutils sasl
+net-mail/notmuch crypt
 net-misc/aria2 bittorrent libxml2 ssh
 net-misc/curl http2
 net-misc/dhcp client
@@ -187,6 +191,7 @@ x11-libs/motif jpeg png unicode xft
 x11-libs/pango X
 x11-misc/compton opengl
 x11-misc/xmobar alsa mpd timezone xft
+x11-misc/xmonad-extras alsa eval mpd
 x11-terms/rxvt-unicode 256-color font-styles perl unicode3 xft ### minimal config with powerline support
 x11-terms/st savedconfig
 x11-terms/xterm truetype unicode
@@ -194,3 +199,4 @@ x11-wm/dwm savedconfig
 x11-wm/openbox session
 x11-wm/ratpoison history xft
 x11-wm/stumpwm clisp contrib
+x11-wm/xmonad-contrib xft

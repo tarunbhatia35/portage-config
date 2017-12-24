@@ -5,6 +5,7 @@ app-admin/logrotate
 app-admin/pass::azalay
 app-admin/profile-cleaner
 app-admin/pwgen
+app-admin/rasdaemon
 app-admin/stow
 app-admin/sudo
 app-admin/syslog-ng
@@ -76,6 +77,7 @@ app-emacs/helm-flx
 app-emacs/helm-flycheck
 app-emacs/helm-hoogle
 app-emacs/helm-make
+app-emacs/helm-notmuch
 app-emacs/helm-projectile
 app-emacs/helm-swoop
 app-emacs/highlight-numbers
@@ -89,7 +91,8 @@ app-emacs/llvm-mode
 app-emacs/magit
 app-emacs/markdown-mode
 app-emacs/mips-mode
-app-emacs/muttrc-mode
+app-emacs/notmuch
+app-emacs/notmuch-labeler
 app-emacs/org
 app-emacs/org-bullets
 app-emacs/org-dashboard
@@ -101,7 +104,6 @@ app-emacs/powerline-evil
 app-emacs/projectile
 app-emacs/projectile-variable
 app-emacs/python-mode
-app-emacs/racket-mode
 app-emacs/rainbow-delimiters
 app-emacs/request
 app-emacs/restart-emacs
@@ -160,6 +162,7 @@ app-shells/gentoo-zsh-completions
 app-shells/zsh
 app-shells/zsh-completions
 app-text/antiword
+app-text/apvlv
 app-text/pandoc
 app-text/texlive
 app-text/tree
@@ -185,8 +188,10 @@ dev-haskell/random-shuffle
 dev-haskell/semigroupoids
 dev-haskell/split
 dev-haskell/stylish-haskell
+dev-haskell/xmonad-screenshot
 dev-lang/ghc
 dev-lang/rust
+dev-libs/libedit
 dev-lisp/clisp
 dev-python/h5py
 dev-python/matplotlib
@@ -199,8 +204,8 @@ dev-python/tox
 dev-python/werkzeug
 dev-python/wheel
 dev-scheme/chicken
-dev-scheme/racket
 dev-util/ccache
+dev-util/dialog
 dev-util/golint
 dev-util/ltrace
 dev-util/plan9port
@@ -215,7 +220,6 @@ games-roguelike/nethack
 games-roguelike/stone-soup
 games-simulation/openttd
 games-util/steam-meta
-mail-client/mutt
 media-fonts/efont-unicode
 media-fonts/font-misc-misc
 media-fonts/mplus-outline-fonts
@@ -235,6 +239,7 @@ media-sound/ncmpcpp
 media-sound/shntool
 media-sound/sox
 media-sound/split2flac
+media-sound/whatmp3
 media-video/ffcast
 media-video/ffmpeg
 media-video/mediainfo
@@ -252,6 +257,7 @@ net-ftp/lftp
 net-im/bitlbee
 net-irc/weechat
 net-libs/libnsl
+net-mail/notmuch
 net-misc/adjtimex
 net-misc/aria2
 net-misc/networkmanager
@@ -293,6 +299,7 @@ sys-kernel/linux-firmware
 sys-power/powertop
 sys-power/suspend
 sys-process/fcron
+sys-process/glances
 sys-process/htop
 sys-process/iotop
 sys-process/lsof
@@ -302,6 +309,7 @@ www-misc/profile-sync-daemon
 x11-apps/mesa-progs
 x11-apps/setxkbmap
 x11-apps/xdpyinfo
+x11-apps/xfontsel
 x11-apps/xinput
 x11-apps/xkill
 x11-apps/xlsfonts
@@ -324,7 +332,8 @@ x11-misc/unclutter-xfixes
 x11-misc/urxvt-perls
 x11-misc/xclip
 x11-misc/xmobar
+x11-misc/xmonad-extras
+x11-misc/xsnow
 x11-terms/rxvt-unicode
-x11-wm/evilwm
 x11-wm/xmonad
 x11-wm/xmonad-contrib

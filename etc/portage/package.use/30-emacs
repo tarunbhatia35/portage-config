@@ -28,6 +28,7 @@ dev-util/cmake emacs
 dev-util/desktop-file-utils -emacs
 dev-util/ninja emacs
 dev-vcs/git emacs
+net-mail/notmuch -emacs
 sci-mathematics/gap -emacs
 sys-devel/autoconf emacs
 sys-devel/gettext -emacs
