@@ -4,6 +4,7 @@
 */* custom-cflags custom-optimization
 */* ecdsa
 */* gmp ### support for GNU MP
+*/* gnutls
 */* int64
 */* jemalloc
 */* jit
@@ -56,9 +57,9 @@
 app-arch/* unicode
 games-util/*::steam-overlay steamruntime ### build with the default Steam runtime
 media-fonts/* X
-media-fonts/* cjk
 media-fonts/* nls
 media-sound/* flac
 media-sound/* id3tag
 media-sound/* mad
+sys-kernel/* experimental
 virtual/* -* ABI_X86: 64 ### try to avoid confusion

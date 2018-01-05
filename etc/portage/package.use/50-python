@@ -8,6 +8,7 @@ dev-python/pycairo xcb
 dev-python/twisted crypt http2
 
 app-admin/eclean-kernel PYTHON_TARGETS: python2_7
+app-crypt/gkeys PYTHON_TARGETS: python3_6
 app-editors/vim PYTHON_TARGETS: python3_6
 app-emacs/pymacs PYTHON_TARGETS: python3_6
 app-emulation/qemu PYTHON_TARGETS: python2_7
@@ -24,6 +25,7 @@ app-portage/gs-elpa PYTHON_TARGETS: python2_7
 app-portage/gs-pypi PYTHON_TARGETS: python2_7
 app-portage/layman PYTHON_TARGETS: python2_7 python3_6
 app-portage/metagen PYTHON_TARGETS: python2_7
+app-portage/mirrorselect PYTHON_TARGETS: python3_6
 app-portage/overlint PYTHON_TARGETS: python3_6
 app-portage/repoman PYTHON_TARGETS: python3_6
 app-portage/smart-live-rebuild PYTHON_TARGETS: python3_6
@@ -82,6 +84,7 @@ dev-python/pkgconfig PYTHON_TARGETS: python3_6
 dev-python/pluggy PYTHON_TARGETS: python3_6
 dev-python/ply PYTHON_TARGETS: python2_7 python3_5 python3_6
 dev-python/py PYTHON_TARGETS: python3_6
+dev-python/pyGPG PYTHON_TARGETS: python3_6
 dev-python/pyasn1 PYTHON_TARGETS: python2_7
 dev-python/pyblake2 PYTHON_TARGETS: python2_7
 dev-python/pycairo PYTHON_TARGETS: python2_7
@@ -112,6 +115,7 @@ dev-python/sexpdata PYTHON_TARGETS: python2_7
 dev-python/simplejson PYTHON_TARGETS: python3_6
 dev-python/sip PYTHON_TARGETS: python2_7
 dev-python/six PYTHON_TARGETS: python2_7 python3_6
+dev-python/snakeoil PYTHON_TARGETS: python3_6
 dev-python/snowballstemmer PYTHON_TARGETS: python3_6
 dev-python/sphinx PYTHON_TARGETS: python3_6
 dev-python/sphinx_rtd_theme PYTHON_TARGETS: python3_6
@@ -147,6 +151,8 @@ media-video/mpv PYTHON_TARGETS: python3_6
 net-analyzer/nmap PYTHON_TARGETS: python2_7
 net-fs/samba PYTHON_TARGETS: python2_7
 net-irc/weechat PYTHON_TARGETS: python2_7
+net-libs/stem PYTHON_TARGETS: python3_6
+net-misc/nyx PYTHON_TARGETS: python3_6
 net-misc/youtube-dl PYTHON_TARGETS: python3_6
 net-p2p/torrentinfo PYTHON_TARGETS: python3_6
 sys-apps/portage PYTHON_TARGETS: python2_7 python3_6

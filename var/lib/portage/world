@@ -2,7 +2,7 @@ app-admin/eclean-kernel
 app-admin/emacs-updater
 app-admin/haskell-updater
 app-admin/logrotate
-app-admin/pass::azalay
+app-admin/pass
 app-admin/profile-cleaner
 app-admin/pwgen
 app-admin/rasdaemon
@@ -69,7 +69,7 @@ app-emacs/gitconfig-mode
 app-emacs/gitignore-mode
 app-emacs/gnuplot-mode
 app-emacs/go-mode
-app-emacs/haskell-mode::haskell
+app-emacs/haskell-mode
 app-emacs/helm
 app-emacs/helm-ag
 app-emacs/helm-descbinds
@@ -132,6 +132,7 @@ app-emulation/winetricks
 app-i18n/fcitx
 app-i18n/mozc
 app-laptop/laptop-mode-tools
+app-laptop/thinkfan
 app-misc/colordiff
 app-misc/ranger
 app-misc/tmux
@@ -153,6 +154,7 @@ app-portage/gs-pypi
 app-portage/hackport
 app-portage/layman
 app-portage/metagen
+app-portage/mirrorselect
 app-portage/overlint
 app-portage/repoman
 app-portage/smart-live-rebuild
@@ -191,7 +193,6 @@ dev-haskell/stylish-haskell
 dev-haskell/xmonad-screenshot
 dev-lang/ghc
 dev-lang/rust
-dev-libs/libedit
 dev-lisp/clisp
 dev-python/h5py
 dev-python/matplotlib
@@ -205,6 +206,7 @@ dev-python/werkzeug
 dev-python/wheel
 dev-scheme/chicken
 dev-util/ccache
+dev-util/darcs-graph
 dev-util/dialog
 dev-util/golint
 dev-util/ltrace
@@ -213,6 +215,7 @@ dev-util/scanmem
 dev-util/shellcheck
 dev-util/strace
 dev-util/valgrind
+dev-vcs/darcs
 dev-vcs/git
 dev-vcs/rcs
 games-misc/fortune-mod
@@ -222,8 +225,8 @@ games-simulation/openttd
 games-util/steam-meta
 media-fonts/efont-unicode
 media-fonts/font-misc-misc
-media-fonts/mplus-outline-fonts
-media-fonts/noto
+media-fonts/infinality-ultimate-meta
+media-fonts/mix-mplus-ipa
 media-fonts/tewi-font
 media-gfx/imagemagick
 media-gfx/maim
@@ -262,6 +265,7 @@ net-misc/adjtimex
 net-misc/aria2
 net-misc/networkmanager
 net-misc/ntp
+net-misc/nyx
 net-misc/socat
 net-misc/whois
 net-misc/youtube-dl
@@ -326,11 +330,13 @@ x11-misc/dmenu2
 x11-misc/dunst
 x11-misc/hsetroot
 x11-misc/i3lock
+x11-misc/n30f
 x11-misc/redshift
 x11-misc/rofi
 x11-misc/unclutter-xfixes
 x11-misc/urxvt-perls
 x11-misc/xclip
+x11-misc/xdotool
 x11-misc/xmobar
 x11-misc/xmonad-extras
 x11-misc/xsnow

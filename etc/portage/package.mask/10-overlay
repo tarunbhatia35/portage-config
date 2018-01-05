@@ -9,6 +9,7 @@
 #*/*::melpa
 #*/*::mozilla
 #*/*::palemoon
+#*/*::pypi
 #*/*::python
 #*/*::qutebrowser
 #*/*::rust
@@ -18,5 +19,6 @@
 #*/*::torbrowser
 #*/*::wine
 
-app-emacs/hindent::melpa ### prefer haskell overlay
-www-client/firefox::mozilla ### ignore pre-release versions
+app-emacs/haskell-mode::melpa
+app-emacs/hindent::melpa
+www-client/firefox::mozilla

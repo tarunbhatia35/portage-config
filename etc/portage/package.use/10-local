@@ -1,5 +1,5 @@
 app-admin/logrotate bzip2
-app-admin/pass X dmenu
+app-admin/pass X
 app-arch/libarchive bzip2
 app-arch/tar minimal ### provide only /usr/bin/tar
 app-crypt/pinentry ncurses
@@ -7,7 +7,7 @@ app-editors/nano minimal
 app-editors/vim lua luajit python
 app-emulation/docker container-init
 app-emulation/docker-runc seccomp
-app-emulation/qemu sdl
+app-emulation/qemu sdl -gnutls
 app-i18n/fcitx X cairo dbus gtk2 gtk3 pango
 app-i18n/mozc fcitx4
 app-laptop/laptop-mode-tools acpi
@@ -54,7 +54,7 @@ dev-util/ltrace unwind
 dev-util/pkgconfig internal-glib
 dev-util/plan9port X truetype
 dev-util/strace unwind
-dev-vcs/darcs curl
+dev-vcs/darcs curl threaded
 dev-vcs/git blksha1 curl gpg highlight webdav
 games-fps/openarena curl openal vorbis
 games-fps/urbanterror client curl openal
@@ -65,11 +65,13 @@ games-simulation/openttd openmedia png truetype
 games-util/dwarf-therapist qt5
 gnome-base/gnome-common autoconf-archive
 mail-client/mutt crypt gdbm pop sasl sidebar smtp
+media-fonts/infinality-ultimate-meta free minimal latin ms L10N: ja
 media-fonts/tewi-font pcf
 media-gfx/graphviz pdf
 media-gfx/imagemagick X jpeg png q32
 media-gfx/sxiv exif gif savedconfig
-media-libs/freetype bzip2 cleartype_hinting
+media-libs/fontconfig-infinality nyx
+media-libs/freetype adobe-cff bzip2 cleartype_hinting harfbuzz infinality
 media-libs/gd fontconfig jpeg png truetype zlib
 media-libs/gegl cairo
 media-libs/harfbuzz fontconfig glib graphite icu truetype
@@ -94,7 +96,7 @@ media-sound/milkytracker alsa
 media-sound/mpd alsa libsamplerate sqlite
 media-sound/mumble alsa
 media-sound/sox alsa
-media-video/ffmpeg X alsa encode gnutls gpl hardcoded-tables -libressl mp3 network opengl opus vorbis vpx x264 xcb xvid ### LibreSSL still does not work 
+media-video/ffmpeg X alsa encode gpl hardcoded-tables libressl mp3 network opengl opus vorbis vpx x264 xcb xvid
 media-video/libav X alsa encode gpl hardcoded-tables mp3 network opus vorbis vpx x264 xvid
 media-video/mpv X alsa cli jpeg libass lua luajit opengl vaapi zlib
 net-analyzer/nmap ncat ndiff nping
@@ -102,16 +104,17 @@ net-analyzer/tcpdump drop-root
 net-analyzer/wireshark dumpcap editcap mergecap netlink pcap randpkt randpktdump reordercap sharkd text2pcap tshark udpdump
 net-dns/dnscrypt-proxy plugins
 net-firewall/firehol ipset
-net-fs/samba -syslog
+net-fs/samba -gnutls -syslog
 net-im/bitlbee plugins purple
 net-irc/weechat alias buflist exec irc logger perl python scripts spell trigger
+net-libs/gnutls openpgp
 net-mail/mailutils sasl
 net-mail/notmuch crypt
-net-misc/aria2 bittorrent libxml2 ssh
+net-misc/aria2 bittorrent libuv libxml2 ssh
 net-misc/curl http2
 net-misc/dhcp client
 net-misc/iputils arping tracepath traceroute
-net-misc/networkmanager dhclient ncurses nss resolvconf wifi
+net-misc/networkmanager dhclient ncurses resolvconf wifi
 net-misc/wicd ncurses
 net-p2p/go-ipfs-bin fuse
 net-p2p/mktorrent -ssl ### no LibreSSL support
@@ -151,9 +154,8 @@ sys-firmware/intel-microcode split-ucode ### to load alongside initramfs
 sys-firmware/seabios seavgabios
 sys-fs/cryptsetup gcrypt
 sys-fs/eudev hwdb
-sys-kernel/ck-sources experimental
 sys-kernel/genkernel cryptsetup firmware
-sys-kernel/gentoo-sources experimental
+sys-kernel/linux-docs html
 sys-kernel/linux-firmware savedconfig
 sys-libs/compiler-rt clang
 sys-libs/glibc rpc

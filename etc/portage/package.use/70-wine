@@ -6,6 +6,7 @@ app-arch/bzip2 ABI_X86: 32
 dev-libs/expat ABI_X86: 32
 dev-libs/glib ABI_X86: 32
 dev-libs/gmp ABI_X86: 32
+dev-libs/icu ABI_X86: 32
 dev-libs/libffi ABI_X86: 32
 dev-libs/libpcre ABI_X86: 32
 dev-libs/libpthread ABI_X86: 32
@@ -14,10 +15,12 @@ dev-libs/libtasn1 ABI_X86: 32
 dev-libs/libunistring ABI_X86: 32
 dev-libs/nettle ABI_X86: 32
 dev-util/pkgconfig ABI_X86: 32
+media-gfx/graphite2 ABI_X86: 32
 media-libs/alsa-lib ABI_X86: 32
 media-libs/fontconfig ABI_X86: 32
 media-libs/freetype ABI_X86: 32
 media-libs/glu ABI_X86: 32
+media-libs/harfbuzz ABI_X86: 32
 media-libs/libjpeg-turbo ABI_X86: 32
 media-libs/libpng ABI_X86: 32
 media-libs/libtxc_dxtn ABI_X86: 32

@@ -23,6 +23,7 @@ dev-haskell/lens inlining safe trustworthy
 dev-haskell/nats binary hashable template-haskell
 dev-haskell/quickcheck template_haskell
 dev-haskell/reflection template-haskell
+dev-haskell/sandi with-conduit
 dev-haskell/semigroupoids comonad containers contravariant distributive -tagged unordered-containers ### build fails with TAGGED
 dev-haskell/semigroups binary transformers
 dev-haskell/sha -exe
