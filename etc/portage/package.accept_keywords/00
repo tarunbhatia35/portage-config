@@ -2,4 +2,5 @@
 */*::toolchain **
 
 app-crypt/keybase ** ### should always be pulled from upstream
-dev-tex/latexdiff -~amd64 ### absolute garbage
+dev-chicken/* **
+#dev-tex/latexdiff -~amd64 ### absolute garbage

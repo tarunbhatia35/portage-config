@@ -1,0 +1,2 @@
+# required by dev-haskell/stack (argument)
+=dev-haskell/stack-9.9.9 **

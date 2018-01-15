@@ -6,12 +6,10 @@ app-crypt/pinentry ncurses
 app-editors/nano minimal
 app-editors/vim lua luajit python
 app-emulation/docker container-init
-app-emulation/docker-runc seccomp
 app-emulation/qemu sdl -gnutls
 app-i18n/fcitx X cairo dbus gtk2 gtk3 pango
 app-i18n/mozc fcitx4
 app-laptop/laptop-mode-tools acpi
-app-misc/anki sound
 app-misc/ca-certificates cacert
 app-portage/eix sqlite
 app-portage/g-sorcery bson git
@@ -21,7 +19,7 @@ app-shells/bash mem-scramble
 app-shells/zsh unicode
 app-text/apvlv djvu
 app-text/asciidoc highlight
-app-text/aspell LINGUAS: ru
+app-text/aspell L10N: ru LINGUAS: ru
 app-text/hunspell L10N: ru
 app-text/lcdf-typetools kpathsea
 app-text/mupdf X
@@ -63,6 +61,7 @@ games-roguelike/nethack experimental
 games-roguelike/stone-soup -luajit ncurses ### throws SO if luajit is enabled
 games-simulation/openttd openmedia png truetype
 games-util/dwarf-therapist qt5
+games-util/steam-client-meta steamfonts
 gnome-base/gnome-common autoconf-archive
 mail-client/mutt crypt gdbm pop sasl sidebar smtp
 media-fonts/infinality-ultimate-meta free minimal latin ms L10N: ja
@@ -121,13 +120,14 @@ net-p2p/mktorrent -ssl ### no LibreSSL support
 net-vpn/openvpn lzo plugins ### for compressed .ovpn files
 net-wireless/aircrack-ng airdrop-ng airgraph-ng netlink
 net-wireless/lorcon python
-net-wireless/wpa_supplicant dbus
+net-wireless/wpa_supplicant dbus -gnutls ### fails with "undefined symbol" to librt (sys-libs/glibc)?
 sci-libs/atlas fortran
 sci-libs/hdf5 hl -threads
 sci-libs/umfpack cholmod
 sci-visualization/gnuplot X gd
 sys-apps/busybox -syslog ### not needed
 sys-apps/dbus X ### x11-misc/dunst depends on dbus connection
+sys-apps/debianutils installkernel
 sys-apps/dstat wifi
 sys-apps/firejail bind contrib chroot file-transfer network
 sys-apps/hwids net pci udev usb ## we need all dbs
@@ -170,6 +170,7 @@ sys-power/powertop X
 sys-power/suspend crypt
 sys-process/audit python
 sys-process/htop unicode
+sys-process/lsof rpc
 sys-process/procps kill modern-top ncurses unicode
 sys-process/tini static
 www-client/firefox eme-free hwaccel nsplugin
@@ -179,7 +180,7 @@ www-client/w3m X imlib ### support for app-misc/ranger image previews
 x11-apps/mesa-progs egl gles2
 x11-apps/xinit minimal
 x11-base/xorg-server udev glamor xorg xvfb
-x11-drivers/xf86-video-intel dri sna xvmc
+x11-drivers/xf86-video-intel dri dri3 sna xvmc
 x11-libs/cairo X glib svg xcb
 x11-libs/gdk-pixbuf X jpeg
 x11-libs/gtk+ X

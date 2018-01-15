@@ -8,10 +8,12 @@ dev-python/pycairo xcb
 dev-python/twisted crypt http2
 
 app-admin/eclean-kernel PYTHON_TARGETS: python2_7
+app-arch/cfv PYTHON_TARGETS: python2_7
 app-crypt/gkeys PYTHON_TARGETS: python3_6
 app-editors/vim PYTHON_TARGETS: python3_6
 app-emacs/pymacs PYTHON_TARGETS: python3_6
 app-emulation/qemu PYTHON_TARGETS: python2_7
+app-misc/anki PYTHON_TARGETS: python3_6
 app-misc/ranger PYTHON_TARGETS: python3_6
 app-portage/diffmask PYTHON_TARGETS: python3_6
 app-portage/elogv PYTHON_TARGETS: python2_7
@@ -72,6 +74,7 @@ dev-python/markupsafe PYTHON_TARGETS: python3_6
 dev-python/matplotlib PYTHON_TARGETS: python3_6
 dev-python/mccabe PYTHON_TARGETS: python3_6
 dev-python/munkres PYTHON_TARGETS: python2_7
+dev-python/mypy PYTHON_TARGETS: python3_6
 dev-python/namespace-sphinxcontrib PYTHON_TARGETS: python3_6
 dev-python/ndg-httpsclient PYTHON_TARGETS: python2_7
 dev-python/notify2 PYTHON_TARGETS: python2_7 ### for notify.py in net-irc/weechat
@@ -101,6 +104,7 @@ dev-python/pymongo PYTHON_TARGETS: python2_7
 dev-python/pyopenssl PYTHON_TARGETS: python2_7 python3_6
 dev-python/pyparsing PYTHON_TARGETS: python2_7 python3_6
 dev-python/python-dateutil PYTHON_TARGETS: python3_6
+dev-python/python-fchksum PYTHON_TARGETS: python2_7
 dev-python/python-musicbrainz-ngs PYTHON_TARGETS: python2_7
 dev-python/pytz PYTHON_TARGETS: python3_6
 dev-python/pyyaml PYTHON_TARGETS: python2_7 python3_6

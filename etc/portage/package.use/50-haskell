@@ -1,6 +1,7 @@
 */*::haskell -profile
 */*::haskell doc hoogle hscolour
 */*::haskell network network-uri use-network-uri
+dev-haskell/aeson-pretty lib-only
 dev-haskell/bifunctors semigroups
 dev-haskell/cairo -pdf -postscript -svg
 dev-haskell/certificate -executable
@@ -17,22 +18,31 @@ dev-haskell/hakyll checkexternal previewserver watchserver
 dev-haskell/hashtables bounds-checking
 dev-haskell/hlint gpl
 dev-haskell/hslua -apicheck -luajit -system-lua ### build fails with any of these
+dev-haskell/http-api-data use-text-show
 dev-haskell/json generic mapdict parsec pretty
 dev-haskell/juicypixels mmap
 dev-haskell/lens inlining safe trustworthy
+dev-haskell/monad-logger template_haskell
 dev-haskell/nats binary hashable template-haskell
+dev-haskell/pandoc-citeproc -bibutils -embed_data_files unicode_collation
+dev-haskell/persistent -nooverlap
+dev-haskell/persistent-sqlite -build-sanity-exe
 dev-haskell/quickcheck template_haskell
 dev-haskell/reflection template-haskell
+dev-haskell/rfc5051 -mkunicodedata
 dev-haskell/sandi with-conduit
 dev-haskell/semigroupoids comonad containers contravariant distributive -tagged unordered-containers ### build fails with TAGGED
 dev-haskell/semigroups binary transformers
 dev-haskell/sha -exe
 dev-haskell/skylighting -executable
+dev-haskell/stack -integration-tests
 dev-haskell/texmath -executable
 dev-haskell/tls -hans
 dev-haskell/transformers-base -orphaninstances
 dev-haskell/unix-compat -old-time
 dev-haskell/vector boundschecks -internalchecks
+dev-haskell/vector-algorithms -bench -boundschecks -internalchecks -properties -unsafechecks
+dev-haskell/wai-app-static -print
 dev-haskell/warp -allow-sendfilefd
 dev-haskell/x11 -screensaver
 dev-haskell/yaml no-examples no-exe no-unicode

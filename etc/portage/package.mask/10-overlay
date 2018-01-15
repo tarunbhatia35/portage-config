@@ -7,7 +7,6 @@
 #*/*::libressl
 #*/*::lisp
 #*/*::melpa
-#*/*::mozilla
 #*/*::palemoon
 #*/*::pypi
 #*/*::python
@@ -21,4 +20,3 @@
 
 app-emacs/haskell-mode::melpa
 app-emacs/hindent::melpa
-www-client/firefox::mozilla
