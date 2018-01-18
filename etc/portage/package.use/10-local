@@ -16,6 +16,7 @@ app-portage/g-sorcery bson git
 app-portage/gemato blake2 bzip2 gpg lzma portage-postsync sha3
 app-portage/layman g-sorcery git sqlite sync-plugin-portage
 app-shells/bash mem-scramble
+app-shells/mpv-bash-completion luajit
 app-shells/zsh unicode
 app-text/apvlv djvu
 app-text/asciidoc highlight
@@ -44,7 +45,7 @@ dev-libs/libpcre2 pcre16 pcre32 recursion-limit unicode
 dev-libs/libressl asm
 dev-libs/libsodium asm minimal
 dev-libs/libverto libev
-dev-libs/libxml2 python
+dev-libs/libxml2 icu python
 dev-libs/nss cacert
 dev-scheme/racket places
 dev-util/dialog minimal
