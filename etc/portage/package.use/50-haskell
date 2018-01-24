@@ -22,6 +22,7 @@ dev-haskell/http-api-data use-text-show
 dev-haskell/json generic mapdict parsec pretty
 dev-haskell/juicypixels mmap
 dev-haskell/lens inlining safe trustworthy
+dev-haskell/microlens-th inlining
 dev-haskell/monad-logger template_haskell
 dev-haskell/nats binary hashable template-haskell
 dev-haskell/pandoc-citeproc -bibutils -embed_data_files unicode_collation

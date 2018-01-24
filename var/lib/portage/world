@@ -16,6 +16,7 @@ app-crypt/gentoo-keys
 app-crypt/keybase
 app-editors/emacs
 app-editors/vim
+app-editors/yi
 app-emacs/ag
 app-emacs/aggressive-indent
 app-emacs/all-the-icons
@@ -67,6 +68,7 @@ app-emacs/expand-region
 app-emacs/fcitx
 app-emacs/fill-column-indicator
 app-emacs/flycheck
+app-emacs/flycheck-ghcmod
 app-emacs/flycheck-haskell
 app-emacs/flycheck-mypy
 app-emacs/flycheck-package
@@ -218,12 +220,12 @@ dev-haskell/intero
 dev-haskell/lens
 dev-haskell/math-functions
 dev-haskell/monad-loops
+dev-haskell/ncurses
 dev-haskell/numbers
 dev-haskell/primes
 dev-haskell/random-shuffle
 dev-haskell/semigroupoids
 dev-haskell/split
-dev-haskell/stack-bin
 dev-haskell/stylish-haskell
 dev-haskell/xmonad-screenshot
 dev-lang/ghc
@@ -258,11 +260,12 @@ games-roguelike/nethack
 games-roguelike/stone-soup
 games-simulation/openttd
 games-util/steam-meta
+media-fonts/baekmuk-fonts
 media-fonts/efont-unicode
 media-fonts/font-misc-misc
 media-fonts/infinality-ultimate-meta
-media-fonts/mix-mplus-ipa
 media-fonts/tewi-font
+media-fonts/unifont
 media-gfx/imagemagick
 media-gfx/maim
 media-gfx/sxiv

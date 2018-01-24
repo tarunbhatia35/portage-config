@@ -5,6 +5,7 @@ app-arch/tar minimal ### provide only /usr/bin/tar
 app-crypt/pinentry ncurses
 app-editors/nano minimal
 app-editors/vim lua luajit python
+app-editors/yi hint vty
 app-emulation/docker container-init
 app-emulation/qemu sdl -gnutls
 app-i18n/fcitx X cairo dbus gtk2 gtk3 pango
@@ -65,7 +66,9 @@ games-util/dwarf-therapist qt5
 games-util/steam-client-meta steamfonts
 gnome-base/gnome-common autoconf-archive
 mail-client/mutt crypt gdbm pop sasl sidebar smtp
+media-fonts/baekmuk-fonts unicode
 media-fonts/infinality-ultimate-meta free minimal latin ms L10N: ja
+media-fonts/noto cjk
 media-fonts/tewi-font pcf
 media-gfx/graphviz pdf
 media-gfx/imagemagick X jpeg png q32
@@ -195,8 +198,9 @@ x11-libs/motif jpeg png unicode xft
 x11-libs/pango X
 x11-misc/compton opengl
 x11-misc/xmobar alsa mpd timezone xft
-x11-misc/xmonad-extras alsa eval mpd
+x11-misc/xmonad-extras alsa
 x11-terms/rxvt-unicode 256-color font-styles perl unicode3 xft ### minimal config with powerline support
+x11-terms/st savedconfig
 x11-terms/st savedconfig
 x11-terms/xterm truetype unicode
 x11-wm/dwm savedconfig
