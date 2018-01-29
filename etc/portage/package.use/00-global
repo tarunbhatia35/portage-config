@@ -5,7 +5,6 @@
 */* ecdsa
 */* gmp ### support for GNU MP
 */* gnutls
-*/* int64
 */* jemalloc
 */* jit
 */* openmp ### support parallel computing

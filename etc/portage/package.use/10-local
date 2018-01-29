@@ -32,6 +32,7 @@ app-text/zathura magic sqlite
 app-text/zathura-meta djvu pdf
 dev-db/sqlite secure-delete
 dev-games/ode double-precision
+dev-lang/R minimal
 dev-lang/go gccgo
 dev-libs/boost icu nls ### needed for media-sound/ncmpcpp
 dev-libs/elfutils utils
@@ -60,7 +61,7 @@ games-fps/openarena curl openal vorbis
 games-fps/urbanterror client curl openal
 games-fps/xonotic alsa ode sdl
 games-roguelike/nethack experimental
-games-roguelike/stone-soup -luajit ncurses ### throws SO if luajit is enabled
+games-roguelike/stone-soup -luajit ncurses tiles ### throws SO if luajit is enabled
 games-simulation/openttd openmedia png truetype
 games-util/dwarf-therapist qt5
 games-util/steam-client-meta steamfonts

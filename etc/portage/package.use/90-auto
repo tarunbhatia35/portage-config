@@ -1,6 +1,0 @@
-# required by sys-process/glances-2.11.1::gentoo
-# required by sys-process/glances (argument)
->=dev-python/psutil-5.4.1 python_targets_python2_7
-# required by net-libs/gnutls-3.5.16::gentoo[pkcs11]
-# required by net-libs/gnutls (argument)
->=app-crypt/p11-kit-0.23.9 abi_x86_32

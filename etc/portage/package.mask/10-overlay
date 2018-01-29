@@ -1,5 +1,4 @@
 #*/*::azalay
-#*/*::docker
 #*/*::emacs
 #*/*::gnu-elpa
 #*/*::go-overlay
@@ -10,6 +9,7 @@
 #*/*::palemoon
 #*/*::pypi
 #*/*::python
+*/*::qt ### qt overlay conflicts with libressl overlay
 #*/*::qutebrowser
 #*/*::rust
 #*/*::science
@@ -18,5 +18,22 @@
 #*/*::torbrowser
 #*/*::wine
 
+### Prefer haskell overlay for haskell-related emacs packages
 app-emacs/haskell-mode::melpa
 app-emacs/hindent::melpa
+
+## BLAS and LAPACK stack in the science overlay is incompatible with main tree
+app-admin/eselect::gentoo
+app-doc/blas-docs::gentoo
+app-doc/lapack-docs::gentoo
+app-eselect/eselect-blas
+app-eselect/eselect-cblas
+app-eselect/eselect-lapack
+sci-libs/blas-reference::gentoo
+sci-libs/cblas-reference::gentoo
+sci-libs/gsl::gentoo
+sci-libs/lapack-reference::gentoo
+sci-libs/mkl::gentoo
+virtual/blas::gentoo
+virtual/cblas::gentoo
+virtual/lapack::gentoo

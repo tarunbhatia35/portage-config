@@ -37,6 +37,7 @@ dev-haskell/semigroups binary transformers
 dev-haskell/sha -exe
 dev-haskell/skylighting -executable
 dev-haskell/stack -integration-tests
+dev-haskell/stack-bin symlink
 dev-haskell/texmath -executable
 dev-haskell/tls -hans
 dev-haskell/transformers-base -orphaninstances

@@ -1,6 +1,6 @@
 app-editors/emacs -motif
-app-editors/emacs -Xaw3d athena ### no need for fancy stuff
-app-editors/emacs -gtk -gtk3
+app-editors/emacs -Xaw3d -athena ### no need for fancy stuff
+app-editors/emacs gtk gtk3
 app-editors/emacs xft
 app-editors/emacs -alsa -sound
 app-editors/emacs -gif jpeg png -svg -tiff xpm

@@ -27,6 +27,7 @@ app-emacs/avy
 app-emacs/avy-flycheck
 app-emacs/cmake-mode
 app-emacs/color-identifiers-mode
+app-emacs/company
 app-emacs/company-auctex
 app-emacs/company-c-headers
 app-emacs/company-cabal
@@ -212,6 +213,7 @@ dev-haskell/doctest
 dev-haskell/haddock
 dev-haskell/hakyll
 dev-haskell/hasktags
+dev-haskell/hmatrix
 dev-haskell/hoogle
 dev-haskell/hpack
 dev-haskell/hspec
@@ -224,10 +226,15 @@ dev-haskell/ncurses
 dev-haskell/numbers
 dev-haskell/primes
 dev-haskell/random-shuffle
+dev-haskell/sdl
+dev-haskell/sdl-image
+dev-haskell/sdl-ttf
 dev-haskell/semigroupoids
 dev-haskell/split
+dev-haskell/stack-bin
 dev-haskell/stylish-haskell
 dev-haskell/xmonad-screenshot
+dev-lang/R
 dev-lang/ghc
 dev-lang/rust
 dev-lisp/clisp
@@ -265,7 +272,6 @@ media-fonts/efont-unicode
 media-fonts/font-misc-misc
 media-fonts/infinality-ultimate-meta
 media-fonts/tewi-font
-media-fonts/unifont
 media-gfx/imagemagick
 media-gfx/maim
 media-gfx/sxiv
@@ -315,7 +321,7 @@ net-vpn/tor
 net-wireless/iw
 net-wireless/wireless-tools
 sci-calculators/units
-sci-mathematics/gap
+sci-libs/scipy
 sci-visualization/gnuplot
 sys-apps/firejail
 sys-apps/hdparm
