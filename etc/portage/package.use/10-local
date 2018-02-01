@@ -62,7 +62,7 @@ games-fps/urbanterror client curl openal
 games-fps/xonotic alsa ode sdl
 games-roguelike/nethack experimental
 games-roguelike/stone-soup -luajit ncurses tiles ### throws SO if luajit is enabled
-games-simulation/openttd openmedia png truetype
+games-simulation/openttd aplaymidi openmedia png truetype
 games-util/dwarf-therapist qt5
 games-util/steam-client-meta steamfonts
 gnome-base/gnome-common autoconf-archive
@@ -110,7 +110,7 @@ net-dns/dnscrypt-proxy plugins
 net-firewall/firehol ipset
 net-fs/samba -gnutls -syslog
 net-im/bitlbee plugins purple
-net-irc/weechat alias buflist exec irc logger perl python scripts spell trigger
+net-irc/weechat alias buflist exec irc perl python scripts spell trigger
 net-libs/gnutls openpgp
 net-mail/mailutils sasl
 net-mail/notmuch crypt

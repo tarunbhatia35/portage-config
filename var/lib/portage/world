@@ -211,7 +211,6 @@ dev-haskell/constraints
 dev-haskell/dependent-map
 dev-haskell/doctest
 dev-haskell/haddock
-dev-haskell/hakyll
 dev-haskell/hasktags
 dev-haskell/hmatrix
 dev-haskell/hoogle
@@ -243,6 +242,7 @@ dev-python/matplotlib
 dev-python/mypy
 dev-python/notify2
 dev-python/numpy
+dev-python/pandas
 dev-python/pip
 dev-python/pygtk
 dev-python/pylint
