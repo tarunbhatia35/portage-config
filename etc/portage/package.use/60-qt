@@ -1,3 +1,4 @@
+dev-libs/qtkeychain qt5
 dev-qt/* X
 dev-qt/* alsa
 dev-qt/* dbus

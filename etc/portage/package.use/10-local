@@ -75,6 +75,7 @@ media-gfx/graphviz pdf
 media-gfx/imagemagick X jpeg png q32
 media-gfx/sxiv exif gif savedconfig
 media-libs/fontconfig-infinality nyx
+media-libs/freeimage jpeg png
 media-libs/freetype adobe-cff bzip2 cleartype_hinting harfbuzz infinality
 media-libs/gd fontconfig jpeg png truetype zlib
 media-libs/gegl cairo
@@ -112,6 +113,7 @@ net-fs/samba -gnutls -syslog
 net-im/bitlbee plugins purple
 net-irc/weechat alias buflist exec irc perl python scripts spell trigger
 net-libs/gnutls openpgp
+net-libs/libssh sftp
 net-mail/mailutils sasl
 net-mail/notmuch crypt
 net-misc/aria2 bittorrent libuv libxml2 ssh
@@ -119,6 +121,7 @@ net-misc/curl http2
 net-misc/dhcp client
 net-misc/iputils arping tracepath traceroute
 net-misc/networkmanager dhclient ncurses resolvconf wifi
+net-misc/nextcloud-client sftp
 net-misc/wicd ncurses
 net-p2p/go-ipfs-bin fuse
 net-p2p/mktorrent -ssl ### no LibreSSL support
@@ -126,7 +129,7 @@ net-vpn/openvpn lzo plugins ### for compressed .ovpn files
 net-wireless/aircrack-ng airdrop-ng airgraph-ng netlink
 net-wireless/lorcon python
 net-wireless/wpa_supplicant dbus -gnutls ### fails with "undefined symbol" to librt (sys-libs/glibc)?
-sci-libs/atlas fortran
+sci-libs/cholmod lapack metis
 sci-libs/hdf5 hl -threads
 sci-libs/umfpack cholmod
 sci-visualization/gnuplot X gd

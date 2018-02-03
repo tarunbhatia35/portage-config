@@ -1,9 +1,19 @@
-app-crypt/gentoo-keys no-collision.conf
 app-emacs/evil no-network-sandbox.conf
 app-emulation/wine no-tmpfs.conf
 dev-lang/ghc no-tmpfs.conf
-dev-lang/rust no-tmpfs.conf no-network-sandbox.conf safe-makeopts.conf
+dev-lang/rust no-tmpfs.conf no-network-sandbox.conf rust-makeopts.conf
+dev-python/numpy no-ccache.conf
 dev-qt/qtwebengine no-tmpfs.conf no-ccache.conf
+dpp-crypt/gentoo-keys no-collision.conf
+sci-libs/amd no-ccache.conf
+sci-libs/cholmod no-ccache.conf
+sci-libs/gsl no-ccache.conf
+sci-libs/metis no-ccache.conf
+sci-libs/scikit no-ccache.conf
+sci-libs/scikits_image no-ccache.conf
+sci-libs/scikits_learn no-ccache.conf
+sci-libs/scipy no-ccache.conf safe-flags.conf
+sci-libs/umfpack no-ccache.conf
 sys-devel/clang no-tmpfs.conf
 sys-devel/gcc no-tmpfs.conf
 sys-devel/llvm no-tmpfs.conf
