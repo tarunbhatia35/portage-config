@@ -60,6 +60,7 @@ dev-vcs/git blksha1 curl gpg highlight webdav
 games-fps/openarena curl openal vorbis
 games-fps/urbanterror client curl openal
 games-fps/xonotic alsa ode sdl
+games-roguelike/angband X ncurses
 games-roguelike/nethack experimental
 games-roguelike/stone-soup -luajit ncurses tiles ### throws SO if luajit is enabled
 games-simulation/openttd aplaymidi openmedia png truetype
@@ -147,7 +148,7 @@ sys-apps/miscfiles minimal
 sys-apps/net-tools arp hostname
 sys-apps/openrc unicode
 sys-apps/policycoreutils dbus
-sys-apps/portage ipc native-extensions
+sys-apps/portage ipc gentoo-dev native-extensions rsync-verify
 sys-apps/smartmontools daemon
 sys-apps/util-linux ncurses static-libs suid unicode
 sys-auth/pambase minimal sha512

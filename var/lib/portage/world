@@ -263,14 +263,15 @@ dev-util/dialog
 dev-util/golint
 dev-util/ltrace
 dev-util/radare2
+dev-util/rustfmt
 dev-util/scanmem
 dev-util/shellcheck
 dev-util/strace
 dev-util/valgrind
-dev-vcs/darcs
 dev-vcs/git
 dev-vcs/hub
 dev-vcs/rcs
+games-roguelike/angband
 games-roguelike/nethack
 games-roguelike/stone-soup
 games-simulation/openttd
@@ -278,7 +279,9 @@ games-util/steam-meta
 media-fonts/baekmuk-fonts
 media-fonts/efont-unicode
 media-fonts/font-misc-misc
+media-fonts/hasklig
 media-fonts/infinality-ultimate-meta
+media-fonts/monoid
 media-fonts/tewi-font
 media-gfx/imagemagick
 media-gfx/maim

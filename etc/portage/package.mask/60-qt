@@ -1,0 +1,15 @@
+### Waiting for LibreSSL patches
+>=dev-qt/qtcore-5.9.4
+>=dev-qt/qtdbus-5.9.4
+>=dev-qt/qtdeclarative-5.9.4
+>=dev-qt/qtgui-5.9.4
+>=dev-qt/qtmultimedia-5.9.4
+>=dev-qt/qtnetwork-5.9.4
+>=dev-qt/qtopengl-5.9.4
+>=dev-qt/qtprintsupport-5.9.4
+>=dev-qt/qtsql-5.9.4
+>=dev-qt/qttest-5.9.4
+>=dev-qt/qtwebchannel-5.9.4
+>=dev-qt/qtwebengine-5.9.4
+>=dev-qt/qtwidgets-5.9.4
+>=dev-qt/qtxml-5.9.4

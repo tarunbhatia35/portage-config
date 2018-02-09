@@ -111,6 +111,7 @@ dev-python/oauthlib                     PYTHON_TARGETS: python2_7
 dev-python/olefile                      PYTHON_TARGETS:             python3_6
 dev-python/openpyxl                     PYTHON_TARGETS:             python3_6
 dev-python/pandas                       PYTHON_TARGETS:             python3_6
+dev-python/parso                        PYTHON_TARGETS:             python3_6
 dev-python/path-py                      PYTHON_TARGETS:             python3_6
 dev-python/patsy                        PYTHON_TARGETS:             python3_6
 dev-python/pbr                          PYTHON_TARGETS: python2_7   python3_6
@@ -165,7 +166,7 @@ dev-python/setuptools_scm               PYTHON_TARGETS:             python3_6
 dev-python/sexpdata                     PYTHON_TARGETS: python2_7
 dev-python/simplegeneric                PYTHON_TARGETS:             python3_6
 dev-python/simplejson                   PYTHON_TARGETS:             python3_6
-dev-python/sip                          PYTHON_TARGETS: python2_7
+dev-python/sip                          PYTHON_TARGETS: python2_7   python3_6
 dev-python/six                          PYTHON_TARGETS: python2_7   python3_6
 dev-python/snakeoil                     PYTHON_TARGETS:             python3_6
 dev-python/snowballstemmer              PYTHON_TARGETS:             python3_6

@@ -4,4 +4,3 @@
 app-crypt/keybase ** ### should always be pulled from upstream, misses crucial functinoality otherwise
 app-shells/tmux-bash-completion **
 dev-chicken/* **
-dev-haskell/stack **
