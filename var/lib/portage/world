@@ -20,7 +20,6 @@ app-editors/yi
 app-emacs/ag
 app-emacs/aggressive-indent
 app-emacs/all-the-icons
-app-emacs/all-the-icons-gnus
 app-emacs/auctex
 app-emacs/auto-compile
 app-emacs/avy
@@ -223,6 +222,8 @@ dev-haskell/math-functions
 dev-haskell/monad-loops
 dev-haskell/ncurses
 dev-haskell/numbers
+dev-haskell/parsec
+dev-haskell/parsec-extra
 dev-haskell/primes
 dev-haskell/random-shuffle
 dev-haskell/sdl
@@ -259,6 +260,7 @@ dev-python/werkzeug
 dev-python/wheel
 dev-scheme/chicken
 dev-util/ccache
+dev-util/cloc
 dev-util/dialog
 dev-util/golint
 dev-util/ltrace
@@ -361,7 +363,6 @@ sys-kernel/genkernel
 sys-kernel/gentoo-sources
 sys-kernel/linux-firmware
 sys-kernel/pf-sources
-sys-libs/libtermcap-compat
 sys-power/powertop
 sys-power/suspend
 sys-process/fcron

@@ -1,14 +1,17 @@
-app-emulation/wine-any X alsa d3d9 fontconfig jpeg nls opengl osmesa s3tc png staging truetype ABI_X86: 32
-app-emulation/winetricks rar
-virtual/wine d3d9 staging ABI_X86: 32
-
 app-arch/bzip2 ABI_X86: 32
 app-crypt/p11-kit ABI_X86: 32
+app-emulation/wine ABI_X86: 32
+app-emulation/wine-any ABI_X86: 32
+app-emulation/wine-d3d9 ABI_X86: 32
+app-emulation/wine-staging ABI_X86: 32
+app-emulation/wine-vanilla ABI_X86: 32
 dev-libs/expat ABI_X86: 32
 dev-libs/glib ABI_X86: 32
 dev-libs/gmp ABI_X86: 32
 dev-libs/icu ABI_X86: 32
 dev-libs/libffi ABI_X86: 32
+dev-libs/libgcrypt ABI_X86: 32
+dev-libs/libgpg-error ABI_X86: 32
 dev-libs/libpcre ABI_X86: 32
 dev-libs/libpthread ABI_X86: 32
 dev-libs/libpthread-stubs ABI_X86: 32
@@ -42,6 +45,7 @@ virtual/libiconv ABI_X86: 32
 virtual/libintl ABI_X86: 32
 virtual/opengl ABI_X86: 32
 virtual/pkgconfig ABI_X86: 32
+virtual/wine ABI_X86: 32
 x11-libs/libX11 ABI_X86: 32
 x11-libs/libXau ABI_X86: 32
 x11-libs/libXcursor ABI_X86: 32

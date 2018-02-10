@@ -1,2 +1,0 @@
->www-misc/profile-sync-daemon-5.45.1 ### only works with systemd
-dev-libs/openssl ### in favour of dev-libs/libressl

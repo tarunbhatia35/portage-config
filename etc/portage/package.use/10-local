@@ -8,6 +8,8 @@ app-editors/vim lua luajit python
 app-editors/yi hint vty
 app-emulation/docker container-init
 app-emulation/qemu sdl -gnutls
+app-emulation/wine-any X alsa d3d9 fontconfig jpeg nls opengl osmesa s3tc png staging truetype
+app-emulation/winetricks rar
 app-i18n/fcitx X cairo dbus gtk2 gtk3 pango
 app-i18n/mozc fcitx4
 app-laptop/laptop-mode-tools acpi
@@ -66,6 +68,7 @@ games-roguelike/stone-soup -luajit ncurses tiles ### throws SO if luajit is enab
 games-simulation/openttd aplaymidi openmedia png truetype
 games-util/dwarf-therapist qt5
 games-util/steam-client-meta steamfonts
+games-util/steam-games-meta s3tc steamgames_source_engine
 gnome-base/gnome-common autoconf-archive
 mail-client/mutt crypt gdbm pop sasl sidebar smtp
 media-fonts/baekmuk-fonts unicode
@@ -102,7 +105,7 @@ media-sound/milkytracker alsa
 media-sound/mpd alsa libsamplerate sqlite
 media-sound/mumble alsa
 media-sound/sox alsa
-media-video/ffmpeg X alsa encode gpl hardcoded-tables libressl mp3 network opengl opus vorbis vpx x264 xcb xvid
+media-video/ffmpeg X alsa encode gpl hardcoded-tables libressl mp3 network opengl opus vorbis vpx x264 xcb xvid zimg
 media-video/libav X alsa encode gpl hardcoded-tables mp3 network opus vorbis vpx x264 xvid
 media-video/mpv X alsa cli jpeg libass lua luajit opengl vaapi zlib
 net-analyzer/nmap ncat ndiff nping
