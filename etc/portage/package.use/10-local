@@ -37,6 +37,7 @@ dev-games/ode double-precision
 dev-lang/R minimal
 dev-lang/go gccgo
 dev-libs/boost icu nls ### needed for media-sound/ncmpcpp
+dev-libs/elfutils static-libs
 dev-libs/elfutils utils
 dev-libs/glib dbus mime utils
 dev-libs/gmime smime
@@ -74,6 +75,7 @@ mail-client/mutt crypt gdbm pop sasl sidebar smtp
 media-fonts/baekmuk-fonts unicode
 media-fonts/infinality-ultimate-meta free minimal latin ms L10N: ja
 media-fonts/noto cjk
+media-fonts/siji pcf
 media-fonts/tewi-font pcf
 media-gfx/graphviz pdf
 media-gfx/imagemagick X jpeg png q32
@@ -105,7 +107,7 @@ media-sound/milkytracker alsa
 media-sound/mpd alsa libsamplerate sqlite
 media-sound/mumble alsa
 media-sound/sox alsa
-media-video/ffmpeg X alsa encode gpl hardcoded-tables libressl mp3 network opengl opus vorbis vpx x264 xcb xvid zimg
+media-video/ffmpeg X alsa encode gpl hardcoded-tables libdrm mp3 network opengl openssl opus vorbis vpx x264 xcb xvid zimg
 media-video/libav X alsa encode gpl hardcoded-tables mp3 network opus vorbis vpx x264 xvid
 media-video/mpv X alsa cli jpeg libass lua luajit opengl vaapi zlib
 net-analyzer/nmap ncat ndiff nping
@@ -157,10 +159,10 @@ sys-apps/util-linux ncurses static-libs suid unicode
 sys-auth/pambase minimal sha512
 sys-boot/grub device-mapper ### LVM support
 sys-devel/binutils cxx
-sys-devel/clang default-compiler-rt default-libcxx static-analyzer
+sys-devel/clang default-compiler-rt default-libcxx static-analyzer xml
 sys-devel/clang-runtime compiler-rt libcxx sanitize
 sys-devel/gcc cxx fortran go
-sys-devel/gdb client
+sys-devel/gdb client xml
 sys-devel/llvm gold libffi ncurses
 sys-firmware/intel-microcode split-ucode ### to load alongside initramfs
 sys-firmware/seabios seavgabios
@@ -205,7 +207,7 @@ x11-libs/libxkbcommon X
 x11-libs/motif jpeg png unicode xft
 x11-libs/pango X
 x11-misc/compton opengl
-x11-misc/xmobar alsa mpd timezone xft
+x11-misc/xmobar alsa dbus inotify mpd timezone wifi with_conduit with_weather xft
 x11-misc/xmonad-extras alsa
 x11-terms/rxvt-unicode 256-color font-styles perl unicode3 xft ### minimal config with powerline support
 x11-terms/st savedconfig

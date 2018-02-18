@@ -24,6 +24,7 @@ dev-haskell/hlint emacs
 dev-libs/protobuf -emacs
 dev-python/cython -emacs
 dev-scheme/chicken emacs
+dev-util/cflow emacs
 dev-util/cmake emacs
 dev-util/desktop-file-utils -emacs
 dev-util/ninja emacs

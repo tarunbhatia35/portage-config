@@ -17,6 +17,7 @@ dev-haskell/gtk2hs-buildtools closuresignals
 dev-haskell/hakyll checkexternal previewserver watchserver
 dev-haskell/hashtables bounds-checking
 dev-haskell/hlint gpl
+dev-haskell/hoogle fetchdb fetchdb-ghc localdb
 dev-haskell/hslua -apicheck -luajit -system-lua ### build fails with any of these
 dev-haskell/http-api-data use-text-show
 dev-haskell/json generic mapdict parsec pretty
