@@ -51,3 +51,5 @@ dev-haskell/x11 -screensaver
 dev-haskell/yaml no-examples no-exe no-unicode
 dev-haskell/zip-archive -executable
 dev-haskell/zlib -non-blocking-ffi
+dev-lang/ghc -binary -ghcbootstrap -ghcmakebinary
+dev-lang/idris ffi

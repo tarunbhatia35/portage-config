@@ -12,6 +12,8 @@ app-admin/syslog-ng
 app-arch/atool
 app-arch/cfv
 app-arch/lz4
+app-arch/unrar
+app-arch/unzip
 app-crypt/gentoo-keys
 app-crypt/keybase
 app-editors/emacs
@@ -157,10 +159,9 @@ app-emacs/yasnippet
 app-emacs/ycmd
 app-emulation/qemu
 app-emulation/spim
-app-emulation/wine-any
-app-emulation/winetricks
 app-forensics/rkhunter
 app-i18n/fcitx
+app-i18n/fcitx-qt5
 app-i18n/mozc
 app-laptop/laptop-mode-tools
 app-laptop/thinkfan
@@ -219,7 +220,6 @@ dev-haskell/haddock
 dev-haskell/happy
 dev-haskell/hasktags
 dev-haskell/hmatrix
-dev-haskell/hoogle
 dev-haskell/hpack
 dev-haskell/hspec
 dev-haskell/intero
@@ -301,7 +301,6 @@ games-roguelike/angband
 games-roguelike/nethack
 games-roguelike/stone-soup
 games-simulation/openttd
-games-util/steam-meta
 media-fonts/baekmuk-fonts
 media-fonts/efont-unicode
 media-fonts/font-misc-misc
@@ -375,7 +374,6 @@ sys-apps/the_silver_searcher
 sys-apps/usbutils
 sys-block/parted
 sys-boot/grub:2
-sys-devel/boost-m4
 sys-devel/calc
 sys-devel/clang
 sys-devel/delve
@@ -401,7 +399,6 @@ sys-process/glances
 sys-process/htop
 sys-process/iotop
 sys-process/lsof
-www-client/firefox
 www-client/qutebrowser
 www-client/w3m
 www-misc/profile-sync-daemon

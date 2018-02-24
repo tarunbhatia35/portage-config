@@ -1,7 +1,7 @@
 app-admin/logrotate bzip2
 app-admin/pass X
 app-arch/libarchive bzip2
-app-arch/tar minimal ### provide only /usr/bin/tar
+app-arch/tar minimal ### Provide only /usr/bin/tar
 app-crypt/pinentry ncurses
 app-editors/nano minimal
 app-editors/vim lua luajit python
@@ -36,9 +36,8 @@ dev-db/sqlite secure-delete
 dev-games/ode double-precision
 dev-lang/R minimal
 dev-lang/go gccgo
-dev-libs/boost icu nls ### needed for media-sound/ncmpcpp
-dev-libs/elfutils static-libs
-dev-libs/elfutils utils
+dev-libs/boost icu nls ### Needed for media-sound/ncmpcpp
+dev-libs/elfutils static-libs utils
 dev-libs/glib dbus mime utils
 dev-libs/gmime smime
 dev-libs/gmp asm
@@ -65,7 +64,7 @@ games-fps/urbanterror client curl openal
 games-fps/xonotic alsa ode sdl
 games-roguelike/angband X ncurses
 games-roguelike/nethack experimental
-games-roguelike/stone-soup -luajit ncurses tiles ### throws SO if luajit is enabled
+games-roguelike/stone-soup -luajit ncurses tiles ### Throws SO if luajit is enabled
 games-simulation/openttd aplaymidi openmedia png truetype
 games-util/dwarf-therapist qt5
 games-util/steam-client-meta steamfonts
@@ -87,7 +86,7 @@ media-libs/gd fontconfig jpeg png truetype zlib
 media-libs/gegl cairo
 media-libs/harfbuzz fontconfig glib graphite icu truetype
 media-libs/imlib2 X gif jpeg png ### w3mimgdisplay from www-client/w3m requires proper format support
-media-libs/libass harfbuzz fontconfig ### leads to really shitty behavior in media-video/mpv
+media-libs/libass harfbuzz fontconfig ### Leads to really shitty behavior in media-video/mpv
 media-libs/libepoxy X
 media-libs/libmypaint gegl
 media-libs/libpng apng
@@ -130,23 +129,23 @@ net-misc/networkmanager dhclient ncurses resolvconf wifi
 net-misc/nextcloud-client sftp
 net-misc/wicd ncurses
 net-p2p/go-ipfs-bin fuse
-net-p2p/mktorrent -ssl ### no LibreSSL support
-net-vpn/openvpn lzo plugins ### for compressed .ovpn files
+net-p2p/mktorrent -ssl ### No LibreSSL support
+net-vpn/openvpn lzo plugins ### For compressed .ovpn files
 net-wireless/aircrack-ng airdrop-ng airgraph-ng netlink
 net-wireless/lorcon python
-net-wireless/wpa_supplicant dbus -gnutls ### fails with "undefined symbol" to librt (sys-libs/glibc)?
+net-wireless/wpa_supplicant dbus -gnutls ### Fails with "undefined symbol" to librt (sys-libs/glibc)?
 sci-libs/cholmod lapack metis
 sci-libs/hdf5 hl -threads
 sci-libs/umfpack cholmod
 sci-visualization/gnuplot X gd
-sys-apps/busybox -syslog ### not needed
+sys-apps/busybox -syslog
 sys-apps/dbus X ### x11-misc/dunst depends on dbus connection
 sys-apps/debianutils installkernel
 sys-apps/dstat wifi
 sys-apps/firejail bind contrib chroot file-transfer network
-sys-apps/hwids net pci udev usb ## we need all dbs
+sys-apps/hwids net pci udev usb
 sys-apps/iproute2 iptables
-sys-apps/kmod tools ### conflicts with sys-apps/modutils
+sys-apps/kmod tools ### Conflicts with sys-apps/modutils
 sys-apps/less unicode
 sys-apps/man-db gdbm manpager
 sys-apps/miscfiles minimal
@@ -164,7 +163,7 @@ sys-devel/clang-runtime compiler-rt libcxx sanitize
 sys-devel/gcc cxx fortran go
 sys-devel/gdb client xml
 sys-devel/llvm gold libffi ncurses
-sys-firmware/intel-microcode split-ucode ### to load alongside initramfs
+sys-firmware/intel-microcode split-ucode ### To load alongside initramfs
 sys-firmware/seabios seavgabios
 sys-fs/cryptsetup gcrypt
 sys-fs/eudev hwdb
@@ -190,7 +189,7 @@ sys-process/tini static
 www-client/firefox eme-free hwaccel nsplugin
 www-client/palemoon alsa devtools gtk3 official-branding optimize
 www-client/seamonkey ipc
-www-client/w3m X imlib ### support for app-misc/ranger image previews
+www-client/w3m X imlib ### Support for app-misc/ranger image previews
 x11-apps/mesa-progs egl gles2
 x11-apps/xinit minimal
 x11-base/xorg-server udev glamor xorg xvfb
@@ -209,9 +208,9 @@ x11-libs/pango X
 x11-misc/compton opengl
 x11-misc/xmobar alsa dbus inotify mpd timezone wifi with_conduit with_weather xft
 x11-misc/xmonad-extras alsa
-x11-terms/rxvt-unicode 256-color font-styles perl unicode3 xft ### minimal config with powerline support
+x11-terms/rxvt-unicode 256-color font-styles perl unicode3 xft
 x11-terms/st savedconfig
-x11-terms/st savedconfig
+x11-terms/xst savedconfig
 x11-terms/xterm truetype unicode
 x11-wm/dwm savedconfig
 x11-wm/openbox session
