@@ -5,6 +5,7 @@
 */* ecdsa
 */* gmp ### support for GNU MP
 */* gnutls
+*/* ipv6
 */* jemalloc
 */* jit
 */* openmp ### support parallel computing
@@ -62,3 +63,6 @@ media-sound/* id3tag
 media-sound/* mad
 sys-kernel/* experimental
 virtual/* -* ABI_X86: 64 ### try to avoid confusion
+x11-apps/* -ipv6
+x11-base/* -ipv6
+x11-libs/* -ipv6

@@ -1,4 +1,5 @@
 app-crypt/keybase ** ### should always be pulled from upstream, misses crucial functinoality otherwise
+app-emulation/docker-cli **
 app-shells/tmux-bash-completion **
 dev-chicken/* **
 dev-util/rusty-tags **

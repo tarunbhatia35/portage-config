@@ -2,12 +2,14 @@ app-admin/logrotate bzip2
 app-admin/pass X
 app-arch/libarchive bzip2
 app-arch/tar minimal ### Provide only /usr/bin/tar
+app-arch/zip natspec
 app-crypt/pinentry ncurses
 app-editors/nano minimal
 app-editors/vim lua luajit python
 app-editors/yi hint vty
-app-emulation/docker container-init
-app-emulation/qemu sdl -gnutls
+app-emulation/docker container-init device-mapper overlay
+app-emulation/libvirt dbus libvirtd lvm macvtap parted pcap qemu sasl virt-network wireshark-plugins
+app-emulation/qemu sasl sdl vhost-net
 app-emulation/wine-any X alsa d3d9 fontconfig jpeg nls opengl osmesa s3tc png staging truetype
 app-emulation/winetricks rar
 app-i18n/fcitx X cairo dbus gtk2 gtk3 pango
@@ -36,6 +38,8 @@ dev-db/sqlite secure-delete
 dev-games/ode double-precision
 dev-lang/R minimal
 dev-lang/go gccgo
+dev-lang/mono minimal
+dev-lang/spidermonkey minimal
 dev-libs/boost icu nls ### Needed for media-sound/ncmpcpp
 dev-libs/elfutils static-libs utils
 dev-libs/glib dbus mime utils
@@ -110,10 +114,13 @@ media-video/ffmpeg X alsa encode gpl hardcoded-tables libdrm mp3 network opengl 
 media-video/libav X alsa encode gpl hardcoded-tables mp3 network opus vorbis vpx x264 xvid
 media-video/mpv X alsa cli jpeg libass lua luajit opengl vaapi zlib
 net-analyzer/nmap ncat ndiff nping
-net-analyzer/tcpdump drop-root
+net-analyzer/tcpdump drop-root smi
+net-analyzer/vnstat gd
 net-analyzer/wireshark dumpcap editcap mergecap netlink pcap randpkt randpktdump reordercap sharkd text2pcap tshark udpdump
 net-dns/dnscrypt-proxy plugins
+net-dns/dnsmasq conntrack dhcp dhcp-tools dnssec script
 net-firewall/firehol ipset
+net-firewall/iptables conntrack
 net-fs/samba -gnutls -syslog
 net-im/bitlbee plugins purple
 net-irc/weechat alias buflist exec irc perl python scripts spell trigger
@@ -124,7 +131,8 @@ net-mail/notmuch crypt
 net-misc/aria2 bittorrent libuv libxml2 ssh
 net-misc/curl http2
 net-misc/dhcp client
-net-misc/iputils arping tracepath traceroute
+net-misc/iputils arping nettle tracepath traceroute
+net-misc/mosh client
 net-misc/networkmanager dhclient ncurses resolvconf wifi
 net-misc/nextcloud-client sftp
 net-misc/wicd ncurses
@@ -156,6 +164,7 @@ sys-apps/portage ipc gentoo-dev native-extensions rsync-verify
 sys-apps/smartmontools daemon
 sys-apps/util-linux ncurses static-libs suid unicode
 sys-auth/pambase minimal sha512
+sys-block/parted device-mapper
 sys-boot/grub device-mapper ### LVM support
 sys-devel/binutils cxx
 sys-devel/clang default-compiler-rt default-libcxx static-analyzer xml
@@ -167,6 +176,7 @@ sys-firmware/intel-microcode split-ucode ### To load alongside initramfs
 sys-firmware/seabios seavgabios
 sys-fs/cryptsetup gcrypt
 sys-fs/eudev hwdb
+sys-fs/lvm2 thin
 sys-kernel/genkernel cryptsetup firmware
 sys-kernel/linux-docs html
 sys-kernel/linux-firmware savedconfig
@@ -192,7 +202,7 @@ www-client/seamonkey ipc
 www-client/w3m X imlib ### Support for app-misc/ranger image previews
 x11-apps/mesa-progs egl gles2
 x11-apps/xinit minimal
-x11-base/xorg-server udev glamor xorg xvfb
+x11-base/xorg-server glamor udev xorg xvfb
 x11-drivers/xf86-video-intel dri dri3 sna xvmc
 x11-libs/cairo X glib svg xcb
 x11-libs/gdk-pixbuf X jpeg

@@ -37,3 +37,7 @@ sci-libs/mkl::gentoo
 virtual/blas::gentoo
 virtual/cblas::gentoo
 virtual/lapack::gentoo
+
+app-arch/xz-utils::gentoo-playground
+
+net-ftp/lftp::gentoo
