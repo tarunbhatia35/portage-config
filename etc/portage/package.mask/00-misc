@@ -1,6 +1,4 @@
 >app-text/mupdf-1.11-r2 ### Requires FreeGLUT even when OpenGL is disabled
 >app-text/zathura-pdf-mupdf-0.3.1 ### Pulls broken app-text/mupdf-1.12.0
->dev-lisp/clisp-2.49.60 ### Breaks
->net-dns/dnscrypt-proxy-1.9.5-r1 ### Everything breaks
 >www-misc/profile-sync-daemon-5.45.1 ### Only works with systemd
 dev-libs/openssl ### In favour of dev-libs/libressl

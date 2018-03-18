@@ -39,5 +39,3 @@ virtual/cblas::gentoo
 virtual/lapack::gentoo
 
 app-arch/xz-utils::gentoo-playground
-
-net-ftp/lftp::gentoo

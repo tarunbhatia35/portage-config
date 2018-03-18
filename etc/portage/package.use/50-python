@@ -1,5 +1,4 @@
 dev-lang/python:2.7 ncurses sqlite xml
-dev-lang/python:3.5/3.5m xml
 dev-lang/python:3.6/3.6m ncurses sqlite xml
 
 dev-python/PyQt5 declarative gui multimedia network opengl printsupport sql webchannel webengine widgets

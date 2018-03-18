@@ -2,4 +2,7 @@ app-crypt/keybase ** ### should always be pulled from upstream, misses crucial f
 app-emulation/docker-cli **
 app-shells/tmux-bash-completion **
 dev-chicken/* **
+dev-libs/gnulib **
 dev-util/rusty-tags **
+net-ftp/lftp **
+net-vpn/openvpn -~amd64

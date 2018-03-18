@@ -3,6 +3,7 @@
 */*::haskell network network-uri use-network-uri
 dev-haskell/aeson-pretty lib-only
 dev-haskell/bifunctors semigroups
+dev-haskell/cabal-install -parsec
 dev-haskell/cairo -pdf -postscript -svg
 dev-haskell/certificate -executable
 dev-haskell/cmdargs quotation
@@ -14,6 +15,7 @@ dev-haskell/glib closure_signals
 dev-haskell/gnuplot executepipe executeshell
 dev-haskell/gtk -deprecated fmode-binary gio
 dev-haskell/gtk2hs-buildtools closuresignals
+dev-haskell/haddock-library -doc -hoogle -hscolour ### breaks for some reason
 dev-haskell/hakyll checkexternal previewserver watchserver
 dev-haskell/hashtables bounds-checking
 dev-haskell/hlint gpl

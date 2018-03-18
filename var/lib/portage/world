@@ -19,7 +19,6 @@ app-crypt/gentoo-keys
 app-crypt/keybase
 app-editors/emacs
 app-editors/vim
-app-editors/yi
 app-emacs/ag
 app-emacs/aggressive-indent
 app-emacs/all-the-icons
@@ -83,7 +82,6 @@ app-emacs/flycheck-pos-tip
 app-emacs/flycheck-rust
 app-emacs/framemove
 app-emacs/ggtags
-app-emacs/ghc-mod
 app-emacs/git-gutter
 app-emacs/git-gutter-fringe+
 app-emacs/gitattributes-mode
@@ -206,7 +204,6 @@ app-shells/gentoo-zsh-completions
 app-shells/zsh
 app-shells/zsh-completions
 app-text/antiword
-app-text/apvlv
 app-text/pandoc
 app-text/texlive
 app-text/tree
@@ -224,14 +221,16 @@ dev-haskell/dbus
 dev-haskell/dependent-map
 dev-haskell/doctest
 dev-haskell/haddock
+dev-haskell/hakyll
 dev-haskell/happy
 dev-haskell/hasktags
-dev-haskell/hmatrix
+dev-haskell/hoogle
 dev-haskell/hpack
 dev-haskell/hspec
-dev-haskell/intero
+dev-haskell/hunit
 dev-haskell/lens
 dev-haskell/math-functions
+dev-haskell/microlens
 dev-haskell/monad-loops
 dev-haskell/mwc-random
 dev-haskell/ncurses
@@ -245,14 +244,16 @@ dev-haskell/sdl
 dev-haskell/sdl-image
 dev-haskell/sdl-ttf
 dev-haskell/semigroupoids
+dev-haskell/semigroups
 dev-haskell/split
 dev-haskell/statistics
 dev-haskell/stylish-haskell
 dev-haskell/vector
-dev-haskell/xmonad-screenshot
 dev-lang/R
+dev-lang/ghc
 dev-lang/go
 dev-lang/rust
+dev-libs/libsodium
 dev-lisp/alexandria
 dev-lisp/anaphora
 dev-lisp/cffi
@@ -352,6 +353,7 @@ net-libs/libnsl
 net-mail/notmuch
 net-misc/adjtimex
 net-misc/aria2
+net-misc/bridge-utils
 net-misc/networkmanager
 net-misc/ntp
 net-misc/nyx
@@ -381,6 +383,7 @@ sys-apps/pmount
 sys-apps/smartmontools
 sys-apps/the_silver_searcher
 sys-apps/usbutils
+sys-apps/usermode-utilities
 sys-block/parted
 sys-boot/grub:2
 sys-devel/calc

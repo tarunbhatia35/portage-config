@@ -70,7 +70,6 @@ games-roguelike/angband X ncurses
 games-roguelike/nethack experimental
 games-roguelike/stone-soup -luajit ncurses tiles ### Throws SO if luajit is enabled
 games-simulation/openttd aplaymidi openmedia png truetype
-games-util/dwarf-therapist qt5
 games-util/steam-client-meta steamfonts
 games-util/steam-games-meta s3tc steamgames_source_engine
 gnome-base/gnome-common autoconf-archive

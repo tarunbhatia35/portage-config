@@ -10,7 +10,7 @@ sci-libs/amd no-ccache.conf
 sci-libs/cholmod no-ccache.conf
 sci-libs/gsl no-ccache.conf
 sci-libs/metis no-ccache.conf
-sci-libs/scikit no-ccache.conf
+sci-libs/scikits no-ccache.conf
 sci-libs/scikits_image no-ccache.conf
 sci-libs/scikits_learn no-ccache.conf
 sci-libs/scipy no-ccache.conf safe-flags.conf
