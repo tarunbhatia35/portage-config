@@ -137,6 +137,7 @@ app-emacs/rainbow-delimiters
 app-emacs/request
 app-emacs/restart-emacs
 app-emacs/rust-mode
+app-emacs/scheme-complete
 app-emacs/slime
 app-emacs/slime-company
 app-emacs/smart-mode-line
@@ -171,6 +172,7 @@ app-i18n/fcitx-qt5
 app-i18n/mozc
 app-laptop/laptop-mode-tools
 app-laptop/thinkfan
+app-misc/anki
 app-misc/colordiff
 app-misc/detox
 app-misc/grc
@@ -223,6 +225,7 @@ dev-haskell/doctest
 dev-haskell/haddock
 dev-haskell/hakyll
 dev-haskell/happy
+dev-haskell/haskeline
 dev-haskell/hasktags
 dev-haskell/hoogle
 dev-haskell/hpack

@@ -1,7 +1,7 @@
 dev-lang/python:2.7 ncurses sqlite xml
 dev-lang/python:3.6/3.6m ncurses sqlite xml
 
-dev-python/PyQt5 declarative gui multimedia network opengl printsupport sql webchannel webengine widgets
+dev-python/PyQt5 declarative gui multimedia network opengl printsupport sql svg webchannel webengine widgets
 dev-python/networkx scipy
 dev-python/nltk numpy
 dev-python/numpy lapack
@@ -25,6 +25,7 @@ app-emulation/docker-compose            PYTHON_TARGETS:             python3_6
 app-emulation/qemu                      PYTHON_TARGETS: python2_7
 app-misc/anki                           PYTHON_TARGETS:             python3_6
 app-misc/grc                            PYTHON_TARGETS:             python3_6
+app-misc/pax-utils                      PYTHON_TARGETS:             python3_6
 app-misc/ranger                         PYTHON_TARGETS:             python3_6
 app-portage/diffmask                    PYTHON_TARGETS:             python3_6
 app-portage/elogv                       PYTHON_TARGETS: python2_7
@@ -104,6 +105,7 @@ dev-python/lazy-object-proxy            PYTHON_TARGETS: python2_7   python3_6
 dev-python/linecache2                   PYTHON_TARGETS: python2_7   python3_6
 dev-python/lxml                         PYTHON_TARGETS: python2_7   python3_6
 dev-python/m2crypto                     PYTHON_TARGETS: python2_7
+dev-python/markdown                     PYTHON_TARGETS:             python3_6
 dev-python/markdown2                    PYTHON_TARGETS:             python3_6
 dev-python/markupsafe                   PYTHON_TARGETS:             python3_6
 dev-python/matplotlib                   PYTHON_TARGETS:             python3_6
@@ -179,6 +181,8 @@ dev-python/ropemacs                     PYTHON_TARGETS: python2_7
 dev-python/rpy                          PYTHON_TARGETS:             python3_6
 dev-python/rsa                          PYTHON_TARGETS:             python3_6
 dev-python/secretstorage                PYTHON_TARGETS:             python3_6
+dev-python/selenium                     PYTHON_TARGETS:             python3_6
+dev-python/send2trash                   PYTHON_TARGETS:             python3_6
 dev-python/setuptools                   PYTHON_TARGETS: python2_7   python3_6
 dev-python/setuptools_scm               PYTHON_TARGETS:             python3_6
 dev-python/sexpdata                     PYTHON_TARGETS: python2_7
@@ -263,6 +267,7 @@ x11-misc/compton                        PYTHON_TARGETS:             python3_6
 x11-proto/xcb-proto                     PYTHON_TARGETS: python2_7   python3_6
 
 app-editors/vim                         PYTHON_SINGLE_TARGET: python3_6
+app-misc/pax-utils                      PYTHON_SINGLE_TARGET: python3_6
 app-portage/elogviewer                  PYTHON_SINGLE_TARGET: python2_7
 app-text/asciidoc                       PYTHON_SINGLE_TARGET: python2_7
 net-irc/weechat                         PYTHON_SINGLE_TARGET: python2_7
