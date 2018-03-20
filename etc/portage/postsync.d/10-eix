@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+[[ -e /var/cache/eix/portage.eix ]] && \
+	cp -v -a /var/cache/eix/portage.eix /var/cache/eix/previous.eix
+
+eix-update
+
+[[ -e /var/cache/eix/previous.eix ]] && \
+	eix-diff
