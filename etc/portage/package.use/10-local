@@ -5,11 +5,11 @@ app-arch/tar minimal ### Provide only /usr/bin/tar
 app-arch/zip natspec
 app-crypt/pinentry ncurses
 app-editors/nano minimal
-app-editors/vim lua luajit python
+app-editors/vim X lua luajit python
 app-editors/yi hint vty
 app-emulation/docker container-init device-mapper overlay
-app-emulation/libvirt dbus libvirtd lvm macvtap parted pcap qemu sasl virt-network wireshark-plugins
-app-emulation/qemu sasl sdl vhost-net
+app-emulation/libvirt dbus libvirtd lvm parted pcap qemu virt-network wireshark-plugins
+app-emulation/qemu -gnutls sdl vhost-net
 app-emulation/wine-any X alsa d3d9 fontconfig jpeg nls opengl osmesa s3tc png staging truetype
 app-emulation/winetricks rar
 app-i18n/fcitx X cairo dbus gtk2 gtk3 pango
@@ -25,7 +25,7 @@ app-shells/mpv-bash-completion luajit
 app-shells/zsh unicode
 app-text/apvlv djvu
 app-text/asciidoc highlight
-app-text/aspell L10N: ru LINGUAS: ru
+app-text/aspell L10N: ru
 app-text/hunspell L10N: ru
 app-text/lcdf-typetools kpathsea
 app-text/mupdf X
@@ -44,18 +44,18 @@ dev-libs/boost icu nls ### Needed for media-sound/ncmpcpp
 dev-libs/elfutils static-libs utils
 dev-libs/glib dbus mime utils
 dev-libs/gmime smime
-dev-libs/gmp asm
 dev-libs/leveldb snappy
 dev-libs/libgcrypt static-libs
 dev-libs/libgpg-error static-libs
 dev-libs/libpcre pcre16 pcre32 recursion-limit unicode
 dev-libs/libpcre2 pcre16 pcre32 recursion-limit unicode
-dev-libs/libressl asm
-dev-libs/libsodium asm minimal
+dev-libs/libsodium minimal
 dev-libs/libverto libev
 dev-libs/libxml2 icu python
 dev-libs/nss cacert
+dev-lisp/clisp hyperspec unicode
 dev-scheme/racket places
+dev-scheme/snow-generic chicken
 dev-util/dialog minimal
 dev-util/ltrace unwind
 dev-util/pkgconfig internal-glib
@@ -76,7 +76,6 @@ gnome-base/gnome-common autoconf-archive
 mail-client/mutt crypt gdbm pop sasl sidebar smtp
 media-fonts/baekmuk-fonts unicode
 media-fonts/infinality-ultimate-meta free minimal latin ms L10N: ja
-media-fonts/noto cjk
 media-fonts/siji pcf
 media-fonts/tewi-font pcf
 media-gfx/graphviz pdf
@@ -98,7 +97,7 @@ media-libs/libsdl2 X alsa joystick sound video opengl
 media-libs/libsndfile alsa minimal
 media-libs/libvpx highbitdepth postproc svc
 media-libs/libwebp experimental swap-16bit-csp
-media-libs/mesa classic d3d9 dri3 egl gallium gbm gles1 gles2 llvm nptl osmesa xa xvmc vaapi
+media-libs/mesa classic d3d9 dri3 egl gallium gbm gles1 gles2 llvm osmesa xa xvmc
 media-libs/openal alsa
 media-libs/opusfile float
 media-libs/sdl-image jpeg png tiff
@@ -111,7 +110,7 @@ media-sound/mumble alsa
 media-sound/sox alsa
 media-video/ffmpeg X alsa encode gpl hardcoded-tables libdrm mp3 network opengl openssl opus vorbis vpx x264 xcb xvid zimg
 media-video/libav X alsa encode gpl hardcoded-tables mp3 network opus vorbis vpx x264 xvid
-media-video/mpv X alsa cli jpeg libass lua luajit opengl vaapi zlib
+media-video/mpv X alsa cli jpeg libass lua luajit opengl zlib
 net-analyzer/nmap ncat ndiff nping
 net-analyzer/tcpdump drop-root smi
 net-analyzer/vnstat gd
@@ -120,32 +119,31 @@ net-dns/dnscrypt-proxy plugins
 net-dns/dnsmasq conntrack dhcp dhcp-tools dnssec script
 net-firewall/firehol ipset
 net-firewall/iptables conntrack
-net-fs/samba -gnutls -syslog
+net-fs/samba -gnutls
 net-im/bitlbee plugins purple
 net-irc/weechat alias buflist exec irc perl python scripts spell trigger
-net-libs/gnutls openpgp
+net-libs/libsrtp openssl
 net-libs/libssh sftp
 net-mail/mailutils sasl
 net-mail/notmuch crypt
 net-misc/aria2 bittorrent libuv libxml2 ssh
 net-misc/curl http2
 net-misc/dhcp client
-net-misc/iputils arping nettle tracepath traceroute
+net-misc/iputils arping openssl tracepath traceroute
 net-misc/mosh client
 net-misc/networkmanager dhclient ncurses resolvconf wifi
 net-misc/nextcloud-client sftp
 net-misc/wicd ncurses
 net-p2p/go-ipfs-bin fuse
-net-p2p/mktorrent -ssl ### No LibreSSL support
+net-p2p/mktorrent ssl ### No LibreSSL support
 net-vpn/openvpn lzo plugins ### For compressed .ovpn files
 net-wireless/aircrack-ng airdrop-ng airgraph-ng netlink
 net-wireless/lorcon python
 net-wireless/wpa_supplicant dbus -gnutls ### Fails with "undefined symbol" to librt (sys-libs/glibc)?
 sci-libs/cholmod lapack metis
-sci-libs/hdf5 hl -threads
+sci-libs/hdf5 hl -threads ### Fails
 sci-libs/umfpack cholmod
 sci-visualization/gnuplot X gd
-sys-apps/busybox -syslog
 sys-apps/dbus X ### x11-misc/dunst depends on dbus connection
 sys-apps/debianutils installkernel
 sys-apps/dstat wifi
@@ -173,13 +171,12 @@ sys-devel/gdb client xml
 sys-devel/llvm gold libffi ncurses
 sys-firmware/intel-microcode split-ucode ### To load alongside initramfs
 sys-firmware/seabios seavgabios
-sys-fs/cryptsetup gcrypt
+sys-fs/cryptsetup openssl
 sys-fs/eudev hwdb
 sys-fs/lvm2 thin
 sys-kernel/genkernel cryptsetup firmware
 sys-kernel/linux-docs html
 sys-kernel/linux-firmware savedconfig
-sys-libs/compiler-rt clang
 sys-libs/glibc rpc
 sys-libs/ldb pyton
 sys-libs/ncurses unicode
@@ -195,25 +192,22 @@ sys-process/htop unicode
 sys-process/lsof rpc
 sys-process/procps kill modern-top ncurses unicode
 sys-process/tini static
-www-client/firefox eme-free hwaccel nsplugin
-www-client/palemoon alsa devtools gtk3 official-branding optimize
+www-client/firefox eme-free hwaccel
+www-client/palemoon alsa devtools gtk3 official-branding optimize shared-js
 www-client/seamonkey ipc
 www-client/w3m X imlib ### Support for app-misc/ranger image previews
 x11-apps/mesa-progs egl gles2
 x11-apps/xinit minimal
 x11-base/xorg-server glamor udev xorg xvfb
 x11-drivers/xf86-video-intel dri dri3 sna xvmc
-x11-libs/cairo X glib svg xcb
-x11-libs/gdk-pixbuf X jpeg
-x11-libs/gtk+ X
+x11-libs/cairo glib svg
+x11-libs/gdk-pixbuf jpeg
 x11-libs/libXaw3d unicode
 x11-libs/libXfont2 bzip2 truetype
-x11-libs/libva X egl drm opengl
-x11-libs/libva-intel-driver X drm
-x11-libs/libxcb xkb
-x11-libs/libxkbcommon X
+x11-libs/libva egl drm opengl
+x11-libs/libva-intel-driver drm
+x11-libs/libxkbcommon
 x11-libs/motif jpeg png unicode xft
-x11-libs/pango X
 x11-misc/compton opengl
 x11-misc/xmobar alsa dbus inotify mpd timezone wifi with_conduit with_weather xft
 x11-misc/xmonad-extras alsa

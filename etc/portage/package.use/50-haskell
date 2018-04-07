@@ -15,12 +15,12 @@ dev-haskell/glib closure_signals
 dev-haskell/gnuplot executepipe executeshell
 dev-haskell/gtk -deprecated fmode-binary gio
 dev-haskell/gtk2hs-buildtools closuresignals
-dev-haskell/haddock-library -doc -hoogle -hscolour ### breaks for some reason
+dev-haskell/haddock-library -doc -hoogle -hscolour ### Fails
 dev-haskell/hakyll checkexternal previewserver watchserver
 dev-haskell/hashtables bounds-checking
 dev-haskell/hlint gpl
 dev-haskell/hoogle fetchdb fetchdb-ghc localdb
-dev-haskell/hslua -apicheck -luajit -system-lua ### build fails with any of these
+dev-haskell/hslua luajit
 dev-haskell/http-api-data use-text-show
 dev-haskell/json generic mapdict parsec pretty
 dev-haskell/juicypixels mmap
@@ -35,7 +35,7 @@ dev-haskell/quickcheck template_haskell
 dev-haskell/reflection template-haskell
 dev-haskell/rfc5051 -mkunicodedata
 dev-haskell/sandi with-conduit
-dev-haskell/semigroupoids comonad containers contravariant distributive -tagged unordered-containers ### build fails with TAGGED
+dev-haskell/semigroupoids comonad containers contravariant distributive tagged unordered-containers
 dev-haskell/semigroups binary transformers
 dev-haskell/sha -exe
 dev-haskell/skylighting -executable
@@ -54,4 +54,5 @@ dev-haskell/yaml no-examples no-exe no-unicode
 dev-haskell/zip-archive -executable
 dev-haskell/zlib -non-blocking-ffi
 dev-lang/ghc -binary -ghcbootstrap -ghcmakebinary
-dev-lang/idris ffi
+media-sound/vimus -doc -hoogle -hscloour ### Haddock panic on ghc-8.2.2 while generating documantation
+www-client/hbro threaded

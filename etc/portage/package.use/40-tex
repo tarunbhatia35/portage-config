@@ -1,4 +1,5 @@
-*/* luajittex
-*/* xetex
+app-text/* luajittex
+app-text/* xetex
 app-text/texlive extra graphics png science truetype LINGUAS: ru L10N: ru
 app-text/zathura synctex
+dev-texlive/* luajittex

@@ -1,0 +1,9 @@
+*/*::dotnet developer
+*/*::dotnet gac
+*/*::dotnet net40 net45 net46
+*/*::dotnet pkg-config
+dev-dotnet/buildtools symlink
+dev-dotnet/dotnetzip-semverd nupkg symlink
+dev-dotnet/msbuildtasks msbuild symlink
+dev-dotnet/newtonsoft-json -pkg-config ### Depends on a non-existent package
+dev-util/msbuild roslyn

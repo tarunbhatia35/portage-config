@@ -1,8 +1,0 @@
-#dev-lang/rust doc
-#dev-util/cargo doc
-#sci-visualization/gnuplot doc
-#sys-apps/portage doc
-#sys-devel/clang doc
-#sys-devel/gcc doc
-#sys-devel/gdb doc
-#sys-devel/llvm doc

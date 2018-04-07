@@ -1,18 +1,16 @@
 =dev-haskell/cabal-2.0.1.0 **
 =dev-haskell/cabal-install-2.0.0.0 **
 =dev-haskell/haddock-2.18.1 **
-dev-haskell/cabal-helper **
-dev-haskell/haddock-api **
-dev-haskell/haddock-library **
-dev-lang/ghc:0/8.2.2 **
-
-### not sure
 app-editors/yi **
+dev-haskell/cabal-helper **
 dev-haskell/cpphs **
 dev-haskell/dynamic-state **
+dev-haskell/haddock-api **
+dev-haskell/haddock-library **
 dev-haskell/haskeline **
 dev-haskell/haskell-src-exts **
 dev-haskell/hmatrix **
 dev-haskell/intero **
 dev-haskell/stylish-haskell **
 dev-haskell/terminfo **
+dev-lang/ghc:0/8.2.2 **

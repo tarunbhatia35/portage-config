@@ -1,16 +1,19 @@
-app-editors/emacs -motif
-app-editors/emacs -Xaw3d -athena ### no need for fancy stuff
-app-editors/emacs gtk gtk3
-app-editors/emacs xft
-app-editors/emacs -alsa -sound
+app-editors/emacs -Xaw3d -athena
 app-editors/emacs -gif jpeg png -svg -tiff xpm
+app-editors/emacs -motif
 app-editors/emacs X
-app-editors/emacs gsettings ### to be able to find system fonts
+app-editors/emacs alsa sound
 app-editors/emacs dynamic-loading
+app-editors/emacs gfile
+app-editors/emacs gsettings ### to be able to find system fonts
+app-editors/emacs gtk gtk3
+app-editors/emacs inotify
 app-editors/emacs libxml2
+app-editors/emacs xft
+app-eritors/emacs wide-int
 
 app-emacs/auctex preview-latex
-app-emacs/company-mode ropemacs ### gives errors if not build with this flag
+app-emacs/company-mode ropemacs
 app-emacs/emacs-common-gentoo X
 app-emacs/org-mode contrib
 
@@ -19,19 +22,13 @@ app-admin/pass emacs
 app-crypt/pinentry emacs
 app-emacs/ghc-mod emacs
 app-emacs/hindent emacs
-app-i18n/mozc -emacs
 dev-haskell/hlint emacs
-dev-libs/protobuf -emacs
-dev-python/cython -emacs
 dev-scheme/chicken emacs
 dev-util/cflow emacs
 dev-util/cmake emacs
-dev-util/desktop-file-utils -emacs
 dev-util/ninja emacs
 dev-vcs/git emacs
-net-mail/notmuch -emacs
-sci-mathematics/gap -emacs
+net-mail/notmuch -emacs ### Not up-to-date
 sys-devel/autoconf emacs
-sys-devel/gettext -emacs
 x11-wm/ratpoison emacs
 x11-wm/stumpwm emacs

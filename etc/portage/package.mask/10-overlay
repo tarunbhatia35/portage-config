@@ -1,15 +1,15 @@
 #*/*::azalay
+#*/*::dotnet
 #*/*::emacs
 #*/*::gnu-elpa
 #*/*::go-overlay
 #*/*::haskell
-#*/*::libressl
 #*/*::lisp
 #*/*::melpa
 #*/*::palemoon
 #*/*::pypi
 #*/*::python
-*/*::qt ### qt overlay conflicts with libressl overlay
+#*/*::qt
 #*/*::qutebrowser
 #*/*::rust
 #*/*::science
@@ -18,11 +18,11 @@
 #*/*::torbrowser
 #*/*::wine
 
-### Prefer haskell overlay for haskell-related emacs packages
+### Prefer ::haskell for Haskell related emacs packages
 app-emacs/haskell-mode::melpa
 app-emacs/hindent::melpa
 
-## BLAS and LAPACK stack in the science overlay is incompatible with main tree
+### BLAS and LAPACK stack in the ::science are incompatible with the main tree
 app-admin/eselect::gentoo
 app-doc/blas-docs::gentoo
 app-doc/lapack-docs::gentoo
@@ -38,4 +38,8 @@ virtual/blas::gentoo
 virtual/cblas::gentoo
 virtual/lapack::gentoo
 
+### Some of the ::gentoo-playground stuff is incompatable with the main tree
 app-arch/xz-utils::gentoo-playground
+
+### Rely on ::dotnet for .NET related packages
+www-servers/xsp::gentoo

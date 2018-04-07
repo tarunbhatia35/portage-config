@@ -75,6 +75,7 @@ dev-python/docker-pycreds               PYTHON_TARGETS:             python3_6
 dev-python/dockerpty                    PYTHON_TARGETS:             python3_6
 dev-python/docopt                       PYTHON_TARGETS:             python3_6
 dev-python/docutils                     PYTHON_TARGETS:             python3_6
+dev-python/entrypoints                  PYTHON_TARGETS:             python3_6
 dev-python/enum                         PYTHON_TARGETS: python2_7
 dev-python/enum34                       PYTHON_TARGETS: python2_7
 dev-python/et_xmlfile                   PYTHON_TARGETS:             python3_6
@@ -132,6 +133,7 @@ dev-python/parso                        PYTHON_TARGETS:             python3_6
 dev-python/path-py                      PYTHON_TARGETS:             python3_6
 dev-python/patsy                        PYTHON_TARGETS:             python3_6
 dev-python/pbr                          PYTHON_TARGETS: python2_7   python3_6
+dev-python/pep8                         PYTHON_TARGETS:             python3_6
 dev-python/pexpect                      PYTHON_TARGETS:             python3_6
 dev-python/pickleshare                  PYTHON_TARGETS:             python3_6
 dev-python/pillow                       PYTHON_TARGETS:             python3_6
@@ -234,6 +236,7 @@ dev-util/lldb                           PYTHON_TARGETS: python2_7
 dev-util/meson                          PYTHON_TARGETS:             python3_6
 dev-util/rr                             PYTHON_TARGETS: python2_7
 dev-util/scons                          PYTHON_TARGETS: python2_7
+gnome-base/gconf                        PYTHON_TARGETS: python2_7
 media-libs/mutagen                      PYTHON_TARGETS: python2_7
 media-sound/beets                       PYTHON_TARGETS: python2_7
 media-sound/marrie                      PYTHON_TARGETS: python2_7

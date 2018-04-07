@@ -1,6 +1,8 @@
-*/* aio ### enable support for Linux Async IO
+*/* aio ### Linux Async IO
+*/* asm
 */* branding ### Gentoo goodies
-*/* cron ### cron jobs
+*/* clang ### build with clang if possible
+*/* cron
 */* custom-cflags custom-optimization
 */* ecdsa
 */* gmp ### support for GNU MP
@@ -8,14 +10,12 @@
 */* ipv6
 */* jemalloc
 */* jit
-*/* openmp ### support parallel computing
+*/* openmp ### parallel computing
 */* pam ### enforce PAM-based auth
-*/* pgo
-*/* pic
-*/* pie
+*/* pgo ### profile guided optimization
+*/* pic pie ### position-independent code/executable
 */* readline
-*/* ssl libressl ### support SSL / use LibreSSL instead of OpenSSL
-*/* syslog
+*/* ssl
 */* system-binutils
 */* system-boost
 */* system-bzip2
@@ -55,8 +55,10 @@
 */* vim-syntax
 */* zsh-completion
 app-arch/* unicode
-games-util/*::steam-overlay steamruntime ### build with the default Steam runtime
+games-util/*::steam-overlay steamruntime
+media-fonts/* L10N: ja ru
 media-fonts/* X
+media-fonts/* cjk
 media-fonts/* nls
 media-sound/* flac
 media-sound/* id3tag
@@ -66,3 +68,6 @@ virtual/* -* ABI_X86: 64 ### try to avoid confusion
 x11-apps/* -ipv6
 x11-base/* -ipv6
 x11-libs/* -ipv6
+x11-libs/* X
+x11-libs/* xcb
+x11-libs/* xkb

@@ -5,7 +5,7 @@ repository_path="${3}"
 
 if [ -n "${repository_name}" ]
 then
-	q "${PORTAGE_QUIET:+-q}" --reinitialize="${repository_path}" || \
+	q --verbose --reinitialize="${repository_path}" || \
 		exit 1
 fi
 
