@@ -109,7 +109,6 @@ app-emacs/highlight-symbol
 app-emacs/hindent
 app-emacs/indent-guide
 app-emacs/ini-mode
-app-emacs/intero
 app-emacs/ix
 app-emacs/json-mode
 app-emacs/key-chord
@@ -233,6 +232,7 @@ dev-haskell/hakyll
 dev-haskell/happy
 dev-haskell/haskeline
 dev-haskell/hasktags
+dev-haskell/hlint
 dev-haskell/hoogle
 dev-haskell/hpack
 dev-haskell/hspec
@@ -262,6 +262,7 @@ dev-haskell/terminal-size
 dev-haskell/vector
 dev-lang/R
 dev-lang/ghc
+dev-lang/lua
 dev-lang/mono
 dev-libs/libsodium
 dev-lisp/alexandria
@@ -316,7 +317,6 @@ dev-util/vbindiff
 dev-vcs/git
 dev-vcs/hub
 dev-vcs/rcs
-dev-vcs/subversion
 media-fonts/baekmuk-fonts
 media-fonts/efont-unicode
 media-fonts/font-misc-misc
@@ -364,10 +364,12 @@ net-mail/notmuch
 net-misc/adjtimex
 net-misc/aria2
 net-misc/bridge-utils
+net-misc/httpie
 net-misc/networkmanager
 net-misc/ntp
 net-misc/nyx
 net-misc/socat
+net-misc/streamlink
 net-misc/whois
 net-misc/youtube-dl
 net-p2p/go-ipfs-bin
@@ -452,7 +454,6 @@ x11-misc/xclip
 x11-misc/xdotool
 x11-misc/xmobar
 x11-misc/xmonad-extras
-x11-misc/xmonad-utils
 x11-misc/xmonad-wallpaper
 x11-misc/xsnow
 x11-terms/rxvt-unicode

@@ -23,12 +23,13 @@ app-crypt/pinentry emacs
 app-emacs/ghc-mod emacs
 app-emacs/hindent emacs
 dev-haskell/hlint emacs
+dev-lang/lua -emacs
 dev-scheme/chicken emacs
 dev-util/cflow emacs
 dev-util/cmake emacs
 dev-util/ninja emacs
 dev-vcs/git emacs
-net-mail/notmuch -emacs ### Not up-to-date
+net-mail/notmuch -emacs
 sys-devel/autoconf emacs
 x11-wm/ratpoison emacs
 x11-wm/stumpwm emacs

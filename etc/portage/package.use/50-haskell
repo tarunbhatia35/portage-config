@@ -38,7 +38,7 @@ dev-haskell/sandi with-conduit
 dev-haskell/semigroupoids comonad containers contravariant distributive tagged unordered-containers
 dev-haskell/semigroups binary transformers
 dev-haskell/sha -exe
-dev-haskell/skylighting -executable
+dev-haskell/skylighting executable
 dev-haskell/stack -integration-tests
 dev-haskell/stack-bin symlink
 dev-haskell/texmath -executable

@@ -4,9 +4,8 @@ app-shells/tmux-bash-completion **
 dev-chicken/* **
 dev-haskell/utf8-string -~amd64
 dev-libs/gnulib **
-dev-qt/* -~amd64
 dev-scheme/c-wrapper **
 dev-util/cargo **
 dev-util/rusty-tags **
-net-ftp/lftp **
+net-misc/youtube-dl -~amd64
 net-vpn/openvpn -~amd64
