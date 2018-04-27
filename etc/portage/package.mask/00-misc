@@ -1,3 +1,4 @@
 >app-text/mupdf-1.11-r2 ### Requires FreeGLUT even when OpenGL is disabled
 >app-text/zathura-pdf-mupdf-0.3.1 ### Pulls broken app-text/mupdf-1.12.0
+>media-libs/mesa-18.0.1 ### Breaks everything
 >www-misc/profile-sync-daemon-5.45.1 ### Only works with systemd

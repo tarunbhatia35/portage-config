@@ -175,6 +175,7 @@ sys-firmware/seabios seavgabios
 sys-fs/cryptsetup openssl
 sys-fs/eudev hwdb
 sys-fs/lvm2 thin
+sys-fs/ntfs3g ntfsprogs
 sys-kernel/genkernel cryptsetup firmware
 sys-kernel/linux-docs html
 sys-kernel/linux-firmware savedconfig

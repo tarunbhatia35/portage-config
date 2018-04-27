@@ -285,6 +285,7 @@ dev-python/pandas
 dev-python/pep8
 dev-python/pillow
 dev-python/pip
+dev-python/pyaudio
 dev-python/pygtk
 dev-python/pylint
 dev-python/requests
