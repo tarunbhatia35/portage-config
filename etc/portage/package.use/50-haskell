@@ -1,11 +1,11 @@
-*/*::haskell -profile
 */*::haskell doc hoogle hscolour
 */*::haskell network network-uri use-network-uri
+*/*::haskell profile
+dev-haskell/* doc hoogle hscolour
+dev-haskell/* network network-uri use-network-uri
+dev-haskell/* profile
 dev-haskell/aeson-pretty lib-only
 dev-haskell/bifunctors semigroups
-dev-haskell/cabal-install -parsec
-dev-haskell/cairo -pdf -postscript -svg
-dev-haskell/certificate -executable
 dev-haskell/cmdargs quotation
 dev-haskell/comonad containers contravariant distributive
 dev-haskell/contravariant safe semigroups statevar tagged
@@ -13,13 +13,12 @@ dev-haskell/cryptonite integer-gmp support_sse
 dev-haskell/direct-sqlite fulltextsearch systemlib urifilenames
 dev-haskell/glib closure_signals
 dev-haskell/gnuplot executepipe executeshell
-dev-haskell/gtk -deprecated fmode-binary gio
+dev-haskell/gtk fmode-binary gio
 dev-haskell/gtk2hs-buildtools closuresignals
-dev-haskell/haddock-library -doc -hoogle -hscolour ### Fails
-dev-haskell/hakyll checkexternal previewserver watchserver
+dev-haskell/hakyll checkexternal previewserver usepandoc watchserver
 dev-haskell/hashtables bounds-checking
+dev-haskell/haskeline libiconv
 dev-haskell/hlint gpl
-dev-haskell/hoogle fetchdb fetchdb-ghc localdb
 dev-haskell/hslua luajit
 dev-haskell/http-api-data use-text-show
 dev-haskell/json generic mapdict parsec pretty
@@ -27,32 +26,19 @@ dev-haskell/juicypixels mmap
 dev-haskell/lens inlining safe trustworthy
 dev-haskell/microlens-th inlining
 dev-haskell/monad-logger template_haskell
+dev-haskell/monad-par chaselev
 dev-haskell/nats binary hashable template-haskell
-dev-haskell/pandoc-citeproc -bibutils -embed_data_files unicode_collation
-dev-haskell/persistent -nooverlap
-dev-haskell/persistent-sqlite -build-sanity-exe
+dev-haskell/pandoc-citeproc unicode_collation
 dev-haskell/quickcheck template_haskell
 dev-haskell/reflection template-haskell
-dev-haskell/rfc5051 -mkunicodedata
 dev-haskell/sandi with-conduit
-dev-haskell/semigroupoids comonad containers contravariant distributive tagged unordered-containers
+dev-haskell/semigroupoids comonad containers contravariant distributive unordered-containers
 dev-haskell/semigroups binary transformers
-dev-haskell/sha -exe
 dev-haskell/skylighting executable
-dev-haskell/stack -integration-tests
 dev-haskell/stack-bin symlink
-dev-haskell/texmath -executable
-dev-haskell/tls -hans
-dev-haskell/transformers-base -orphaninstances
-dev-haskell/unix-compat -old-time
-dev-haskell/vector boundschecks -internalchecks
-dev-haskell/vector-algorithms -bench -boundschecks -internalchecks -properties -unsafechecks
-dev-haskell/wai-app-static -print
-dev-haskell/warp -allow-sendfilefd
-dev-haskell/x11 -screensaver
+dev-haskell/vector boundschecks
+dev-haskell/vector-algorithms boundschecks
+dev-haskell/x11 screensaver
 dev-haskell/yaml no-examples no-exe no-unicode
-dev-haskell/zip-archive -executable
-dev-haskell/zlib -non-blocking-ffi
-dev-lang/ghc -binary -ghcbootstrap -ghcmakebinary
-media-sound/vimus -doc -hoogle -hscloour ### Haddock panic on ghc-8.2.2 while generating documantation
+dev-haskell/zlib non-blocking-ffi
 www-client/hbro threaded

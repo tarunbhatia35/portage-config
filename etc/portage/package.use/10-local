@@ -6,6 +6,7 @@ app-arch/zip natspec
 app-crypt/pinentry ncurses
 app-editors/nano minimal
 app-editors/vim X lua luajit python
+app-editors/neovim clipboard luajit python tui
 app-editors/yi hint vty
 app-emulation/docker container-init device-mapper overlay
 app-emulation/libvirt dbus libvirtd lvm parted pcap qemu virt-network wireshark-plugins

@@ -12,12 +12,15 @@ app-admin/sudo
 app-admin/syslog-ng
 app-arch/atool
 app-arch/cfv
+app-arch/p7zip
 app-arch/unrar
 app-arch/unzip
 app-crypt/gentoo-keys
 app-crypt/keybase
 app-editors/emacs
+app-editors/neovim
 app-editors/vim
+app-editors/yi
 app-emacs/ag
 app-emacs/aggressive-indent
 app-emacs/all-the-icons
@@ -82,6 +85,7 @@ app-emacs/flycheck-pos-tip
 app-emacs/framemove
 app-emacs/fzf
 app-emacs/ggtags
+app-emacs/ghc-mod
 app-emacs/git-gutter
 app-emacs/git-gutter-fringe+
 app-emacs/gitattributes-mode
@@ -228,7 +232,6 @@ dev-haskell/dbus
 dev-haskell/dependent-map
 dev-haskell/doctest
 dev-haskell/haddock
-dev-haskell/hakyll
 dev-haskell/happy
 dev-haskell/haskeline
 dev-haskell/hasktags
@@ -237,6 +240,7 @@ dev-haskell/hoogle
 dev-haskell/hpack
 dev-haskell/hspec
 dev-haskell/hunit
+dev-haskell/intero
 dev-haskell/ipprint
 dev-haskell/lens
 dev-haskell/math-functions
@@ -256,6 +260,7 @@ dev-haskell/sdl-ttf
 dev-haskell/semigroupoids
 dev-haskell/semigroups
 dev-haskell/split
+dev-haskell/stack-bin
 dev-haskell/statistics
 dev-haskell/stylish-haskell
 dev-haskell/terminal-size
@@ -397,6 +402,7 @@ sys-apps/smartmontools
 sys-apps/the_silver_searcher
 sys-apps/usbutils
 sys-apps/usermode-utilities
+sys-block/ms-sys
 sys-block/parted
 sys-boot/grub:2
 sys-devel/calc
