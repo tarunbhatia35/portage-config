@@ -1,19 +1,16 @@
-*/*::azalay **
+*/*::azahi **
 */*::dotnet
 */*::emacs
+*/*::gentoo-playground
 */*::gnu-elpa
 */*::go-overlay
 */*::haskell
 */*::lisp
 */*::melpa
-*/*::palemoon
 */*::pypi
 */*::python
 */*::qt
 */*::qutebrowser
-*/*::rust
+*/*::ricerlay **
 */*::science
-*/*::steam-overlay
 */*::toolchain **
-*/*::torbrowser
-*/*::wine

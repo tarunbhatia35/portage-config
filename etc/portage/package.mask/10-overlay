@@ -1,22 +1,19 @@
-#*/*::azalay
+#*/*::azahi
 #*/*::dotnet
 #*/*::emacs
+#*/*::gentoo-playground
 #*/*::gnu-elpa
 #*/*::go-overlay
 #*/*::haskell
 #*/*::lisp
 #*/*::melpa
-#*/*::palemoon
 #*/*::pypi
 #*/*::python
 #*/*::qt
 #*/*::qutebrowser
-#*/*::rust
+#*/*::ricerlay
 #*/*::science
-#*/*::steam-overlay
 #*/*::toolchain
-#*/*::torbrowser
-#*/*::wine
 
 ### Prefer ::haskell for Haskell related emacs packages
 app-emacs/haskell-mode::melpa
@@ -38,8 +35,8 @@ virtual/blas::gentoo
 virtual/cblas::gentoo
 virtual/lapack::gentoo
 
-### Some of the ::gentoo-playground stuff is incompatable with the main tree
+### Skip ::gentoo-playground on some packages
 app-arch/xz-utils::gentoo-playground
 
-### Rely on ::dotnet for .NET related packages
+### prefer ::dotnet
 www-servers/xsp::gentoo

@@ -54,6 +54,7 @@ dev-python/PyQt5                        PYTHON_TARGETS: python2_7 python3_6
 dev-python/PySocks                      PYTHON_TARGETS: python2_7 python3_6
 dev-python/alabaster                    PYTHON_TARGETS:           python3_6
 dev-python/appdirs                      PYTHON_TARGETS:           python3_6
+dev-python/argcomplete                  PYTHON_TARGETS:           python3_6
 dev-python/asn1crypto                   PYTHON_TARGETS: python2_7 python3_6
 dev-python/astroid                      PYTHON_TARGETS:           python3_6
 dev-python/attrs                        PYTHON_TARGETS:           python3_6
