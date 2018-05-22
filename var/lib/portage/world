@@ -20,7 +20,6 @@ app-crypt/keybase
 app-editors/emacs
 app-editors/neovim
 app-editors/vim
-app-editors/yi
 app-emacs/ag
 app-emacs/aggressive-indent
 app-emacs/all-the-icons
@@ -38,6 +37,7 @@ app-emacs/company-flx
 app-emacs/company-ghc
 app-emacs/company-go
 app-emacs/company-mode
+app-emacs/company-quickhelp
 app-emacs/company-ycmd
 app-emacs/config-general-mode
 app-emacs/csharp-mode
@@ -56,9 +56,11 @@ app-emacs/elisp-slime-nav
 app-emacs/emacs-daemon
 app-emacs/eshell-z
 app-emacs/etags-select
+app-emacs/eval-sexp-fu
 app-emacs/evil
 app-emacs/evil-anzu
 app-emacs/evil-avy
+app-emacs/evil-collection
 app-emacs/evil-commentary
 app-emacs/evil-ediff
 app-emacs/evil-escape
@@ -75,6 +77,7 @@ app-emacs/evil-terminal-cursor-changer
 app-emacs/evil-visualstar
 app-emacs/exec-path-from-shell
 app-emacs/expand-region
+app-emacs/fancy-narrow
 app-emacs/fcitx
 app-emacs/fill-column-indicator
 app-emacs/flycheck
@@ -97,6 +100,7 @@ app-emacs/haskell-mode
 app-emacs/haskell-snippets
 app-emacs/helm
 app-emacs/helm-ag
+app-emacs/helm-dash
 app-emacs/helm-descbinds
 app-emacs/helm-flx
 app-emacs/helm-flycheck
@@ -105,6 +109,7 @@ app-emacs/helm-hoogle
 app-emacs/helm-make
 app-emacs/helm-notmuch
 app-emacs/helm-projectile
+app-emacs/helm-rtags
 app-emacs/helm-swoop
 app-emacs/highlight
 app-emacs/highlight-numbers
@@ -113,6 +118,7 @@ app-emacs/highlight-symbol
 app-emacs/hindent
 app-emacs/indent-guide
 app-emacs/ini-mode
+app-emacs/intero
 app-emacs/ix
 app-emacs/json-mode
 app-emacs/key-chord
@@ -142,7 +148,9 @@ app-emacs/python-mode
 app-emacs/rainbow-delimiters
 app-emacs/request
 app-emacs/restart-emacs
+app-emacs/rtags
 app-emacs/scheme-complete
+app-emacs/shm
 app-emacs/slime
 app-emacs/slime-company
 app-emacs/smart-mode-line
@@ -240,7 +248,6 @@ dev-haskell/hoogle
 dev-haskell/hpack
 dev-haskell/hspec
 dev-haskell/hunit
-dev-haskell/intero
 dev-haskell/ipprint
 dev-haskell/lens
 dev-haskell/math-functions
@@ -249,14 +256,10 @@ dev-haskell/monad-loops
 dev-haskell/mwc-random
 dev-haskell/ncurses
 dev-haskell/numbers
-dev-haskell/opengl
 dev-haskell/parsec
 dev-haskell/parsec-extra
 dev-haskell/primes
 dev-haskell/random-shuffle
-dev-haskell/sdl
-dev-haskell/sdl-image
-dev-haskell/sdl-ttf
 dev-haskell/semigroupoids
 dev-haskell/semigroups
 dev-haskell/split
@@ -325,6 +328,7 @@ dev-vcs/hub
 dev-vcs/rcs
 media-fonts/baekmuk-fonts
 media-fonts/efont-unicode
+media-fonts/fira-code
 media-fonts/font-misc-misc
 media-fonts/infinality-ultimate-meta
 media-fonts/siji
@@ -393,6 +397,7 @@ sci-libs/scikits_image
 sci-libs/scikits_learn
 sci-libs/scipy
 sci-visualization/gnuplot
+sys-apps/ack
 sys-apps/firejail
 sys-apps/hdparm
 sys-apps/iucode_tool

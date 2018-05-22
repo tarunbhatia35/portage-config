@@ -29,7 +29,7 @@ app-misc/grc                            PYTHON_TARGETS:           python3_6
 app-misc/pax-utils                      PYTHON_TARGETS:           python3_6
 app-misc/ranger                         PYTHON_TARGETS:           python3_6
 app-portage/diffmask                    PYTHON_TARGETS:           python3_6
-app-portage/elogv                       PYTHON_TARGETS: python2_7
+app-portage/elogv                       PYTHON_TARGETS:           python3_6
 app-portage/esearch                     PYTHON_TARGETS:           python3_6
 app-portage/fetchcommandwrapper         PYTHON_TARGETS:           python3_6
 app-portage/g-sorcery                   PYTHON_TARGETS: python2_7

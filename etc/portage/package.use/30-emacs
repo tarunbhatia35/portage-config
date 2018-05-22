@@ -27,6 +27,7 @@ dev-lang/lua -emacs
 dev-scheme/chicken emacs
 dev-util/cflow emacs
 dev-util/cmake emacs
+dev-util/cscope emacs
 dev-util/ninja emacs
 dev-vcs/git emacs
 net-mail/notmuch -emacs

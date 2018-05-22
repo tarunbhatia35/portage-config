@@ -5,8 +5,8 @@ app-arch/tar minimal ### Provide only /usr/bin/tar
 app-arch/zip natspec
 app-crypt/pinentry ncurses
 app-editors/nano minimal
-app-editors/vim X lua luajit python
 app-editors/neovim clipboard luajit python tui
+app-editors/vim X lua luajit python
 app-editors/yi hint vty
 app-emulation/docker container-init device-mapper overlay
 app-emulation/libvirt dbus libvirtd lvm parted pcap qemu virt-network wireshark-plugins
@@ -54,6 +54,7 @@ dev-libs/libsodium minimal
 dev-libs/libverto libev
 dev-libs/libxml2 icu python
 dev-libs/nss cacert
+dev-libs/xapian inmemory chert
 dev-lisp/clisp hyperspec unicode
 dev-scheme/racket places
 dev-scheme/snow-generic chicken
