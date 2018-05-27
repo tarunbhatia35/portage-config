@@ -25,6 +25,7 @@
 */* system-cmark
 */* system-crontab
 */* system-ffmpeg
+*/* system-glfw
 */* system-harfbuzz
 */* system-heimdal
 */* system-hunspell
@@ -60,6 +61,8 @@ media-fonts/* L10N: ja ru
 media-fonts/* X
 media-fonts/* cjk
 media-fonts/* nls
+media-fonts/* pcf
+media-fonts/* unicode
 media-sound/* flac
 media-sound/* id3tag
 media-sound/* mad

@@ -1,4 +1,5 @@
 app-text/pandoc
+dev-haskell/aeson
 dev-haskell/ansi-terminal
 dev-haskell/blaze-html
 dev-haskell/blaze-markup
@@ -6,5 +7,9 @@ dev-haskell/doctemplates
 dev-haskell/hakyll
 dev-haskell/hslua
 dev-haskell/hslua-module-text
+dev-haskell/http-types
 dev-haskell/skylighting
 dev-haskell/texmath
+dev-haskell/webkit
+dev-haskell/webkitgtk3
+www-client/hbro

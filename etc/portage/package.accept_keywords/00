@@ -7,5 +7,6 @@ dev-libs/gnulib **
 dev-scheme/c-wrapper **
 dev-util/cargo **
 dev-util/rusty-tags **
+net-misc/iputils **
 net-misc/youtube-dl -~amd64
 net-vpn/openvpn -~amd64

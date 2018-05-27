@@ -6,4 +6,5 @@ dev-dotnet/buildtools symlink
 dev-dotnet/dotnetzip-semverd nupkg symlink
 dev-dotnet/msbuildtasks msbuild symlink
 dev-dotnet/newtonsoft-json -pkg-config ### Depends on a non-existent package
+dev-lang/mono minimal
 dev-util/msbuild roslyn

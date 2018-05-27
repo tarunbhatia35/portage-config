@@ -1,6 +1,8 @@
 */*::haskell doc hoogle hscolour
 */*::haskell network network-uri use-network-uri
 */*::haskell profile
+*/*::haskell template_haskell template-haskell
+app-editors/yi hint profiling vty
 dev-haskell/* doc hoogle hscolour
 dev-haskell/* network network-uri use-network-uri
 dev-haskell/* profile
@@ -11,7 +13,6 @@ dev-haskell/comonad containers contravariant distributive
 dev-haskell/contravariant safe semigroups statevar tagged
 dev-haskell/cryptonite integer-gmp support_sse
 dev-haskell/direct-sqlite fulltextsearch systemlib urifilenames
-dev-haskell/glfw system-glfw
 dev-haskell/glib closure_signals
 dev-haskell/gnuplot executepipe executeshell
 dev-haskell/gtk fmode-binary gio
@@ -30,8 +31,6 @@ dev-haskell/monad-logger template_haskell
 dev-haskell/monad-par chaselev
 dev-haskell/nats binary hashable template-haskell
 dev-haskell/pandoc-citeproc unicode_collation
-dev-haskell/quickcheck template_haskell
-dev-haskell/reflection template-haskell
 dev-haskell/sandi with-conduit
 dev-haskell/semigroupoids comonad containers contravariant distributive unordered-containers
 dev-haskell/semigroups binary transformers
@@ -42,4 +41,5 @@ dev-haskell/vector-algorithms boundschecks
 dev-haskell/x11 screensaver
 dev-haskell/yaml no-examples no-exe no-unicode
 dev-haskell/zlib non-blocking-ffi
-www-client/hbro threaded
+x11-misc/xmonad-extras alsa
+x11-wm/xmonad-contrib xft

@@ -1,2 +1,5 @@
+app-editors/neovim luajit
+app-editors/vim lua luajit
 dev-lua/lpeg luajit
 dev-lua/mpack luajit
+media-video/mpv lua luajit

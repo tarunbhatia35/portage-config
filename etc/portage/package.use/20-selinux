@@ -2,6 +2,7 @@ sec-policy/selinux-base open_perms peer_perms ubac unconfined
 sec-policy/selinux-base-policy unconfined
 sec-policy/selinux-mozilla alsa
 sec-policy/selinux-mplayer alsa
+sys-apps/policycoreutils dbus
 sys-apps/selinux-python dbus
 sys-libs/libselinux python
 sys-libs/libsemanage python
