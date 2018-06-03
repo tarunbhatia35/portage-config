@@ -383,6 +383,7 @@ net-misc/adjtimex
 net-misc/aria2
 net-misc/bridge-utils
 net-misc/httpie
+net-misc/megatools
 net-misc/networkmanager
 net-misc/ntp
 net-misc/nyx
