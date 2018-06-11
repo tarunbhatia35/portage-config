@@ -2,7 +2,6 @@
 */*::haskell network network-uri use-network-uri
 */*::haskell profile
 */*::haskell template_haskell template-haskell
-app-editors/yi hint profiling vty
 dev-haskell/* doc hoogle hscolour
 dev-haskell/* network network-uri use-network-uri
 dev-haskell/* profile
@@ -41,5 +40,6 @@ dev-haskell/vector-algorithms boundschecks
 dev-haskell/x11 screensaver
 dev-haskell/yaml no-examples no-exe no-unicode
 dev-haskell/zlib non-blocking-ffi
+dev-util/shellcheck doc hoogle hscolour profile
 x11-misc/xmonad-extras alsa
 x11-wm/xmonad-contrib xft

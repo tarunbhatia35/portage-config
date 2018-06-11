@@ -9,7 +9,7 @@
 #*/*::melpa
 #*/*::pypi
 #*/*::python
-#*/*::qt
+*/*::qt
 #*/*::qutebrowser
 #*/*::ricerlay
 #*/*::science

@@ -138,7 +138,7 @@ sys-devel/clang-runtime compiler-rt libcxx sanitize
 sys-devel/gcc cxx fortran
 sys-devel/gdb client xml
 sys-devel/llvm gold libffi ncurses
-sys-firmware/intel-microcode split-ucode ### To load alongside initramfs
+sys-firmware/intel-microcode hostonly split-ucode
 sys-firmware/seabios seavgabios
 sys-fs/cryptsetup openssl
 sys-fs/eudev hwdb

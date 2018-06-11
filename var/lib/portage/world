@@ -20,7 +20,6 @@ app-crypt/keybase
 app-editors/emacs
 app-editors/neovim
 app-editors/vim
-app-editors/yi
 app-emacs/ag
 app-emacs/aggressive-indent
 app-emacs/all-the-icons

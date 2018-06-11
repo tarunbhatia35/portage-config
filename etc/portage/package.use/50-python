@@ -30,7 +30,8 @@ app-admin/eclean-kernel                 PYTHON_TARGETS: python2_7
 app-admin/pydf                          PYTHON_TARGETS:           python3_6
 app-arch/cfv                            PYTHON_TARGETS: python2_7
 app-editors/vim                         PYTHON_TARGETS:           python3_6
-app-emulation/qemu                      PYTHON_TARGETS: python2_7
+app-emulation/docker-compose            PYTHON_TARGETS:           python3_6
+app-emulation/qemu                      PYTHON_TARGETS:           python3_6
 app-misc/anki                           PYTHON_TARGETS:           python3_6
 app-misc/grc                            PYTHON_TARGETS:           python3_6
 app-misc/pax-utils                      PYTHON_TARGETS:           python3_6
@@ -40,7 +41,7 @@ app-portage/elogv                       PYTHON_TARGETS:           python3_6
 app-portage/esearch                     PYTHON_TARGETS:           python3_6
 app-portage/fetchcommandwrapper         PYTHON_TARGETS:           python3_6
 app-portage/g-sorcery                   PYTHON_TARGETS: python2_7
-app-portage/gemato                      PYTHON_TARGETS:           python3_6
+app-portage/gemato                      PYTHON_TARGETS: python2_7 python3_6
 app-portage/gentoolkit                  PYTHON_TARGETS:           python3_6
 app-portage/gentoopm                    PYTHON_TARGETS:           python3_6
 app-portage/gs-elpa                     PYTHON_TARGETS: python2_7
@@ -53,7 +54,7 @@ app-portage/repoman                     PYTHON_TARGETS:           python3_6
 app-portage/smart-live-rebuild          PYTHON_TARGETS:           python3_6
 app-text/asciidoc                       PYTHON_TARGETS: python2_7
 app-text/calibre                        PYTHON_TARGETS: python2_7
-dev-libs/glib                           PYTHON_TARGETS: python2_7
+dev-libs/glib                           PYTHON_TARGETS:           python3_6
 dev-libs/libxml2                        PYTHON_TARGETS: python2_7 python3_6
 dev-libs/newt                           PYTHON_TARGETS:           python3_6
 dev-python/Babel                        PYTHON_TARGETS:           python3_6
@@ -66,11 +67,13 @@ dev-python/astroid                      PYTHON_TARGETS:           python3_6
 dev-python/attrs                        PYTHON_TARGETS:           python3_6
 dev-python/autopep8                     PYTHON_TARGETS:           python3_6
 dev-python/backports                    PYTHON_TARGETS: python2_7
+dev-python/backports-lzma               PYTHON_TARGETS: python2_7
 dev-python/backports-shutil_which       PYTHON_TARGETS: python2_7
 dev-python/beautifulsoup                PYTHON_TARGETS: python2_7 python3_6
 dev-python/blinker                      PYTHON_TARGETS: python2_7
 dev-python/blosc                        PYTHON_TARGETS:           python3_6
 dev-python/boto                         PYTHON_TARGETS:           python3_6
+dev-python/bz2file                      PYTHON_TARGETS: python2_7
 dev-python/cached-property              PYTHON_TARGETS:           python3_6
 dev-python/certifi                      PYTHON_TARGETS: python2_7 python3_6
 dev-python/cffi                         PYTHON_TARGETS: python2_7 python3_6
@@ -179,6 +182,7 @@ dev-python/pyopenssl                    PYTHON_TARGETS: python2_7 python3_6
 dev-python/pyparsing                    PYTHON_TARGETS: python2_7 python3_6
 dev-python/pypeg2                       PYTHON_TARGETS:           python3_6
 dev-python/pyrsistent                   PYTHON_TARGETS: python2_7 python3_6
+dev-python/pysha3                       PYTHON_TARGETS: python2_7
 dev-python/pytables                     PYTHON_TARGETS:           python3_6
 dev-python/python-dateutil              PYTHON_TARGETS:           python3_6
 dev-python/python-fchksum               PYTHON_TARGETS: python2_7
@@ -297,5 +301,5 @@ app-editors/vim                         PYTHON_SINGLE_TARGET: python3_6
 app-misc/pax-utils                      PYTHON_SINGLE_TARGET: python3_6
 app-portage/elogviewer                  PYTHON_SINGLE_TARGET: python2_7
 app-text/asciidoc                       PYTHON_SINGLE_TARGET: python2_7
+dev-libs/glib                           PYTHON_SINGLE_TARGET: python3_6
 net-irc/weechat                         PYTHON_SINGLE_TARGET: python2_7
-

@@ -66,6 +66,7 @@ media-fonts/* unicode
 media-sound/* flac
 media-sound/* id3tag
 media-sound/* mad
+sys-apps/* split-usr
 sys-kernel/* experimental
 virtual/* -* ABI_X86: 64 ### try to avoid confusion
 x11-apps/* -ipv6
