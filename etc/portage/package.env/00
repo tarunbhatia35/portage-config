@@ -14,6 +14,7 @@ dev-python/* yes-ccache.conf
 dev-python/numpy no-ccache.conf
 dev-qt/qtwebengine no-tmpfs.conf no-ccache.conf yes-ccache.conf
 dev-util/rusty-tags no-network-sandbox.conf
+media-libs/mesa no-collision.conf
 media-sound/vimus no-pie.conf no-stack-protector.conf
 sci-libs/* no-ccache.conf
 sci-libs/scipy safe-flags.conf
