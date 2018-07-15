@@ -7,10 +7,12 @@
 */*::haskell
 */*::lisp
 */*::melpa
-*/*::pypi
 */*::python
+*/*::qemu-init
 */*::qt
 */*::qutebrowser
+*/*::R_Overlay
 */*::ricerlay **
+*/*::rust
 */*::science
 */*::toolchain **

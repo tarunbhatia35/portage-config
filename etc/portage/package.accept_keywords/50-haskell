@@ -1,1 +1,2 @@
 dev-haskell/* ~amd64
+dev-haskell/utf8-string -~amd64

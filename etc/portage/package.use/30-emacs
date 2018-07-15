@@ -27,6 +27,7 @@ app-emacs/ghc-mod emacs
 app-emacs/hindent emacs
 app-emacs/structured-haskell-mode emacs
 app-i18n/mozc -emacs
+app-misc/gtypist emacs
 dev-haskell/hlint emacs
 dev-lang/lua -emacs
 dev-libs/protobuf -emacs

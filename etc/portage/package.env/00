@@ -1,5 +1,5 @@
-app-crypt/gentoo-keys no-collision.conf
-app-editors/* yes-ccache.conf
+app-crypt/gentoo-keys no-collision-protect.conf
+app-editors/emacs yes-ccache.conf
 app-emacs/evil no-network-sandbox.conf
 app-emulation/wine no-tmpfs.conf yes-ccache.conf
 dev-dotnet/dotnetcore-runtime no-user-sandbox.conf
@@ -12,9 +12,9 @@ dev-lang/rust no-tmpfs.conf no-network-sandbox.conf rust-makeopts.conf
 dev-lisp/clisp no-tmpfs.conf
 dev-python/* yes-ccache.conf
 dev-python/numpy no-ccache.conf
-dev-qt/qtwebengine no-tmpfs.conf no-ccache.conf yes-ccache.conf
+dev-qt/qtwebengine no-tmpfs.conf yes-ccache.conf
 dev-util/rusty-tags no-network-sandbox.conf
-media-libs/mesa no-collision.conf
+media-libs/mesa no-collision-protect.conf
 media-sound/vimus no-pie.conf no-stack-protector.conf
 sci-libs/* no-ccache.conf
 sci-libs/scipy safe-flags.conf

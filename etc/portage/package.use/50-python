@@ -7,7 +7,7 @@ dev-python/networkx scipy
 dev-python/nltk numpy
 dev-python/numpy lapack
 dev-python/pandas full-support minimal
-dev-python/pillow zlib
+dev-python/pillow jpeg zlib
 dev-python/pycairo xcb
 dev-python/python-slip dbus
 dev-python/setuptools_scm git
@@ -29,6 +29,7 @@ sys-process/audit python
 app-admin/eclean-kernel                 PYTHON_TARGETS: python2_7
 app-admin/pydf                          PYTHON_TARGETS:           python3_6
 app-arch/cfv                            PYTHON_TARGETS: python2_7
+app-crypt/gkeys                         PYTHON_TARGETS:           python3_6
 app-editors/vim                         PYTHON_TARGETS:           python3_6
 app-emulation/docker-compose            PYTHON_TARGETS:           python3_6
 app-emulation/qemu                      PYTHON_TARGETS:           python3_6
@@ -40,13 +41,12 @@ app-portage/diffmask                    PYTHON_TARGETS:           python3_6
 app-portage/elogv                       PYTHON_TARGETS:           python3_6
 app-portage/esearch                     PYTHON_TARGETS:           python3_6
 app-portage/fetchcommandwrapper         PYTHON_TARGETS:           python3_6
-app-portage/g-sorcery                   PYTHON_TARGETS: python2_7
+app-portage/g-sorcery                   PYTHON_TARGETS: python3_6
 app-portage/gemato                      PYTHON_TARGETS: python2_7 python3_6
 app-portage/gentoolkit                  PYTHON_TARGETS:           python3_6
 app-portage/gentoopm                    PYTHON_TARGETS:           python3_6
-app-portage/gs-elpa                     PYTHON_TARGETS: python2_7
-app-portage/gs-pypi                     PYTHON_TARGETS: python2_7
-app-portage/layman                      PYTHON_TARGETS: python2_7 python3_6
+app-portage/gs-elpa                     PYTHON_TARGETS:           python3_6
+app-portage/layman                      PYTHON_TARGETS:           python3_6
 app-portage/metagen                     PYTHON_TARGETS: python2_7
 app-portage/mirrorselect                PYTHON_TARGETS:           python3_6
 app-portage/overlint                    PYTHON_TARGETS:           python3_6
@@ -141,6 +141,7 @@ dev-python/oauth2client                 PYTHON_TARGETS:           python3_6
 dev-python/oauthlib                     PYTHON_TARGETS: python2_7
 dev-python/olefile                      PYTHON_TARGETS:           python3_6
 dev-python/openpyxl                     PYTHON_TARGETS:           python3_6
+dev-python/packaging                    PYTHON_TARGETS:           python3_6
 dev-python/pandas                       PYTHON_TARGETS:           python3_6
 dev-python/parso                        PYTHON_TARGETS:           python3_6
 dev-python/path-py                      PYTHON_TARGETS:           python3_6
@@ -177,7 +178,7 @@ dev-python/pygobject                    PYTHON_TARGETS: python2_7
 dev-python/pygtk                        PYTHON_TARGETS: python2_7
 dev-python/pyjwt                        PYTHON_TARGETS: python2_7
 dev-python/pylint                       PYTHON_TARGETS:           python3_6
-dev-python/pymongo                      PYTHON_TARGETS: python2_7
+dev-python/pymongo                      PYTHON_TARGETS:           python3_6
 dev-python/pyopenssl                    PYTHON_TARGETS: python2_7 python3_6
 dev-python/pyparsing                    PYTHON_TARGETS: python2_7 python3_6
 dev-python/pypeg2                       PYTHON_TARGETS:           python3_6
@@ -204,7 +205,7 @@ dev-python/selenium                     PYTHON_TARGETS:           python3_6
 dev-python/send2trash                   PYTHON_TARGETS:           python3_6
 dev-python/setuptools                   PYTHON_TARGETS: python2_7 python3_6
 dev-python/setuptools_scm               PYTHON_TARGETS:           python3_6
-dev-python/sexpdata                     PYTHON_TARGETS: python2_7
+dev-python/sexpdata                     PYTHON_TARGETS:           python3_6
 dev-python/simplegeneric                PYTHON_TARGETS:           python3_6
 dev-python/simplejson                   PYTHON_TARGETS:           python3_6
 dev-python/sip                          PYTHON_TARGETS: python2_7 python3_6
@@ -282,6 +283,7 @@ sys-apps/portage                        PYTHON_TARGETS: python2_7 python3_6
 sys-devel/clang                         PYTHON_TARGETS: python2_7
 sys-libs/ldb                            PYTHON_TARGETS: python2_7
 sys-libs/talloc                         PYTHON_TARGETS: python2_7
+sys-libs/tdb                            PYTHON_TARGETS: python2_7
 sys-libs/tevent                         PYTHON_TARGETS: python2_7
 sys-process/glances                     PYTHON_TARGETS: python2_7
 sys-process/iotop                       PYTHON_TARGETS:           python3_6
@@ -292,6 +294,7 @@ virtual/python-greenlet                 PYTHON_TARGETS:           python3_6
 virtual/python-ipaddress                PYTHON_TARGETS: python2_7 python3_6
 virtual/python-pathlib                  PYTHON_TARGETS:           python3_6
 virtual/python-singledispatch           PYTHON_TARGETS:           python3_6
+virtual/python-typing                   PYTHON_TARGETS: python2_7 python3_6
 www-client/qutebrowser                  PYTHON_TARGETS:           python3_6
 x11-base/xcb-proto                      PYTHON_TARGETS: python2_7 python3_6
 x11-libs/xpyb                           PYTHON_TARGETS: python2_7

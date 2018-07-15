@@ -1,0 +1,15 @@
+app-arch/unrar unRAR
+app-vim/vim-spell-ru myspell-ru_RU-AlexanderLebedev
+dev-dotnet/dotnetzip-semverd MS-PL
+dev-lisp/asdf-flv FSFAP
+dev-lisp/hyperspec HyperSpec
+dev-util/plan9port 9base BigelowHolmes
+media-fonts/corefonts MSttfEULA
+media-fonts/efont-unicode BAEKMUK free-noncomm
+sci-libs/metis free-noncomm
+sys-firmware/intel-microcode intel-ucode
+sys-kernel/ck-sources linux-firmware
+sys-kernel/gentoo-sources linux-firmware
+sys-kernel/linux-firmware linux-firmware no-source-code freedist
+sys-kernel/pf-sources linux-firmware no-source-code
+x11-misc/xsnow freedist

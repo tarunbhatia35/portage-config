@@ -95,7 +95,7 @@ net-firewall/firehol ipset
 net-firewall/iptables conntrack
 net-fs/samba -gnutls
 net-im/bitlbee plugins purple
-net-irc/weechat alias buflist exec irc scripts spell trigger
+net-irc/weechat alias buflist exec fset irc logger scripts spell trigger
 net-libs/libsrtp openssl
 net-libs/libssh sftp
 net-mail/mailutils clients sasl
@@ -168,7 +168,7 @@ x11-base/xorg-server glamor udev xorg xvfb
 x11-drivers/xf86-video-intel dri dri3 sna xvmc
 x11-libs/cairo glib svg
 x11-libs/gdk-pixbuf jpeg
-x11-libs/libXaw3d unicode
+x11-libs/libXaw3d unicode xpm
 x11-libs/libXfont2 bzip2 truetype
 x11-libs/libva egl drm opengl
 x11-libs/libva-intel-driver drm

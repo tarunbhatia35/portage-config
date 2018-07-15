@@ -2,7 +2,6 @@ app-crypt/keybase **
 app-emulation/docker-cli **
 app-shells/tmux-bash-completion **
 dev-chicken/* **
-dev-haskell/utf8-string -~amd64
 dev-libs/gnulib **
 dev-python/PyQt4 -~amd64
 dev-python/PyQt5 -~amd64
