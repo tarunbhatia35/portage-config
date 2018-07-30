@@ -19,7 +19,7 @@ dev-haskell/gtk2hs-buildtools closuresignals
 dev-haskell/hakyll checkexternal previewserver usepandoc watchserver
 dev-haskell/hashtables bounds-checking
 dev-haskell/haskeline libiconv
-dev-haskell/hlint gpl
+dev-haskell/hlint gpl threaded
 dev-haskell/hslua luajit
 dev-haskell/http-api-data use-text-show
 dev-haskell/json generic mapdict parsec pretty

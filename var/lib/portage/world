@@ -251,6 +251,7 @@ dev-haskell/hspec
 dev-haskell/hunit
 dev-haskell/ipprint
 dev-haskell/lens
+dev-haskell/linear
 dev-haskell/math-functions
 dev-haskell/microlens
 dev-haskell/monad-loops
@@ -259,6 +260,7 @@ dev-haskell/ncurses
 dev-haskell/numbers
 dev-haskell/parsec
 dev-haskell/parsec-extra
+dev-haskell/prelude-extras
 dev-haskell/primes
 dev-haskell/random-shuffle
 dev-haskell/semigroupoids
@@ -275,6 +277,7 @@ dev-lang/ghc
 dev-lang/lua
 dev-lang/luajit
 dev-lang/mono
+dev-lang/rust
 dev-libs/libsodium
 dev-lisp/alexandria
 dev-lisp/anaphora
@@ -348,6 +351,7 @@ media-libs/sdl-ttf
 media-sound/beets
 media-sound/mpc
 media-sound/mpd
+media-sound/mpdas
 media-sound/ncmpcpp
 media-sound/shntool
 media-sound/sox
@@ -448,6 +452,7 @@ sys-process/fcron
 sys-process/htop
 sys-process/iotop
 sys-process/lsof
+www-client/firefox
 www-client/qutebrowser
 www-client/w3m
 www-misc/profile-sync-daemon

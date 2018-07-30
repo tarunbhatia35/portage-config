@@ -70,6 +70,7 @@ media-libs/libepoxy X
 media-libs/libpng apng
 media-libs/libsdl X alsa joystick sound video opengl
 media-libs/libsdl2 X alsa joystick sound video opengl
+media-libs/libtheora encode
 media-libs/libvpx highbitdepth postproc svc
 media-libs/libwebp experimental swap-16bit-csp
 media-libs/mesa classic d3d9 dri3 egl gallium gbm gles1 gles2 llvm osmesa xa xvmc
@@ -81,9 +82,10 @@ media-libs/sdl2-image jpeg png tiff
 media-libs/x264 interlaced
 media-sound/alsa-utils libsamplerate ncurses
 media-sound/mpd alsa libsamplerate sqlite
+media-sound/mpdscribble curl
 media-sound/mumble alsa
 media-sound/sox alsa
-media-video/ffmpeg X alsa encode gpl hardcoded-tables libdrm mp3 network opengl openssl opus vorbis vpx x264 xcb xvid zimg
+media-video/ffmpeg X alsa encode gpl hardcoded-tables libdrm mp3 network opengl openssl opus theora vorbis vpx x264 xcb xvid zimg
 media-video/mpv X alsa cli jpeg libass opengl zlib
 net-analyzer/nmap ncat ndiff nping
 net-analyzer/tcpdump drop-root smi
@@ -174,7 +176,7 @@ x11-libs/libva egl drm opengl
 x11-libs/libva-intel-driver drm
 x11-libs/libxkbcommon
 x11-misc/compton opengl
-x11-misc/xmobar alsa dbus inotify mpd timezone wifi with_conduit with_wather xft
+x11-misc/xmobar alsa dbus inotify mpd timezone wifi with_conduit with_rtsopts with_weather xft
 x11-terms/rxvt-unicode 256-color font-styles unicode3 xft
 x11-terms/st savedconfig
 x11-terms/xst savedconfig
