@@ -1,0 +1,2 @@
+*/*::rust fetch-crates
+dev-lang/rust -cargo -rls -rustfmt

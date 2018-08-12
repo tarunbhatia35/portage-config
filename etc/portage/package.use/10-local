@@ -81,6 +81,7 @@ media-libs/sdl-image jpeg png tiff
 media-libs/sdl2-image jpeg png tiff
 media-libs/x264 interlaced
 media-sound/alsa-utils libsamplerate ncurses
+media-sound/lame frontend
 media-sound/mpd alsa libsamplerate sqlite
 media-sound/mpdscribble curl
 media-sound/mumble alsa

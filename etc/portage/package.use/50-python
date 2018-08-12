@@ -45,7 +45,7 @@ app-portage/esearch                     PYTHON_TARGETS:           python3_6
 app-portage/fetchcommandwrapper         PYTHON_TARGETS:           python3_6
 app-portage/g-sorcery                   PYTHON_TARGETS:           python3_6
 app-portage/gemato                      PYTHON_TARGETS: python2_7 python3_6 python3_7
-app-portage/gentoolkit                  PYTHON_TARGETS:           python3_6
+app-portage/gentoolkit                  PYTHON_TARGETS:           python3_6 python3_7
 app-portage/gentoopm                    PYTHON_TARGETS:           python3_6 python3_7
 app-portage/gs-elpa                     PYTHON_TARGETS:           python3_6
 app-portage/layman                      PYTHON_TARGETS:           python3_6
@@ -211,7 +211,7 @@ dev-python/setuptools_scm               PYTHON_TARGETS:           python3_6 pyth
 dev-python/sexpdata                     PYTHON_TARGETS:           python3_6
 dev-python/simplegeneric                PYTHON_TARGETS:           python3_6
 dev-python/simplejson                   PYTHON_TARGETS:           python3_6 python3_7
-dev-python/sip                          PYTHON_TARGETS: python2_7 python3_6
+dev-python/sip                          PYTHON_TARGETS: python2_7 python3_6 python3_7
 dev-python/six                          PYTHON_TARGETS: python2_7 python3_6 python3_7
 dev-python/snakeoil                     PYTHON_TARGETS:           python3_6
 dev-python/snowballstemmer              PYTHON_TARGETS:           python3_6 python3_7
@@ -246,7 +246,7 @@ dev-python/werkzeug                     PYTHON_TARGETS:           python3_6
 dev-python/wheel                        PYTHON_TARGETS:           python3_6 python3_7
 dev-python/whoosh                       PYTHON_TARGETS:           python3_6 python3_7
 dev-python/wrapt                        PYTHON_TARGETS:           python3_6
-dev-python/xarray                       PYTHON_TARGETS:           python3_6
+dev-python/xarray                       PYTHON_TARGETS:           python3_6 python3_7
 dev-python/xlrd                         PYTHON_TARGETS:           python3_6
 dev-python/xlwt                         PYTHON_TARGETS:           python3_6
 dev-python/zope-interface               PYTHON_TARGETS:           python3_6 python3_7

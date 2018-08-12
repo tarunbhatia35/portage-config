@@ -16,9 +16,10 @@
 #*/*::science
 #*/*::toolchain
 
-### Prefer ::haskell for Haskell related emacs packages
+### Prefer ::haskell and ::rust overlays
 app-emacs/haskell-mode::melpa
 app-emacs/hindent::melpa
+app-emacs/rust-mode::melpa
 
 ### BLAS and LAPACK stack in the ::science are incompatible with the main tree
 app-admin/eselect::gentoo

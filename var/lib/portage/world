@@ -28,6 +28,7 @@ app-emacs/auctex
 app-emacs/auto-compile
 app-emacs/avy
 app-emacs/avy-flycheck
+app-emacs/cargo
 app-emacs/cmake-mode
 app-emacs/color-identifiers-mode
 app-emacs/company
@@ -153,6 +154,7 @@ app-emacs/rainbow-delimiters
 app-emacs/request
 app-emacs/restart-emacs
 app-emacs/rtags
+app-emacs/rust-mode
 app-emacs/scheme-complete
 app-emacs/slime
 app-emacs/slime-company
@@ -198,6 +200,7 @@ app-misc/jq
 app-misc/ranger
 app-misc/tmux
 app-misc/toilet
+app-portage/cargo-ebuild
 app-portage/diffmask
 app-portage/eclass-manpages
 app-portage/eix
@@ -325,6 +328,7 @@ dev-util/msbuild
 dev-util/plan9port
 dev-util/radare2
 dev-util/rr
+dev-util/rustfmt
 dev-util/scanmem
 dev-util/shellcheck
 dev-util/strace
