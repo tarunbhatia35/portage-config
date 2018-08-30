@@ -1,3 +1,4 @@
+*/*::rust no-network-sandbox.conf
 app-crypt/gentoo-keys no-collision-protect.conf
 app-editors/emacs yes-ccache.conf
 app-emacs/evil no-network-sandbox.conf

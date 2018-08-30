@@ -15,6 +15,7 @@
 */* pgo ### profile guided optimization
 */* pic pie ### position-independent code/executable
 */* readline
+*/* socks5
 */* ssl
 */* system-binutils
 */* system-boost
@@ -52,7 +53,6 @@
 */* system-zlib
 */* threads nptl ### build threads (POSIX)
 */* urandom ### prefer /dev/urandom to /dev/random
-*/* vaapi ### add VA API support
 */* vim-syntax
 */* zsh-completion
 app-arch/* unicode

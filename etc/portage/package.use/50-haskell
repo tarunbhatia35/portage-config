@@ -5,6 +5,7 @@
 dev-haskell/* doc hoogle hscolour
 dev-haskell/* network network-uri use-network-uri
 dev-haskell/* profile
+dev-haskell/* template_haskell template-haskell
 dev-haskell/aeson-pretty lib-only
 dev-haskell/bifunctors semigroups
 dev-haskell/cmdargs quotation
@@ -16,12 +17,12 @@ dev-haskell/glib closure_signals
 dev-haskell/gnuplot executepipe executeshell
 dev-haskell/gtk fmode-binary gio
 dev-haskell/gtk2hs-buildtools closuresignals
+dev-haskell/haddock-library -doc ### Breaks for some reason mentioning "attoparsec"
 dev-haskell/hakyll checkexternal previewserver usepandoc watchserver
 dev-haskell/hashtables bounds-checking
 dev-haskell/haskeline libiconv
 dev-haskell/hlint gpl threaded
 dev-haskell/hslua luajit
-dev-haskell/http-api-data use-text-show
 dev-haskell/json generic mapdict parsec pretty
 dev-haskell/juicypixels mmap
 dev-haskell/lens inlining safe trustworthy

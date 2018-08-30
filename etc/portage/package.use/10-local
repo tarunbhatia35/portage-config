@@ -22,6 +22,7 @@ app-shells/bash mem-scramble
 app-shells/zsh unicode
 app-text/asciidoc highlight
 app-text/aspell L10N: ru
+app-text/enchant aspell
 app-text/hunspell L10N: ru
 app-text/lcdf-typetools kpathsea
 app-text/mupdf X
@@ -73,7 +74,7 @@ media-libs/libsdl2 X alsa joystick sound video opengl
 media-libs/libtheora encode
 media-libs/libvpx highbitdepth postproc svc
 media-libs/libwebp experimental swap-16bit-csp
-media-libs/mesa classic d3d9 dri3 egl gallium gbm gles1 gles2 llvm osmesa xa xvmc
+media-libs/mesa classic dri3 egl -gallium gbm gles1 gles2 llvm osmesa
 media-libs/openal alsa
 media-libs/opusfile float
 media-libs/portaudio alsa
@@ -86,8 +87,8 @@ media-sound/mpd alsa libsamplerate sqlite
 media-sound/mpdscribble curl
 media-sound/mumble alsa
 media-sound/sox alsa
-media-video/ffmpeg X alsa encode gpl hardcoded-tables libdrm mp3 network opengl openssl opus theora vorbis vpx x264 xcb xvid zimg
-media-video/mpv X alsa cli jpeg libass opengl zlib
+media-video/ffmpeg X alsa encode gpl hardcoded-tables libdrm mp3 network opengl openssl opus theora vaapi vorbis vpx x264 xcb xvid zimg
+media-video/mpv X alsa cli jpeg libass opengl vaapi zlib
 net-analyzer/nmap ncat ndiff nping
 net-analyzer/tcpdump drop-root smi
 net-analyzer/vnstat gd
@@ -151,7 +152,7 @@ sys-kernel/genkernel cryptsetup firmware
 sys-kernel/linux-docs html
 sys-kernel/linux-firmware savedconfig
 sys-libs/glibc rpc
-sys-libs/ncurses unicode
+sys-libs/ncurses tinfo unicode
 sys-libs/pam berkdb
 sys-libs/zlib minizip
 sys-power/powertop X

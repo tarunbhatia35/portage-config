@@ -3,11 +3,6 @@ app-emulation/docker-cli **
 app-shells/tmux-bash-completion **
 dev-chicken/* **
 dev-libs/gnulib **
-dev-python/PyQt4 -~amd64
-dev-python/PyQt5 -~amd64
-dev-qt/* -~amd64
-dev-scheme/c-wrapper **
 dev-util/rusty-tags **
 net-misc/iputils **
-net-misc/youtube-dl -~amd64
-net-vpn/openvpn -~amd64
+www-client/qutebrowser **

@@ -16,7 +16,7 @@
 #*/*::science
 #*/*::toolchain
 
-### Prefer ::haskell and ::rust overlays
+### Prefer ::haskell and ::rust overlays for Emacs packages
 app-emacs/haskell-mode::melpa
 app-emacs/hindent::melpa
 app-emacs/rust-mode::melpa
@@ -36,9 +36,6 @@ sci-libs/mkl::gentoo
 virtual/blas::gentoo
 virtual/cblas::gentoo
 virtual/lapack::gentoo
-
-### Skip ::gentoo-playground on some packages
-app-arch/xz-utils::gentoo-playground
 
 ### prefer ::dotnet
 www-servers/xsp::gentoo
