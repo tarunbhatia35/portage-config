@@ -2,10 +2,8 @@
 */*::haskell network network-uri use-network-uri
 */*::haskell profile
 */*::haskell template_haskell template-haskell
-dev-haskell/* doc hoogle hscolour
-dev-haskell/* network network-uri use-network-uri
-dev-haskell/* profile
-dev-haskell/* template_haskell template-haskell
+
+app-editors/yi vim vty
 dev-haskell/aeson-pretty lib-only
 dev-haskell/bifunctors semigroups
 dev-haskell/cmdargs quotation
@@ -40,6 +38,7 @@ dev-haskell/vector boundschecks
 dev-haskell/vector-algorithms boundschecks
 dev-haskell/x11 screensaver
 dev-haskell/yaml no-examples no-exe no-unicode
+dev-haskell/yi-core hint
 dev-haskell/zlib non-blocking-ffi
 dev-util/shellcheck doc hoogle hscolour profile
 x11-misc/xmonad-extras alsa

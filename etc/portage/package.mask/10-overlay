@@ -1,25 +1,20 @@
 #*/*::azahi
+#*/*::docker
 #*/*::dotnet
 #*/*::emacs
-#*/*::gentoo-playground
-#*/*::gnu-elpa
 #*/*::go-overlay
 #*/*::haskell
 #*/*::lisp
-#*/*::melpa
-#*/*::pypi
 #*/*::python
+#*/*::qemu-init
 #*/*::qt
-#*/*::qutebrowser
 #*/*::ricerlay
 #*/*::rust
 #*/*::science
-#*/*::toolchain
 
-### Prefer ::haskell and ::rust overlays for Emacs packages
-app-emacs/haskell-mode::melpa
-app-emacs/hindent::melpa
-app-emacs/rust-mode::melpa
+### Prefer ::haskell for science dependencies required for haskell packages
+sci-mathematics/z3::gentoo
+sci-mathematics/z3::science
 
 ### BLAS and LAPACK stack in the ::science are incompatible with the main tree
 app-admin/eselect::gentoo
@@ -37,5 +32,5 @@ virtual/blas::gentoo
 virtual/cblas::gentoo
 virtual/lapack::gentoo
 
-### prefer ::dotnet
+### Prefer ::dotnet
 www-servers/xsp::gentoo

@@ -1,5 +1,5 @@
 app-admin/logrotate bzip2
-app-admin/pass X
+app-admin/pass X git
 app-arch/libarchive bzip2
 app-arch/tar minimal ### Provide only /usr/bin/tar
 app-crypt/pinentry ncurses
@@ -32,6 +32,7 @@ app-text/zathura magic sqlite
 app-text/zathura-meta djvu pdf
 dev-db/sqlite secure-delete
 dev-lang/R minimal
+dev-lang/rust -cargo -rls -rustfmt
 dev-lang/spidermonkey minimal
 dev-libs/boost icu nls ### Needed for media-sound/ncmpcpp
 dev-libs/elfutils static-libs utils
@@ -55,6 +56,7 @@ dev-util/plan9port X truetype
 dev-util/strace unwind
 dev-vcs/darcs curl threaded
 dev-vcs/git blksha1 curl gpg highlight webdav
+media-fonts/fontawesome ttf
 media-fonts/infinality-ultimate-meta free minimal latin ms
 media-gfx/graphviz pdf
 media-gfx/imagemagick X jpeg png q32

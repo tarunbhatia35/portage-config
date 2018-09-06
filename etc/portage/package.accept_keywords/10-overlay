@@ -1,18 +1,13 @@
 */*::azahi **
+*/*::docker
 */*::dotnet
 */*::emacs
-*/*::gentoo-playground
-*/*::gnu-elpa
 */*::go-overlay
 */*::haskell
 */*::lisp
-*/*::melpa
 */*::python
 */*::qemu-init
 */*::qt
-*/*::qutebrowser
-*/*::R_Overlay
 */*::ricerlay **
 */*::rust
 */*::science
-*/*::toolchain **

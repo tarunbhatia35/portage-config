@@ -44,7 +44,7 @@ app-portage/elogv                       PYTHON_TARGETS:           python3_6
 app-portage/esearch                     PYTHON_TARGETS:           python3_6
 app-portage/fetchcommandwrapper         PYTHON_TARGETS:           python3_6
 app-portage/g-sorcery                   PYTHON_TARGETS:           python3_6
-app-portage/gemato                      PYTHON_TARGETS: python2_7 python3_6 python3_7 # sys-apps/portage
+app-portage/gemato                      PYTHON_TARGETS: python2_7 python3_6 python3_7
 app-portage/gentoolkit                  PYTHON_TARGETS:           python3_6 python3_7
 app-portage/gentoopm                    PYTHON_TARGETS:           python3_6 python3_7
 app-portage/gs-elpa                     PYTHON_TARGETS:           python3_6
@@ -97,6 +97,7 @@ dev-python/et_xmlfile                   PYTHON_TARGETS:           python3_6
 dev-python/extras                       PYTHON_TARGETS: python2_7 python3_6 python3_7
 dev-python/fixtures                     PYTHON_TARGETS: python2_7 python3_6 python3_7
 dev-python/flake8                       PYTHON_TARGETS:           python3_6
+dev-python/future                       PYTHON_TARGETS: python2_7 python3_6 python3_7
 dev-python/google-api-python-client     PYTHON_TARGETS:           python3_6
 dev-python/greenlet                     PYTHON_TARGETS:           python3_6 python3_7
 dev-python/h5py                         PYTHON_TARGETS:           python3_6
@@ -126,6 +127,7 @@ dev-python/markupsafe                   PYTHON_TARGETS: python2_7 python3_6 pyth
 dev-python/matplotlib                   PYTHON_TARGETS:           python3_6
 dev-python/mccabe                       PYTHON_TARGETS:           python3_6
 dev-python/mimeparse                    PYTHON_TARGETS: python2_7 python3_6 python3_7
+dev-python/mock                         PYTHON_TARGETS:           python3_6
 dev-python/more-itertools               PYTHON_TARGETS:           python3_6 python3_7
 dev-python/msgpack                      PYTHON_TARGETS:           python3_6
 dev-python/munkres                      PYTHON_TARGETS: python2_7
@@ -136,7 +138,8 @@ dev-python/ndg-httpsclient              PYTHON_TARGETS:           python3_6
 dev-python/neovim-python-client         PYTHON_TARGETS:           python3_6
 dev-python/networkx                     PYTHON_TARGETS:           python3_6
 dev-python/nltk                         PYTHON_TARGETS:           python3_6
-dev-python/nose                         PYTHON_TARGETS:           python3_6 python3_7
+dev-python/nose                         PYTHON_TARGETS:           python3_6
+dev-python/nose-exclude                 PYTHON_TARGETS:           python3_6
 dev-python/notify2                      PYTHON_TARGETS: python2_7
 dev-python/numexpr                      PYTHON_TARGETS:           python3_6
 dev-python/numpy                        PYTHON_TARGETS: python2_7 python3_6 python3_7
@@ -180,6 +183,7 @@ dev-python/pygobject                    PYTHON_TARGETS:           python3_6
 dev-python/pygobject                    PYTHON_TARGETS: python2_7
 dev-python/pygraphviz                   PYTHON_TARGETS:           python3_6
 dev-python/pygtk                        PYTHON_TARGETS: python2_7
+dev-python/pyhamcrest                   PYTHON_TARGETS:           python3_6
 dev-python/pyjwt                        PYTHON_TARGETS: python2_7
 dev-python/pylint                       PYTHON_TARGETS:           python3_6
 dev-python/pymongo                      PYTHON_TARGETS:           python3_6
@@ -190,6 +194,7 @@ dev-python/pyrsistent                   PYTHON_TARGETS: python2_7 python3_6 pyth
 dev-python/pysha3                       PYTHON_TARGETS: python2_7
 dev-python/pytables                     PYTHON_TARGETS:           python3_6
 dev-python/python-dateutil              PYTHON_TARGETS:           python3_6 python3_7
+dev-python/python-distutils-extra       PYTHON_TARGETS: python2_7 
 dev-python/python-fchksum               PYTHON_TARGETS: python2_7
 dev-python/python-gflags                PYTHON_TARGETS: python2_7
 dev-python/python-musicbrainz-ngs       PYTHON_TARGETS: python2_7
@@ -226,6 +231,7 @@ dev-python/strict-rfc3339               PYTHON_TARGETS:           python3_6 pyth
 dev-python/subprocess32                 PYTHON_TARGETS: python2_7
 dev-python/testtools                    PYTHON_TARGETS: python2_7 python3_6 python3_7
 dev-python/texttable                    PYTHON_TARGETS:           python3_6
+dev-python/theano                       PYTHON_TARGETS:           python3_6
 dev-python/tox                          PYTHON_TARGETS:           python3_6 python3_7
 dev-python/traceback2                   PYTHON_TARGETS: python2_7 python3_6 python3_7
 dev-python/traitlets                    PYTHON_TARGETS:           python3_6
@@ -239,10 +245,13 @@ dev-python/vcversioner                  PYTHON_TARGETS:           python3_6 pyth
 dev-python/venusian                     PYTHON_TARGETS:           python3_6
 dev-python/versioneer                   PYTHON_TARGETS:           python3_6
 dev-python/virtualenv                   PYTHON_TARGETS:           python3_6 python3_7
+dev-python/waitress                     PYTHON_TARGETS:           python3_6
 dev-python/wcwidth                      PYTHON_TARGETS:           python3_6 python3_7
 dev-python/webcolors                    PYTHON_TARGETS:           python3_6 python3_7
 dev-python/webencodings                 PYTHON_TARGETS: python2_7 
+dev-python/webob                        PYTHON_TARGETS:           python3_6
 dev-python/websocket-client             PYTHON_TARGETS:           python3_6 python3_7
+dev-python/webtest                      PYTHON_TARGETS:           python3_6
 dev-python/werkzeug                     PYTHON_TARGETS:           python3_6 python3_7
 dev-python/wheel                        PYTHON_TARGETS:           python3_6 python3_7
 dev-python/whoosh                       PYTHON_TARGETS:           python3_6 python3_7
@@ -284,6 +293,7 @@ sci-libs/scikits                        PYTHON_TARGETS:           python3_6
 sci-libs/scikits_image                  PYTHON_TARGETS:           python3_6
 sci-libs/scikits_learn                  PYTHON_TARGETS:           python3_6
 sci-libs/scipy                          PYTHON_TARGETS:           python3_6
+sci-mathematics/z3                      PYTHON_TARGETS: python2_7
 sys-apps/dstat                          PYTHON_TARGETS: python2_7
 sys-apps/portage                        PYTHON_TARGETS: python2_7 python3_6 python3_7
 sys-devel/clang                         PYTHON_TARGETS: python2_7
@@ -295,6 +305,7 @@ sys-process/glances                     PYTHON_TARGETS: python2_7
 sys-process/iotop                       PYTHON_TARGETS:           python3_6
 virtual/python-cffi                     PYTHON_TARGETS:           python3_6 python3_7
 virtual/python-enum34                   PYTHON_TARGETS:           python3_6
+virtual/python-funcsigs                 PYTHON_TARGETS:           python3_6
 virtual/python-futures                  PYTHON_TARGETS:           python3_6 python3_7
 virtual/python-greenlet                 PYTHON_TARGETS:           python3_6 python3_7
 virtual/python-ipaddress                PYTHON_TARGETS: python2_7 python3_6 python3_7
