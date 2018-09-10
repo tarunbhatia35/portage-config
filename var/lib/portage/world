@@ -21,6 +21,7 @@ app-crypt/keybase
 app-editors/emacs
 app-editors/vim
 app-editors/yi
+app-emacs/structured-haskell-mode
 app-emulation/docker
 app-emulation/docker-machine
 app-emulation/docker-machine-kvm
@@ -33,6 +34,7 @@ app-i18n/mozc
 app-laptop/laptop-mode-tools
 app-laptop/thinkfan
 app-misc/anki
+app-misc/bat
 app-misc/colordiff
 app-misc/detox
 app-misc/grc
@@ -66,6 +68,7 @@ app-shells/pash
 app-shells/zsh
 app-shells/zsh-completions
 app-text/antiword
+app-text/editorconfig-core-c
 app-text/enchant
 app-text/pandoc
 app-text/texlive
@@ -74,7 +77,6 @@ app-text/zathura-meta
 app-vim/vim-spell-en
 app-vim/vim-spell-ru
 dev-dotnet/dotnetcore-sdk-bin
-dev-dotnet/msbuildtasks
 dev-dotnet/nuget
 dev-haskell/alex
 dev-haskell/bindings-dsl
@@ -96,7 +98,6 @@ dev-haskell/hoogle
 dev-haskell/hpack
 dev-haskell/hspec
 dev-haskell/hunit
-dev-haskell/intero
 dev-haskell/ipprint
 dev-haskell/lens
 dev-haskell/linear
@@ -258,6 +259,7 @@ sci-libs/scikits
 sci-libs/scikits_image
 sci-libs/scikits_learn
 sci-libs/scipy
+sci-mathematics/fann
 sci-visualization/gnuplot
 sys-apps/ack
 sys-apps/dstat

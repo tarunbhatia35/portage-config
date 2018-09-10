@@ -15,7 +15,6 @@ dev-haskell/glib closure_signals
 dev-haskell/gnuplot executepipe executeshell
 dev-haskell/gtk fmode-binary gio
 dev-haskell/gtk2hs-buildtools closuresignals
-dev-haskell/haddock-library -doc ### Breaks for some reason mentioning "attoparsec"
 dev-haskell/hakyll checkexternal previewserver usepandoc watchserver
 dev-haskell/hashtables bounds-checking
 dev-haskell/haskeline libiconv

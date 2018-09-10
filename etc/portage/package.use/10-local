@@ -8,7 +8,7 @@ app-editors/vim X
 app-emulation/docker container-init device-mapper overlay
 app-emulation/libvirt dbus libvirtd lvm parted pcap qemu virt-network wireshark-plugins
 app-emulation/qemu -gnutls sdl vhost-net
-app-emulation/wine-any X alsa d3d9 fontconfig jpeg nls opengl osmesa s3tc png staging truetype
+app-emulation/wine-any X alsa d3d9 fontconfig jpeg nls opengl s3tc png staging truetype
 app-emulation/winetricks rar
 app-i18n/fcitx X cairo dbus gtk2 gtk3 pango
 app-i18n/mozc fcitx4
@@ -22,6 +22,7 @@ app-shells/bash mem-scramble
 app-shells/zsh unicode
 app-text/asciidoc highlight
 app-text/aspell L10N: ru
+app-text/editorconfig-core-c cli
 app-text/enchant aspell
 app-text/hunspell L10N: ru
 app-text/lcdf-typetools kpathsea
@@ -61,9 +62,8 @@ media-fonts/infinality-ultimate-meta free minimal latin ms
 media-gfx/graphviz pdf
 media-gfx/imagemagick X jpeg png q32
 media-gfx/sxiv exif gif savedconfig
-media-libs/fontconfig-infinality nyx
 media-libs/freeimage jpeg png
-media-libs/freetype adobe-cff bzip2 cleartype_hinting harfbuzz infinality
+media-libs/freetype X adobe-cff bzip2 cleartype_hinting harfbuzz infinality
 media-libs/gd fontconfig jpeg png truetype zlib
 media-libs/gegl cairo
 media-libs/harfbuzz fontconfig glib graphite icu truetype
@@ -76,7 +76,7 @@ media-libs/libsdl2 X alsa joystick sound video opengl
 media-libs/libtheora encode
 media-libs/libvpx highbitdepth postproc svc
 media-libs/libwebp experimental swap-16bit-csp
-media-libs/mesa classic dri3 egl -gallium gbm gles1 gles2 llvm osmesa
+media-libs/mesa classic dri3 egl gbm gles1 gles2
 media-libs/openal alsa
 media-libs/opusfile float
 media-libs/portaudio alsa
@@ -116,6 +116,7 @@ net-misc/nextcloud-client sftp
 net-p2p/go-ipfs-bin fuse
 net-p2p/mktorrent ssl
 net-vpn/openvpn lzo plugins ### For compressed .ovpn files
+net-vpn/wireguard module module-src tools
 net-wireless/aircrack-ng airdrop-ng airgraph-ng experimental netlink
 net-wireless/wpa_supplicant dbus -gnutls ### Fails with "undefined symbol" to librt (sys-libs/glibc)?
 sci-libs/cholmod lapack metis

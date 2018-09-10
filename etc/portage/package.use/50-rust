@@ -1,3 +1,0 @@
-*/*::rust fetch-crates
-dev-lang/rust -cargo -rls -rustfmt
-dev-util/rustfm -fetch-crates ### Breaks because of missing Cargo.toml file
