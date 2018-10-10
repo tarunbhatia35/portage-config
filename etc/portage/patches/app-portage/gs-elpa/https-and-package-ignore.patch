@@ -11,6 +11,7 @@ index 51d20b7..4b0b011 100644
  [melpa](http://melpa.milkbox.net/) and [melpa-stable](http://melpa-stable.milkbox.net/).
  
  When using **gs-elpa** with layman you can populate overlay only with packages you want.
+ When using **gs-elpa** with layman you can populate overlay only with packages you want.
 diff --git a/gs-elpa-overlays.xml b/gs-elpa-overlays.xml
 index bc3768d..5afe753 100644
 --- a/gs-elpa-overlays.xml
